@@ -51,6 +51,15 @@
       </div>
     </div>
 
+    <div class="sample_content">
+      <div>
+        <strong>차트 샘플</strong>
+      </div>
+      <div>
+        <chartSmaple></chartSmaple>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -58,6 +67,7 @@
 import ModalSample from '@/views/sample/ModalSample';
 // import ModalAlert from '@/components/common/Modal';
 import VueDatePick from "vue-date-pick/src/vueDatePick";
+import chartSmaple from "@/views/sample/ChartSample";
 
 export default {
   name: "Sample2",
@@ -66,6 +76,7 @@ export default {
     ModalSample,
     VueDatePick,
     // ModalAlert
+    chartSmaple
   },
   data() {
     return {

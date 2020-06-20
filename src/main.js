@@ -14,6 +14,9 @@ Vue.component('sweet-modal-tab', SweetModalTab);
 import VueDatePick from 'vue-date-pick';
 Vue.use(VueDatePick);
 
+import VueGoogleCharts from 'vue-google-charts'
+Vue.use(VueGoogleCharts)
+
 window.jQuery = jQuery;
 window.$ = jQuery;
 
