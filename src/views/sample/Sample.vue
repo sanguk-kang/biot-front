@@ -4,53 +4,53 @@
         <ul class="flex_left" style="padding-bottom: 10px;">
             <li>
               <!-- sample - kendoDropDown-->
-              <dropDown :dataId="dropDownId1" :dataList="dropDownList1" @setDropdown="getDropdown"></dropDown>
-              <dropDown :dataId="dropDownId2" :dataList="dropDownList2" @setDropdown="getDropdown"></dropDown>
+              <!-- <dropDown :dataId="dropDownId1" :dataList="dropDownList1" @setDropdown="getDropdown"></dropDown>
+              <dropDown :dataId="dropDownId2" :dataList="dropDownList2" @setDropdown="getDropdown"></dropDown> -->
             </li>
 
             <li>
               <!-- sample - kendoDropDownCheckBox-->
-              <dropDownChk :dataId="dropDownChkId1" :dataList="dropDownChkList1" @setDropdown="getDropdown"></dropDownChk>
-              <dropDownChk :dataId="dropDownChkId2" :dataList="dropDownChkList2" @setDropdown="getDropdown"></dropDownChk>
+              <!-- <dropDownChk :dataId="dropDownChkId1" :dataList="dropDownChkList1" @setDropdown="getDropdown"></dropDownChk>
+              <dropDownChk :dataId="dropDownChkId2" :dataList="dropDownChkList2" @setDropdown="getDropdown"></dropDownChk> -->
             </li>
 
             <li>
               <!-- sample - kendoDropDownCheckBox-->
-              <datePicker></datePicker>
+              <!-- <datePicker></datePicker> -->
             </li>
         </ul>
 
         <div>
           <!-- sample - kendoDetailDialog-->
-          <detailDialog :dataId="detailDialogId" :dataSchema="detailSchema" :dataList="detailDialogList"></detailDialog>
+          <!-- <detailDialog :dataId="detailDialogId" :dataSchema="detailSchema" :dataList="detailDialogList"></detailDialog> -->
 
           <!-- sample - kendoCommonDialog-->
-          <commonDialog :dataId="commonDialogId" :dataMsg="commonDialogMsg"></commonDialog>
+          <!-- <commonDialog :dataId="commonDialogId" :dataMsg="commonDialogMsg"></commonDialog> -->
 
           <!-- sample - kendoPopupSingleWindow-->
-          <singleWindowPop :dataId="singleWindowPopId" :dataList="singleWindowPopList"></singleWindowPop>
+          <!-- <singleWindowPop :dataId="singleWindowPopId" :dataList="singleWindowPopList"></singleWindowPop> -->
         </div>
 
         <!-- sample - kendoGrid-->
         <div>
-          <grid :dataId="gridId" :dataColumns="gridColumns" :dataList="gridList"></grid>
+          <!-- <grid :dataId="gridId" :dataColumns="gridColumns" :dataList="gridList"></grid> -->
         </div>
       </div>
   </div>
 </template>
 
 <script>
-import dropDown from "@/components/kendo/DropDown.vue";
-import dropDownChk from "@/components/kendo/DropDownChk.vue";
-import datePicker from "@/components/kendo/DatePicker.vue";
-import detailDialog from "@/components/kendo/DetailDialog.vue";
-import commonDialog from "@/components/kendo/CommonDialog.vue";
-import singleWindowPop from "@/components/kendo/SingleWindowPop.vue";
-import grid from "@/components/kendo/Grid.vue";
+// import dropDown from "@/components/kendo/DropDown.vue";
+// import dropDownChk from "@/components/kendo/DropDownChk.vue";
+// import datePicker from "@/components/kendo/DatePicker.vue";
+// import detailDialog from "@/components/kendo/DetailDialog.vue";
+// import commonDialog from "@/components/kendo/CommonDialog.vue";
+// import singleWindowPop from "@/components/kendo/SingleWindowPop.vue";
+// import grid from "@/components/kendo/Grid.vue";
 
 export default {
   name: "Sample",
-  components: { dropDown, dropDownChk, datePicker, detailDialog, commonDialog, singleWindowPop, grid },
+  // components: { dropDown, dropDownChk, datePicker, detailDialog, commonDialog, singleWindowPop, grid },
   props: [],
   data: function() {
     return {
