@@ -1,0 +1,109 @@
+.k-grid .search-highlight{
+    color: #0081c6
+}
+
+
+/*Selected*/
+.k-grid .k-grid-content tr.k-state-selected{
+    background-color: #d0e4f1;
+}
+
+.k-grid-norecords{
+    height : 98%;
+    position : relative;
+}
+
+.k-grid-norecords .no-records-text{
+    position : absolute;
+    top: 45%;
+    left : 0;
+    right :0;
+    margin : 0 auto;
+}
+
+/*Grouping*/
+.k-grid .k-group-col{
+    width : 1px;
+}
+
+.k-grid .k-grid-content tr td.k-group-cell{
+    background : none;
+}
+
+.k-grid .k-grid-content tr.k-grouping-row td{
+    padding: 10px 5px 9px 15px;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom-width: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.k-grid .k-grid-content .k-grouping-row td .k-reset{
+    padding: 0;
+    text-align: left;
+	right : 9px;
+}
+
+.k-grid .k-grid-content .k-grouping-row td .k-reset .k-icon{
+    margin : 0;
+    width : 37px;
+    background : none;
+    float : right;
+    outline : none;
+}
+
+.k-grid .k-grid-content .k-grouping-row td .k-reset .k-icon:before{
+    display : none;
+}
+
+.k-grid .k-grid-content .k-grouping-row td .k-reset .k-icon.k-i-collapse{
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-up.png) no-repeat center;
+}
+
+.k-grid .k-grid-content .k-grouping-row td .k-reset .k-icon.k-i-expand{
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-down.png) no-repeat center;
+}
+
+.k-grid .k-grouping-row .grid-group-row-wrapper{
+    text-align : left;
+}
+
+.k-grid .k-grouping-row .grid-group-row{
+    text-align: left;
+    padding-left: 6px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.k-grid .k-grouping-row[data-level='0'] .grid-group-row{
+    padding-left : 6px;
+}
+
+.k-grid .k-grouping-row[data-level='1'] .grid-group-row{
+    padding-left : 28px;
+}
+
+.k-grid .k-grouping-row[data-level='2'] .grid-group-row{
+    padding-left : 51px;
+}
+
+.k-grid .k-grouping-row .k-reset{
+    position: absolute;
+    right: 23px;
+    z-index: 99;
+    width: 37px;
+}
+
+.k-grid .k-grouping-row .grid-group-row .grid-group-row-text{
+    margin-left : 10px;
+}

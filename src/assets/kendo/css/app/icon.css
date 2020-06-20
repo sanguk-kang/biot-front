@@ -1,0 +1,1294 @@
+/*Kendo UI Component Icon*/
+.ic{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.ic-antifreeze {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -240px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-attention-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -92px -338px;
+  width: 46px;
+  height: 46px;
+}
+.ic-attention-s {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -244px;
+  width: 15px;
+  height: 15px;
+}
+
+.ic-attention {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -358px -92px;
+  width: 46px;
+  height: 46px;
+}
+
+.ic-attention-main-noti{
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-attention.png);
+    width : 38px;
+    height : 38px;
+    background-position: center;
+    background-size: cover;
+}
+
+.ic-auto-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -138px -154px;
+  width: 46px;
+  height: 46px;
+}
+.ic-auto {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -404px -276px;
+  width: 46px;
+  height: 46px;
+}
+.ic-bt-input-calendar {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -260px -384px;
+  width: 28px;
+  height: 28px;
+}
+.ic-bt-input-clock {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -232px -384px;
+  width: 28px;
+  height: 28px;
+}
+.ic-bt-input-remove {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -204px -384px;
+  width: 28px;
+  height: 28px;
+}
+.ic-bt-input-search {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -176px -384px;
+  width: 28px;
+  height: 28px;
+}
+.ic-bt-map {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -184px -154px;
+  width: 36px;
+  height: 36px;
+}
+.ic-checkbox-disabled {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -400px -384px;
+  width: 28px;
+  height: 21px;
+}
+.ic-checkbox-normal {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -344px -384px;
+  width: 28px;
+  height: 21px;
+}
+.ic-checkbox-pressed {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -316px -384px;
+  width: 28px;
+  height: 21px;
+}
+.ic-checkbox-selected-disabled {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -84px -420px;
+  width: 28px;
+  height: 21px;
+}
+.ic-checkbox-selected {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -420px;
+  width: 28px;
+  height: 21px;
+}
+.ic-checkbox {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -72px 0px;
+  width: 28px;
+  height: 105px;
+}
+.ic-close-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -264px;
+  width: 24px;
+  height: 24px;
+}
+.ic-close {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -312px;
+  width: 24px;
+  height: 24px;
+}
+.ic-cool-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -220px 0px;
+  width: 46px;
+  height: 46px;
+}
+.ic-cool {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -220px -46px;
+  width: 46px;
+  height: 46px;
+}
+.ic-coolwater-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -220px -92px;
+  width: 46px;
+  height: 46px;
+}
+.ic-coolwater {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -220px -138px;
+  width: 46px;
+  height: 46px;
+}
+.ic-deforest {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -336px;
+  width: 24px;
+  height: 24px;
+}
+.ic-delete-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -408px;
+  width: 24px;
+  height: 24px;
+}
+.ic-delete {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -432px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dhw-eco-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -200px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dhw-eco {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -46px -200px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dhw-force-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -92px -200px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dhw-force {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -138px -200px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dhw-power-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -184px -200px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dhw-power {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -266px 0px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dhw-standard-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -266px -46px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dhw-standard {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -266px -92px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dry-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -266px -138px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dry {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -266px -184px;
+  width: 46px;
+  height: 46px;
+}
+.ic-dvc-1way {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -312px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-2way {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -24px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-4way {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -48px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-ahu-mini {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -72px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-ahu {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -96px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-bottom {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -120px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-ceiling {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -432px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-console {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px 0px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-duct {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -24px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-ehs {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -120px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-erv-plus {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -192px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-erv {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -216px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-middle {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -240px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-rac {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -264px;
+  width: 24px;
+  height: 24px;
+}
+.ic-dvc-ventilation {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -288px;
+  width: 24px;
+  height: 24px;
+}
+.ic-energy {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -246px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-auto-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -46px -246px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-auto {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -92px -246px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -138px -246px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-high-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -184px -246px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-high {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -230px -246px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-low-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -312px 0px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-low {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -312px -46px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-mid-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -312px -92px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-mid {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -312px -138px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-turbo-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -312px -184px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan-turbo {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -312px -230px;
+  width: 46px;
+  height: 46px;
+}
+.ic-fan {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -292px;
+  width: 46px;
+  height: 46px;
+}
+.ic-favorite-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -144px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-favorite {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -168px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-filter {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -192px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-floor-blue-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -432px;
+  width: 20px;
+  height: 20px;
+}
+.ic-floor-blue-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -452px;
+  width: 20px;
+  height: 20px;
+}
+.ic-floor-normal-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -132px;
+  width: 20px;
+  height: 20px;
+}
+.ic-floor-normal-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -152px;
+  width: 20px;
+  height: 20px;
+}
+.ic-flyout-legends {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -472px;
+  width: 22px;
+  height: 15px;
+}
+.ic-heat-auto-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -92px -292px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat-auto {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -138px -292px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat-bypass-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -184px -292px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat-bypass {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -230px -292px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat-ex-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -276px -292px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat-ex {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -358px 0px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -358px -46px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat-sleep-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -128px 0px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat-sleep {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -358px -138px;
+  width: 46px;
+  height: 46px;
+}
+.ic-heat {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -358px -184px;
+  width: 46px;
+  height: 46px;
+}
+.ic-help-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -360px;
+  width: 24px;
+  height: 24px;
+}
+.ic-help {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -384px;
+  width: 24px;
+  height: 24px;
+}
+.ic-hotwater-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -358px -230px;
+  width: 46px;
+  height: 46px;
+}
+.ic-hotwater {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -358px -276px;
+  width: 46px;
+  height: 46px;
+}
+.ic-info-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-info {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -168px -465px;
+  width: 24px;
+  height: 24px;
+}
+
+.ic-info:hover{
+    background-position: 0px -465px;
+}
+
+.ic-list-blue-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -192px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-list-blue-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -216px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-list-control-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -279px;
+  width: 14px;
+  height: 8px;
+}
+.ic-list-control-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -456px;
+  width: 14px;
+  height: 8px;
+}
+.ic-list-normal-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -432px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-list-normal-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -240px;
+  width: 24px;
+  height: 24px;
+}
+.ic-location-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-location {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -288px;
+  width: 24px;
+  height: 24px;
+}
+.ic-marker-map {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -230px -200px;
+  width: 36px;
+  height: 36px;
+}
+.ic-mds {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -336px;
+  width: 24px;
+  height: 24px;
+}
+.ic-more-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -360px;
+  width: 24px;
+  height: 24px;
+}
+.ic-more {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -384px;
+  width: 24px;
+  height: 24px;
+}
+.ic-nolimit-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -184px -338px;
+  width: 46px;
+  height: 46px;
+}
+.ic-nolimit {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -230px -338px;
+  width: 46px;
+  height: 46px;
+}
+.ic-opr {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -142px -384px;
+  width: 34px;
+  height: 34px;
+}
+.ic-pattern-all-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -322px -338px;
+  width: 46px;
+  height: 46px;
+}
+.ic-pattern-all {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -404px 0px;
+  width: 46px;
+  height: 46px;
+}
+.ic-pattern-eff-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -404px -46px;
+  width: 46px;
+  height: 46px;
+}
+.ic-pattern-eff {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -404px -92px;
+  width: 46px;
+  height: 46px;
+}
+.ic-pattern-rotate-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -404px -138px;
+  width: 46px;
+  height: 46px;
+}
+.ic-pattern-rotate {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -404px -184px;
+  width: 46px;
+  height: 46px;
+}
+.ic-pause-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -240px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-pause {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -264px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-peak {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -288px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-power-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -312px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-power {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -336px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-radio-disabled {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -112px -420px;
+  width: 28px;
+  height: 21px;
+}
+.ic-radio-normal {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -372px -384px;
+  width: 28px;
+  height: 21px;
+}
+.ic-radio-pressed {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -56px -420px;
+  width: 28px;
+  height: 21px;
+}
+.ic-radio-selected-disabled {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -28px -420px;
+  width: 28px;
+  height: 21px;
+}
+.ic-radio-selected {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -288px -384px;
+  width: 28px;
+  height: 21px;
+}
+.ic-radio {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -100px 0px;
+  width: 28px;
+  height: 105px;
+}
+.ic-rc-disable {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -48px;
+  width: 24px;
+  height: 24px;
+}
+.ic-refresh-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -72px;
+  width: 24px;
+  height: 24px;
+}
+.ic-refresh {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -96px;
+  width: 24px;
+  height: 24px;
+}
+.ic-reg-4way {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -108px -384px;
+  width: 34px;
+  height: 34px;
+}
+.ic-rock {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -144px;
+  width: 24px;
+  height: 24px;
+}
+.ic-schedule {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -471px -168px;
+  width: 24px;
+  height: 24px;
+}
+.ic-scroll-arrow-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -190px;
+  width: 18px;
+  height: 18px;
+}
+.ic-scroll-arrow-left {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -208px;
+  width: 18px;
+  height: 18px;
+}
+.ic-scroll-arrow-right {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -226px;
+  width: 18px;
+  height: 18px;
+}
+.ic-scroll-arrow-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -172px;
+  width: 18px;
+  height: 18px;
+}
+.ic-scroll-arrow {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -276px -246px;
+  width: 36px;
+  height: 36px;
+}
+.ic-select-arrow {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px 0px;
+  width: 72px;
+  height: 108px;
+}
+.ic-select-blue-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -322px -292px;
+  width: 36px;
+  height: 36px;
+}
+.ic-select-blue-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -368px -338px;
+  width: 36px;
+  height: 36px;
+}
+.ic-select-normal-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -384px;
+  width: 36px;
+  height: 36px;
+}
+.ic-select-normal-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -36px -384px;
+  width: 36px;
+  height: 36px;
+}
+.ic-select-white-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -72px -384px;
+  width: 36px;
+  height: 36px;
+}
+.ic-select-white-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -138px -108px;
+  width: 36px;
+  height: 36px;
+}
+.ic-setting-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -24px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-setting {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -48px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-specialmode {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -72px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-spi {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -96px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-statistic {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -120px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-statistsel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -144px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-stepview-created {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px 0px;
+  width: 21px;
+  height: 44px;
+}
+.ic-stepview-normal {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -44px;
+  width: 21px;
+  height: 44px;
+}
+.ic-stepview-selected {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -88px;
+  width: 21px;
+  height: 44px;
+}
+.ic-temp-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -259px;
+  width: 18px;
+  height: 10px;
+}
+.ic-temp-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -450px -269px;
+  width: 18px;
+  height: 10px;
+}
+.ic-text-down-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -288px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-text-down {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -312px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-text-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -336px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-text-up-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -360px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-text-up {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -384px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-text {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -408px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-textfield {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -404px -322px;
+  width: 28px;
+  height: 56px;
+}
+.ic-thurmo {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -456px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-2x2-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px 0px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-2x2 {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -24px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-3x3-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -48px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-3x3 {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -72px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-full-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -96px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-full {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -120px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-graph-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -144px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-graph {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -168px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-list-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -192px;
+  width: 24px;
+  height: 24px;
+}
+.ic-view-list {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -216px;
+  width: 24px;
+  height: 24px;
+}
+.ic-wind-all-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -174px -46px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-all {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -174px 0px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-fix-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -92px -108px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-fix {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -46px -108px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-horizon-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -108px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-horizon {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -128px -46px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-mid-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -46px -154px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-mid {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -174px -92px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-spot-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -154px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-spot {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -92px -154px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-swing-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -138px -338px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-swing {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -276px -338px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-vertical-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -404px -230px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-vertical {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -46px -338px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-wide-g {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: 0px -338px;
+  width: 46px;
+  height: 46px;
+}
+.ic-wind-wide {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -46px -292px;
+  width: 46px;
+  height: 46px;
+}
+.ic-window-contract-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -408px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-window-contract {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -384px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-window-expand-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -360px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-window-expand {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -216px -441px;
+  width: 24px;
+  height: 24px;
+}
+.ic-window-new-sel {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -264px -465px;
+  width: 24px;
+  height: 24px;
+}
+.ic-window-new {
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+  background-position: -495px -408px;
+  width: 24px;
+  height: 24px;
+}
+.ic-pin{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-pin.png);
+    width : 24px;
+    height : 24px;
+}
+.ic-dhwtemp-card{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-dhwtemp-card.png);
+    width : 24px;
+    height : 24px;
+}
+
+.ic-pin-sel{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-pin-sel.png);
+    width : 24px;
+    height : 24px;
+}
+
+.ic-bt-plus{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../src/main/resources/static-dev/images/icon/bt-pluse.png);
+    width : 34px;
+    height : 34px;
+}
+
+.ic-bt-plus-sel{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../src/main/resources/static-dev/images/icon/bt-pluse-sel.png);
+    width : 34px;
+    height : 34px;
+}
+
+.ic-action-pause{
+    background-position: center;
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-pause.png);
+    background-repeat: no-repeat;
+    width : 36px;
+    height : 36px;
+}
+
+.ic-action-play{
+    background-position: center;
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-play.png);
+    background-repeat: no-repeat;
+    width : 36px;
+    height : 36px;
+}
+
+.ic-error-calendar{
+    background-position: center;
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-error-calendar.png);
+    background-repeat: no-repeat;
+    width : 20px;
+    height : 20px;
+}
+
+.ic-date-next{
+    background-position: center;
+    background-image: url(../../src/main/resources/static-dev/images/icon/arr-date-next.png);
+    background-repeat: no-repeat;
+    width : 36px;
+    height : 36px;
+}
+
+.ic-date-next.active,
+.ic-date-next:hover{
+    background-image: url(../../src/main/resources/static-dev/images/icon/arr-date-next-sel.png);
+}
+
+.ic-date-prev{
+    background-position: center;
+    background-image: url(../../src/main/resources/static-dev/images/icon/arr-date-prev.png);
+    background-repeat: no-repeat;
+    width : 36px;
+    height : 36px;
+}
+
+.ic-date-prev.active,
+.ic-date-prev:hover{
+    background-image: url(../../src/main/resources/static-dev/images/icon/arr-date-prev-sel.png);
+}
+.ic-capslock-on{
+	background-image: url(../../src/main/resources/static-dev/images/icon/capslock-on.png);
+	width: 10px;
+	height: 15px;
+}
+
+.ic-btn-add-sm{
+	background-image: url(../../src/main/resources/static-dev/images/icons.png);
+	background-position: -427px -412px;
+  background-repeat: no-repeat;
+	width : 20px;
+	height : 20px;
+  background-color:#c8c8c8;
+  border-radius: 100%;
+  cursor : pointer;
+}
+
+.ic-btn-add-lg{
+	background-image: url(../../src/main/resources/static-dev/images/icons.png);
+	background-position: -367px -407px;
+  background-repeat: no-repeat;
+	width : 30px;
+	height : 30px;
+  background-color:#c8c8c8;
+  border-radius: 100%;
+  cursor : pointer;
+}
+
+.ic-btn-remove-lg{
+  background-image: url(../../src/main/resources/static-dev/images/icons.png);
+	background-position: -397px -407px;
+  background-repeat: no-repeat;
+	width : 30px;
+	height : 30px;
+  background-color:#c8c8c8;
+  border-radius: 100%;
+  cursor : pointer;
+}
+
+.ic-btn-add-sm:not(.disabled):hover,
+.ic-btn-add-lg:not(.disabled):hover,
+.ic-btn-remove-lg:not(.disabled):hover{
+  background-color:#0081c6;
+}
+
+.ic-btn-remove-sm{
+	background-image: url(../../src/main/resources/static-dev/images/ic-clear-min.png);
+	width : 16px;
+	height : 16px;
+	cursor : pointer;
+}

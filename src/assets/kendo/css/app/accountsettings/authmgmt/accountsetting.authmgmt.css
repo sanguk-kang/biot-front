@@ -1,0 +1,41 @@
+.sac-menuconfig-container,.sac-menuconfig-contents,#menuconfig-contents-checkbox{height:100%}
+.sac-menuconfig-contents-wrapper{height:calc(100% - 66px)}.sac-menuconfig-contents{float:left}
+#menuconfig-contents-checkbox{width:calc(100% - 515px);float:right;background-color:#f7f7f8;overflow:auto}
+#menuconfig-contents-grid{width:490px}.sac-menuconfig-contents::after{content:'';display:block;clear:both}
+.settings-menuconfig-devider-line{margin:20px 0;width:100%;height:1px;background:#d6d6d6}
+.sac-menuconfig-container .sac-menuconfig-top{overflow:hidden;margin:10px 0 10px;padding:5px 0}
+.sac-menuconfig-container .sac-menuconfig-top .k-button{float:right;width:100px}.sac-menuconfig-container .sac-menuconfig-contents .sac-menuconfig-category:after,.sac-menuconfig-container .sac-menuconfig-category .check-list:after{content:'';display:block;clear:both}
+.sac-menuconfig-container .sac-menuconfig-category{margin:0 20px;padding:17px 5px;border-bottom:1px solid #d6d6d6}
+.sac-menuconfig-container .sac-menuconfig-category .title{float:left;width:210px;color:#323232;font-weight:700;line-height:44px}
+.sac-menuconfig-container .sac-menuconfig-category .detail{float:left;width:calc(100% - 210px)}
+.sac-menuconfig-container .sac-menuconfig-category .item{float:left;width:220px;font-weight:400;line-height:50px}
+.sac-menuconfig-container .sac-menuconfig-category .item .k-checkbox-label{padding-left:25px}
+.sac-menuconfig-container .sac-menuconfig-category .sub-title{line-height:40px}.sac-menuconfig-container .sac-menuconfig-category .sub-detail{clear:both}
+.sac-menuconfig-container .sac-menuconfig-category .sub-detail.upper{margin-top:60px;padding-top:20px;border-top:1px solid #d6d6d6}
+.sac-menuconfig-container .sac-menuconfig-category .sub-detail.lower{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #d6d6d6}
+#manager-view-grid{width:calc(100% - 15px);height:calc(100% - 81px)}.grid-detail-btn:hover{background-position:0 -465px}
+.grid-detail-btn{background-image:url("../../src/main/resources/static-dev/images/icons.png?v=20191219_1646");background-position:-168px -465px;width:24px;height:24px;display:inline-block;vertical-align:middle;cursor:pointer}
+li.detail-dialog-content-field-item .detail-dialog-content-field-name{vertical-align:text-top}
+.membership-authority-container{height:100%}.membership-authority-grid .authority-edit,.membership-authority-grid.editmode .authority-value{display:none}
+.membership-authority-grid.editmode .authority-edit,.membership-authority-grid .authority-value{display:inline-block}
+.membership-authority-grid.editmode .authority-edit{width:115px}.membership-authority-container .membership-authority-top .k-button{width:100px}
+.membership-authority-grid .k-grid-content tbody tr{height:70px}#popup-authority-add-solution{padding-left:27px;padding-right:27px}
+#popup-authority-add-solution .popup-header{border-bottom:0}#popup-authority-add-solution .popup-container{height:85px}
+#popup-authority-add-solution .popup-container input{width:100%}#popup-authority-add-solution .popup-footer{position:relative;margin:0;top:20px}
+#accountsetting-authmgmt-main,#authmgmt-tab-strip{height:100%}.common-tab-top-content .k-button{width:108px}
+.authmgmt-sheet-wrapper{width:100%;height:calc(100% - 66px)}.authmgmt-sheet-body{width:100%;height:100%}
+.authmgmt-legend-wrapper{list-style:none;float:right;margin:8px 0}.authmgmt-legend{display:inline-block;margin-right:10px}
+.authmgmt-legend-wrapper>.authmgmt-legend{margin-right:30px}span.authmgmt-legend{width:10px;height:10px}
+.auth-all{background-color:#0081c6}.auth-read{background-color:#ebebeb}#authmgmt-main-body .k-spreadsheet-pane .k-spreadsheet-haxis,#authmgmt-main-body .k-spreadsheet-pane .k-spreadsheet-vaxis{border-color:#dedede}
+#authmgmt-main-body .k-spreadsheet .k-spreadsheet-column-header>div,#authmgmt-main-body .k-spreadsheet .k-spreadsheet-row-header>div{border-bottom:1px solid #dedede}
+#authmgmt-main-body .k-spreadsheet .k-spreadsheet-column-header>div{border-left:1px solid #dedede;width:199px !important}
+#authmgmt-main-body .k-spreadsheet .k-spreadsheet-column-header>div:first-child{border-left:1px solid #dedede}
+#authmgmt-main-body .k-spreadsheet .k-spreadsheet-row-header>div{border-right:1px solid #dedede;height:45px !important}
+#authmgmt-main-body .k-spreadsheet .k-spreadsheet-row-header>div:first-child{border-top:1px solid #dedede}
+#authmgmt-main-body .k-spreadsheet-pane .k-selection-partial,#authmgmt-main-body .k-spreadsheet-pane .k-selection-full{background-color:#282c49;color:#fff}
+#authmgmt-main-body .k-spreadsheet .k-spreadsheet-top-corner{background-color:#ebebeb}
+#authmgmt-main-body .k-spreadsheet .k-spreadsheet-top-corner::after{display:none}
+.k-spreadsheet .k-spreadsheet-sheets-bar{height:unset}.k-spreadsheet-boolean-sheet-default{background-color:#ebebeb}
+.k-spreadsheet-boolean-sheet-selected{background-color:#0081c6}.k-spreadsheet-selection.k-spreadsheet-boolean-sheet,.k-spreadsheet-active-cell.k-spreadsheet-boolean-sheet{background-color:unset}
+.k-spreadsheet .k-single-selection.k-spreadsheet-boolean-sheet::after{display:none}
+.k-spreadsheet-scroller.k-spreadsheet-scroller-vertical-hide{overflow-y:hidden}.k-spreadsheet-scroller.k-spreadsheet-scroller-horizontal-hide{overflow-x:hidden}

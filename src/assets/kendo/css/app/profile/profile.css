@@ -1,0 +1,86 @@
+#profile-tab .common-tab-top-content > button {
+    width : 108px;
+}
+
+#profile-tab .k-upload{
+    display : none;
+}
+
+#profile-tab .common-tab-table-content .title-cell.profile-img-cell{
+    width : 400px;
+}
+
+#profile-tab .common-tab-table-content .value{
+    vertical-align: middle;
+}
+
+#profile-tab .common-tab-table-content .profile-img-cell{
+    width : 400px;
+    text-align : center;
+}
+
+#profile-tab .common-tab-table-content .profile-img-cell > img {
+    display : block;
+    width : 200px;
+    margin : 0 auto;
+    padding-bottom : 20px;
+}
+
+
+#profile-tab .common-tab-table-content .profile-img-cell > button{
+    width : 108px;
+}
+
+#profile-tab .common-tab-table-content .profile-img-cell > #profile-upload-btn{
+    margin-right : 15px;
+}
+
+#profile-tab .editable > input{
+    width : 330px;
+}
+
+#profile-tab .editable > input,
+#profile-tab .editable.btn > button.edit{
+    display : none;    
+}
+
+#profile-tab .editable.edit-mode > .value,
+#profile-tab .editable.edit-mode > button{
+    display : none;
+} 
+
+#profile-tab .editable.edit-mode > .value.visible{
+    display : inline-block;
+}
+
+#profile-tab .editable.edit-mode > input,
+#profile-tab .editable.btn.edit-mode > button.edit{
+    display : inline-block;
+}
+
+#profile-tab .profile-info .editable.btn.edit-mode > button.edit{
+    margin-left : 15px;
+}
+
+#profile-tab.common-tab-strip.k-tabstrip>.k-content .common-tab-table-content .title-cell{
+    vertical-align: middle;
+    padding-top : 0;
+}
+
+#profile-tab.common-tab-strip.k-tabstrip>.k-content .common-tab-table-content .select-cell{
+    vertical-align:middle;
+    line-height : 1;
+}
+
+#profile-tab .profile-info .common-tab-table-content.leave-row{
+    width : 100%;
+}
+
+#profile-tab .profile-info .common-tab-table-content.leave-row.editable > button.edit {
+    margin-left: 0;
+    width : 100%;
+}
+
+#profile-change-password-confirm-content .k-widget.k-tooltip-validation.k-invalid-msg{
+    padding-top : 5px;
+}

@@ -1,0 +1,4031 @@
+@charset "UTF-8";
+.ic-undo {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-undo.png?v=20191219_1646")
+}
+
+.ic-redo {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-redo.png?v=20191219_1646")
+}
+
+.ic-clip {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-connect-nor.png?v=20191219_1646")
+}
+
+.ic-lock {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-lock.png?v=20191219_1646")
+}
+
+.ic-lock.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-lock-wht.png?v=20191219_1646")
+}
+
+.ic-template {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-template-nor.png?v=20191219_1646")
+}
+
+.ic-fill {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-fill-nor.png?v=20191219_1646");
+    background-size: 20px 20px
+}
+
+.ic-select {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-select-nor.png?v=20191219_1646")
+}
+
+.ic-shape {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-shape-nor.png?v=20191219_1646")
+}
+
+.ic-zoomin {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-zoomin-nor.png?v=20191219_1646")
+}
+
+.ic-zoomout {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-zoomout-nor.png?v=20191219_1646")
+}
+
+.ic-bold {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-bold-nor.png?v=20191219_1646")
+}
+
+.ic-bold.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-bold-sel.png?v=20191219_1646")
+}
+
+.ic-italic {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-italic.png?v=20191219_1646")
+}
+
+.ic-italic.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-italic-sel.png?v=20191219_1646")
+}
+
+.ic-textcolor {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-textcolor-nor.png?v=20191219_1646")
+}
+
+.ic-linecolor {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-linecolor-nor.png?v=20191219_1646")
+}
+
+.ic-fill .hmi-button-line,
+.ic-linecolor .hmi-button-line,
+.ic-textcolor .hmi-button-line {
+    width: 25px;
+    height: 4px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 6px
+}
+
+.ic-linewidth {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-linewidth-nor.png?v=20191219_1646")
+}
+
+.ic-above-all {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-above-all.png?v=20191219_1646")
+}
+
+.ic-below-all {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-below-all.png?v=20191219_1646")
+}
+
+.ic-above {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-above.png?v=20191219_1646")
+}
+
+.ic-below {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-below.png?v=20191219_1646")
+}
+
+.ic-justify-both {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-justify-both.png?v=20191219_1646")
+}
+
+.ic-justify-horz {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-justify-horz.png?v=20191219_1646")
+}
+
+.ic-justify-vert {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-justify-vert.png?v=20191219_1646")
+}
+
+.ic-align-left {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-align-left.png?v=20191219_1646")
+}
+
+.ic-align-right {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-align-right.png?v=20191219_1646")
+}
+
+.ic-align-top {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-align-top.png?v=20191219_1646")
+}
+
+.ic-align-bottom {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-align-bottom.png?v=20191219_1646")
+}
+
+.ic-align-middle {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-align-middle.png?v=20191219_1646")
+}
+
+.ic-align-center {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-box-align-center.png?v=20191219_1646")
+}
+
+.ic-align-flip-v {
+    background-image: url("../../src/main/resources/static-dev/images/icon//tools/toolbar/ic-tool-flipvertical-nor.png?v=20191219_1646")
+}
+
+.ic-align-flip-h {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-fliphorizon-nor.png?v=20191219_1646")
+}
+
+.ic-equal-gap-v {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-equal-v-gap.png?v=20191219_1646")
+}
+
+.ic-equal-gap-h {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-equal-h-gap.png?v=20191219_1646")
+}
+
+.ic-group {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-group.png?v=20191219_1646")
+}
+
+.ic-ungroup {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-ungroup.png?v=20191219_1646")
+}
+
+.ic-plus {
+    background-image: url("../../../images/icon/bt-plus.png");
+}
+
+.ic-minus {
+    background-image: url("../../src/main/resources/static-dev/images/icon/bt-minus.png")
+}
+
+.ic-rotate-right {
+    background-image: url("../../src/main/resources/static-dev/images/icon/90_right.png?v=20191219_1646")
+}
+
+.ic-rotate-left {
+    background-image: url("../../src/main/resources/static-dev/images/icon/90_left.png?v=20191219_1646")
+}
+
+.ic-rotate {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icon_rotate.png?v=20191219_1646")
+}
+
+.ic-text-align-left {
+    background-image: url("../../src/main/resources/static-dev/images/icon/left_icon.png?v=20191219_1646")
+}
+
+.ic-text-align-left.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/left_icon_select.png?v=20191219_1646")
+}
+
+.ic-text-align-right {
+    background-image: url("../../src/main/resources/static-dev/images/icon/right_icon.png?v=20191219_1646")
+}
+
+.ic-text-align-left.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/right_icon_select.png?v=20191219_1646")
+}
+
+.ic-text-align-center {
+    background-image: url("../../src/main/resources/static-dev/images/icon/middle_icon.png?v=20191219_1646")
+}
+
+.ic-text-align-center.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/middle_icon_select.png?v=20191219_1646")
+}
+
+.ic-text-align-top {
+    background-image: url("../../src/main/resources/static-dev/images/icon/top_icon.png?v=20191219_1646")
+}
+
+.ic-text-align-top.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/top_icon_select.png?v=20191219_1646")
+}
+
+.ic-text-align-middle {
+    background-image: url("../../src/main/resources/static-dev/images/icon/center_icon.png?v=20191219_1646")
+}
+
+.ic-text-align-middle.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/center_icon_select.png?v=20191219_1646")
+}
+
+.ic-text-align-bottom {
+    background-image: url("../../src/main/resources/static-dev/images/icon/under_icon.png?v=20191219_1646")
+}
+
+.ic-text-align-bottom.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/under_icon_select.png?v=20191219_1646")
+}
+
+.ic-map-full-screen {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-map-full-screen.png?v=20191219_1646")
+}
+
+.full-screen #hmi-tool-fullscreen,
+.full-screen #hmi-tool-create-fullscreen {
+    background-color: #0081c6;
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-map-full-screen-active.png?v=20191219_1646")
+}
+
+.ic-map-zoom-in {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-map-zoom-in.png?v=20191219_1646")
+}
+
+.ic-map-zoom-out {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-map-zoom-out.png?v=20191219_1646")
+}
+
+.ic-map-default-zoom {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-map-default-zoom.png?v=20191219_1646")
+}
+
+.ic-basic-text {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-text-nor.png?v=20191219_1646")
+}
+
+.ic-basic-text.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-text-sel.png?v=20191219_1646")
+}
+
+.ic-basic-rect {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-rect.png?v=20191219_1646")
+}
+
+.ic-basic-rect.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-rect-sel.png?v=20191219_1646")
+}
+
+.ic-basic-rounded {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-rounded.png?v=20191219_1646")
+}
+
+.ic-basic-rounded.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-rounded-sel.png?v=20191219_1646")
+}
+
+.ic-basic-parall {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-parallelogram.png?v=20191219_1646")
+}
+
+.ic-basic-parall.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-parall-sel.png?v=20191219_1646")
+}
+
+.ic-basic-trapez {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-trapez-nor.png?v=20191219_1646")
+}
+
+.ic-basic-trapez.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-trapez-sel.png?v=20191219_1646")
+}
+
+.ic-basic-tri {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-tri.png?v=20191219_1646")
+}
+
+.ic-basic-tri.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-tri-sel.png?v=20191219_1646")
+}
+
+.ic-basic-circle {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-ellp.png?v=20191219_1646")
+}
+
+.ic-basic-circle.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-circle-sel.png?v=20191219_1646")
+}
+
+.ic-basic-straight {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-straight-nor.png?v=20191219_1646")
+}
+
+.ic-basic-straight.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-straight-sel.png?v=20191219_1646")
+}
+
+.ic-basic-line {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-polyline.png?v=20191219_1646")
+}
+
+.ic-basic-line.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-line-sel.png?v=20191219_1646")
+}
+
+.ic-basic-curve {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-curve.png?v=20191219_1646")
+}
+
+.ic-basic-curve.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-curve-sel.png?v=20191219_1646")
+}
+
+.ic-basic-table {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-table-nor.png?v=20191219_1646")
+}
+
+.ic-basic-table.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-table-sel.png?v=20191219_1646")
+}
+
+.ic-basic-picture {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-picture-nor.png?v=20191219_1646")
+}
+
+.ic-basic-picture.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-picture-sel.png?v=20191219_1646")
+}
+
+.ic-basic-link {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-link-nor.png?v=20191219_1646")
+}
+
+.ic-basic-link.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-link-sel.png?v=20191219_1646")
+}
+
+.ic-critical {
+    background-image: url("../../src/main/resources/static-dev/images/icons.png?v=20191219_1646");
+    background-position: -447px -384px
+}
+
+.ic-warning {
+    background-image: url("../../src/main/resources/static-dev/images/icons.png?v=20191219_1646");
+    background-position: -447px -360px
+}
+
+.ic-group-bundle {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-group-bundle.png?v=20191219_1646")
+}
+
+.ic-group-bundle.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-group-bundle-sel.png?v=20191219_1646")
+}
+
+.ic-table-insert {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-box-cell-add.png?v=20191219_1646")
+}
+
+.ic-table-insert-left {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-ins-left.png?v=20191219_1646")
+}
+
+.ic-table-insert-right {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-ins-right.png?v=20191219_1646")
+}
+
+.ic-table-insert-above {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-ins-above.png?v=20191219_1646")
+}
+
+.ic-table-insert-below {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-ins-below.png?v=20191219_1646")
+}
+
+.ic-table-delete {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-box-cell-remove.png?v=20191219_1646")
+}
+
+.ic-table-delete-col {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-del-col.png?v=20191219_1646")
+}
+
+.ic-table-delete-row {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-del-row.png?v=20191219_1646")
+}
+
+.ic-table-delete-table {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-del-table.png?v=20191219_1646")
+}
+
+.ic-table-merge {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-box-cell-merge.png?v=20191219_1646")
+}
+
+.ic-table-unmerge {
+    background-image: url("../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-box-cell-undo.png?v=20191219_1646")
+}
+
+.ic-device-on {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png?v=20191219_1646");
+    background-position: 0 0
+}
+
+.ic-device-off {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png?v=20191219_1646");
+    background-position: -24px 0
+}
+
+.ic-very-bad {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png?v=20191219_1646");
+    background-position: 0 -48px
+}
+
+.ic-bad {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png?v=20191219_1646");
+    background-position: -24px -48px
+}
+
+.ic-normal {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png?v=20191219_1646");
+    background-position: -48px -48px
+}
+
+.ic-good {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png?v=20191219_1646");
+    background-position: -72px -48px
+}
+
+.ic-connected-contact {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png?v=20191219_1646");
+    background-position: 0 -72px
+}
+
+.ic-disconnected-contact {
+    background-image: url("../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png?v=20191219_1646");
+    background-position: -24px -72px
+}
+
+.hmi-tooltip-wrapper {
+    margin-top: 6px
+}
+
+.k-widget.k-tooltip.hmi-tooltip {
+    min-width: 82px;
+    white-space: nowrap;
+    background-color: #747474;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    font-weight: 600;
+    color: #e2e2e2;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 5px 8px
+}
+
+#hmi-tab.full-screen,
+#hmi-create-tab.full-screen {
+    position: fixed !important;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99
+}
+
+#main-contents #hmi-tab.full-screen .top-tab-menu-wrapper .common-tab-strip>.common-tab-scroll-wrapper,
+#main-contents #hmi-create-tab.full-screen .top-tab-menu-wrapper .common-tab-strip>.common-tab-scroll-wrapper {
+    left: 0
+}
+
+.detail-dialog-color-picker {
+    width: 58px;
+    height: 36px;
+    display: inline-block;
+    float: left;
+    line-height: 36px;
+    cursor: pointer;
+    border: 1px solid #d7d7d7;
+    border-right: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.detail-dialog-color-picker.transparent {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic_no_color_big.png?v=20191219_1646");
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+input.detail-dialog-color-picker-active-area-transparent,
+input.detail-dialog-color-picker-active-area {
+    cursor: pointer;
+    width: calc(100% - 61px)
+}
+
+.toolbar-button {
+    height: 36px;
+    line-height: 24px;
+    border: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .3)
+}
+
+.toolbar-button[disabled],
+.toolbar-button.disabled {
+    background-color: #e6e6e6;
+    opacity: .3;
+    cursor: default
+}
+
+.k-animation-container.hmi-file-select {
+    width: 596px !important
+}
+
+.k-animation-container.hmi-file-select .k-list-container {
+    height: auto !important;
+    width: 596px !important
+}
+
+.k-animation-container.hmi-graphic-binding-dropdownlist .k-list-container .k-list .k-item,
+.k-animation-container.hmi-file-select .k-list-container .k-list .k-item {
+    word-break: break-word
+}
+
+#hmi-monitoring-fullscreen,
+#hmi-create-fullscreen {
+    width: 120px;
+    margin-left: 10px
+}
+
+#hmi-create-fullscreen {
+    margin-top: -7px
+}
+
+.hmi-content,
+.hmi-create-content {
+    height: 100%;
+    overflow: hidden
+}
+
+.hmi-content .hmi-content-action-wrapper {
+    margin-bottom: 15px
+}
+
+.hmi-content-view {
+    height: calc(100% - 75px);
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    overflow: auto
+}
+
+.hmi-create-content-view {
+    height: calc(100% - 86px)
+}
+
+.hmi-monitoring-canvas,
+.hmi-create-canvas {
+    position: relative
+}
+
+.hmi-create-content-graphic-view {
+    height: calc(100% - 105px)
+}
+
+.hmi-create-content-graphic-view-canvas {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: auto
+}
+
+.hmi-create-content-graphic-view-palette {
+    width: 280px;
+    float: right;
+    height: calc(100% - 203px);
+    margin-right: 30px
+}
+
+.hmi-content-action-wrapper {
+    display: table;
+    width: 100%;
+    padding-top: 24px
+}
+
+.hmi-content-filters,
+.hmi-content-actions {
+    display: table-cell;
+    vertical-align: top
+}
+
+.hmi-content-filters>ul>li,
+.hmi-content-actions>ul>li {
+    display: inline
+}
+
+.hmi-content-filters>ul>li>button,
+.hmi-content-actions>ul>li>button {
+    width: 88px;
+    margin-right: 5px
+}
+
+.hmi-content-actions {
+    text-align: right
+}
+
+.hmi-create-label {
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    line-height: 36px;
+    display: inline-block;
+    padding-right: 20px
+}
+
+#hmi-create-name {
+    width: 250px
+}
+
+#hmi-tab .ic-close:hover {
+    background-image: url("../../src/main/resources/static-dev/images/icons.png?v=20191219_1646");
+    background-position: -495px -264px
+}
+
+.hmi-create-toolbar-wrapper {
+    margin-top: 25px;
+    position: relative
+}
+
+.hmi-create-toolbar-row {
+    margin-bottom: 15px
+}
+
+.hmi-create-toolbar-buttons li {
+    display: inline-block
+}
+
+.hmi-create-toolbar-buttons .toolbar-button.active {
+    background-color: #0081c6
+}
+
+.hmi-create-toolbar-buttons .toolbar-button.group {
+    margin-right: -3px;
+    border-right: 1px solid #d8d8d8
+}
+
+.hmi-create-toolbar-buttons .toolbar-button:not(.group) {
+    margin-right: 8px
+}
+
+.hmi-create-toolbar-buttons .divider {
+    display: inline-block;
+    height: 19px;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 1px;
+    background-color: #d6d6d6
+}
+
+.hmi-monitoring-toolbar-wrapper {
+    display: inline-block;
+    margin-left: -356px;
+    margin-top: 44px
+}
+
+.fold .hmi-monitoring-toolbar-wrapper {
+    margin-left: -76px
+}
+
+.hmi-monitoring-toolbar-buttons .toolbar-button,
+.hmi-create-toolbar-buttons .toolbar-button {
+    width: 36px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative
+}
+
+.hmi-monitoring-toolbar-buttons .toolbar-button {
+    margin-right: 0;
+    border-top: 1px solid #d8d8d8
+}
+
+.hmi-create-toolbar-buttons .toolbar-button.ic-fill {
+    background-position-y: 6px
+}
+
+.toolbar-button.toolbar-zoomlevel {
+    width: 70px
+}
+
+.k-dropdown[aria-owns='hmi-tool-fontsize_listbox'] {
+    width: 81px;
+    margin-right: 8px
+}
+
+.k-dropdown[aria-owns='hmi-tool-zoomlevel_listbox'] {
+    width: 100px;
+    margin-left: -1px;
+    margin-right: 8px
+}
+
+.hmi-create-background-selector {
+    width: 1149px;
+    background-color: #fbfbfb;
+    border: 1px solid #d6d6d6;
+    padding: 5px 15px 15px;
+    position: absolute;
+    z-index: 99;
+    top: 50px
+}
+
+.hmi-create-background-selector .hmi-create-background-info {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    vertical-align: middle
+}
+
+.hmi-create-background-selector .hmi-create-background-info .title {
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+    vertical-align: middle
+}
+
+.hmi-create-background-selector .hmi-create-background-info .right {
+    float: right;
+    display: inline-block
+}
+
+.hmi-create-background-selector .hmi-create-background-info .right .size {
+    color: #bfbfbf;
+    font-size: 14px
+}
+
+.hmi-create-background-selector .hmi-create-background-info .right .k-button {
+    margin-left: 8px;
+    width: 166px
+}
+
+.hmi-create-background-selector .hmi-create-background-info .right .k-button:last-child {
+    margin-right: 3px
+}
+
+.hmi-create-background-selector .hmi-create-background-selector-item {
+    width: 182px;
+    height: 112px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid #dedede;
+    cursor: pointer
+}
+
+.hmi-create-background-selector .hmi-create-background-selector-item:hover {
+    border-color: #25b3ff
+}
+
+.hmi-create-background-selector .hmi-create-background-selector-item:last-child {
+    margin-right: 0
+}
+
+.hmi-create-background-selector .hmi-create-background-selector-item>img {
+    width: 100%;
+    height: 100%
+}
+
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr .ic-info {
+    cursor: pointer
+}
+
+#hmi-monitoring-detail-popup .hmi-monitoring-detail-file-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap
+}
+
+#hmi-monitoring-detail-popup .detail-dialog-detail-content-field-list .detail-dialog-content-field-item[data-key='name'] .display {
+    word-break: break-word;
+    line-height: 20px
+}
+
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr,
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr td,
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr,
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr td,
+#hmi-monitoring-binding-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr,
+#hmi-monitoring-binding-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr:hover,
+#hmi-monitoring-binding-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr td {
+    cursor: default;
+    background-color: #f7f7f8
+}
+
+#hmi-monitoring-binding-detail-popup .detail-dialog-content.device-dialog-content.multi-column .k-grid .k-grid-content td {
+    text-align: center
+}
+
+#hmi-monitoring-binding-detail-popup .invalid-device {
+    opacity: .4;
+    text-decoration: line-through
+}
+
+#hmi-monitoring-binding-detail-popup .detail-dialog-content.device-dialog-content .k-grid .k-grid-content {
+    height: calc(100% - 140px) !important
+}
+
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr:first-child,
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr:first-child td {
+    background-color: #fbfbfb
+}
+
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr td:not(.grid-checkbox-cell),
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr th:not(.grid-checkbox-header) {
+    text-align: left
+}
+
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr th.grid-checkbox-header {
+    text-align: center
+}
+
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr td:last-child {
+    text-align: left
+}
+
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr:first-child td {
+    border-bottom: 1px solid #a3a3a3
+}
+
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-alt,
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-alt td,
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-alt,
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-alt td,
+#hmi-monitoring-binding-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-alt,
+#hmi-monitoring-binding-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-alt td {
+    background-color: #fbfbfb
+}
+
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr th,
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid tr td,
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr th,
+#hmi-monitoring-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr td {
+    padding: 10px 0
+}
+
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid .k-grid-header:before {
+    content: "";
+    display: block;
+    height: 6px;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=9, MakeShadow=true, ShadowOpacity=0.2);
+    zoom: 1
+}
+
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content .k-grid .k-grid-header:after {
+    content: "";
+    display: block;
+    height: 2px;
+    bottom: 6px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.96)
+}
+
+#hmi-monitoring-binding-detail-popup .detail-dialog-content.device-dialog-content .k-grid tr td .detail-dialog-header.detail-multi-dialog-header {
+    text-align: center
+}
+
+.hmi-basic-graphic-dropdownlist-item {
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.hmi-basic-graphic-dropdownlist-item>img {
+    vertical-align: top;
+    margin-right: 10px
+}
+
+.hmi-line-width-dropdownlist-item {
+    vertical-align: middle;
+    font-size: 14px;
+    display: table;
+    width: 100%
+}
+
+.hmi-line-width-dropdownlist-item .text {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.hmi-line-width-dropdownlist-item .line-wrapper {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle
+}
+
+.hmi-line-width-dropdownlist-item .line-wrapper .line {
+    width: 114px;
+    background-color: #000;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#hmi-tool-text-halign-drop-list .k-list-optionlabel,
+#hmi-tool-text-valign-drop-list .k-list-optionlabel {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.hmi-text-align-dropdownlist-item {
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px
+}
+
+.hmi-text-align-dropdownlist-item>.icon,
+.hmi-table-dropdownlist-item>.icon {
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px
+}
+
+.hmi-tool-popup {
+    display: block;
+    position: absolute;
+    z-index: 99;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px
+}
+
+.hmi-tool-popup .hmi-tool-title {
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600
+}
+
+.hmi-tool-popup.hmi-tool-rotation {
+    width: 230px
+}
+
+.hmi-table-spin-numeric,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric {
+    width: 100%
+}
+
+.hmi-table-spin-numeric .k-numeric-wrap,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap {
+    padding-left: 0;
+    background: 0;
+    box-shadow: none;
+    border: solid 1px #d7d7d7;
+    padding-right: 18px
+}
+
+.detail-dialog-spinner {
+    padding: 0;
+    border: 0;
+    height: auto
+}
+
+.detail-dialog-spinner .k-numeric-wrap {
+    padding-right: 18px;
+    padding-left: 0;
+    background: 0;
+    box-shadow: none;
+    height: auto
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-input {
+    border: solid 1px #d7d7d7;
+    height: 38px
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-input.k-invalid:hover,
+.detail-dialog-spinner .k-numeric-wrap .k-input.k-invalid {
+    border-color: #ee392f;
+    color: #ee392f
+}
+
+.hmi-table-spin-numeric .k-numeric-wrap .k-input,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-input {
+    border: 0
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select {
+    width: 18px;
+    background-color: #fdfdfd
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select {
+    height: 38px;
+    border: 0;
+    border-top: solid 1px #d7d7d7;
+    border-right: solid 1px #d7d7d7;
+    border-bottom: solid 1px #d7d7d7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-increase.k-state-selected,
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-decrease.k-state-selected,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-increase.k-state-selected,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-decrease.k-state-selected,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-increase.k-state-selected,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-decrease.k-state-selected {
+    background-color: inherit
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-increase,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-increase,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-increase {
+    width: 18px;
+    height: 18px;
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-up.png?v=20191219_1646");
+    background-position: center;
+    background-size: 28px
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-decrease,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-decrease,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-decrease {
+    width: 18px;
+    height: 18px;
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-down.png?v=20191219_1646");
+    background-position: center;
+    background-size: 28px
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-increase.disabled,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-increase.disabled,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-increase.disabled,
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-decrease.disabled,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-decrease.disabled,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-decrease.disabled {
+    opacity: .3;
+    cursor: default;
+    background-color: #fff
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-increase:not(.disabled):hover,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-increase:not(.disabled):hover,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-increase:not(.disabled):hover {
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-up-sel.png?v=20191219_1646")
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-decrease:not(.disabled):hover,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-decrease:not(.disabled):hover,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-decrease:not(.disabled):hover {
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-down-sel.png?v=20191219_1646")
+}
+
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-decrease .k-icon,
+.detail-dialog-spinner .k-numeric-wrap .k-select .k-link-increase .k-icon,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-decrease .k-icon,
+.hmi-table-spin-numeric .k-numeric-wrap .k-select .k-link-increase .k-icon,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-decrease .k-icon,
+.hmi-tool-popup.hmi-tool-rotation .k-numerictextbox.hmi-tool-rotation-numeric .k-numeric-wrap .k-select .k-link-increase .k-icon {
+    display: none
+}
+
+.hmi-graphic-binding-header {
+    margin-top: -8px
+}
+
+.hmi-graphic-binding-icon {
+    border: 1px dotted gray;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: -1px;
+    vertical-align: middle;
+    display: inline-block
+}
+
+span.hmi-graphic-binding-icon:not(.real-icon) {
+    background-color: #acacac
+}
+
+.hmi-graphic-binding-icon.real-icon:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    padding: 5px
+}
+
+.hmi-graphic-binding-icon.real-icon {
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    padding: 0;
+    margin-top: -4px;
+    margin-left: 7px;
+    margin-right: 6px;
+    border: 0
+}
+
+.hmi-graphic-binding-name {
+    vertical-align: middle;
+    margin-left: 10px
+}
+
+.hmi-graphic-binding-field-wrapper .hmi-graphic-binding-field-header {
+    height: 45px;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .2)
+}
+
+.hmi-graphic-binding-field-wrapper .hmi-graphic-binding-field-header .header-cell:first-child {
+    width: 37%
+}
+
+.hmi-graphic-binding-field-wrapper .hmi-graphic-binding-field-header .header-cell {
+    display: table-cell;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%
+}
+
+.hmi-options-list li.detail-dialog-content-field-item,
+.hmi-graphic-binding-field-wrapper .detail-dialog-detail-content-field-list li.detail-dialog-content-field-item {
+    border-bottom: 1px solid rgba(0, 0, 0, .2)
+}
+
+.hmi-graphic-binding-field-wrapper .detail-dialog-content-field-item .ic-bt-input-remove {
+    top: 15px
+}
+
+.hmi-graphic-binding-field-wrapper .detail-dialog-content-field-item .k-invalid-msg:not([style*="display: none"])+.ic-bt-input-remove {
+    top: 5px
+}
+
+.hmi-options-list li.detail-dialog-content-field-item .detail-dialog-content-field-name,
+.hmi-graphic-binding-field-wrapper .detail-dialog-detail-content-field-list li.detail-dialog-content-field-item .detail-dialog-content-field-name {
+    line-height: 42px;
+    width: 37%;
+    padding-top: 10px;
+    padding-left: 83px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #464646
+}
+
+.hmi-options-list li.detail-dialog-content-field-item .detail-dialog-content-field-value. .hmi-graphic-binding-field-wrapper .detail-dialog-detail-content-field-list li.detail-dialog-content-field-item .detail-dialog-content-field-value {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 8px
+}
+
+.hmi-options-list li.detail-dialog-content-field-item .detail-dialog-content-field-template .k-dropdown,
+.hmi-graphic-binding-field-wrapper .detail-dialog-detail-content-field-list li.detail-dialog-content-field-item .detail-dialog-content-field-template .k-dropdown {
+    width: 100%
+}
+
+.hmi-options-list li.detail-dialog-content-field-item .detail-dialog-content-field-value .editable {
+    width: calc(100% - 42px)
+}
+
+.hmi-options-list li.detail-dialog-content-field-item .add-btn,
+.hmi-options-list li.detail-dialog-content-field-item .remove-btn {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    float: right
+}
+
+.hmi-options-list li.detail-dialog-content-field-item .remove-btn.disabled,
+.hmi-options-list li.detail-dialog-content-field-item .add-btn.disabled {
+    opacity: .3;
+    cursor: default
+}
+
+.hmi-graphic-binding-field-wrapper .hmi-graphic-binding-field-body {
+    overflow: auto;
+    height: 387px
+}
+
+.hmi-graphic-binding-field-wrapper .hmi-graphic-binding-field-body.no-device {
+    height: 591px
+}
+
+.hmi-create-graphic-binding-popup .detail-dialog-content.device-dialog-content .detail-dialog-detail-content {
+    height: calc(100% - 62px);
+    overflow: hidden;
+    margin: 0
+}
+
+.hmi-create-template-binding-popup .detail-dialog-content.device-dialog-content:not(.multi) .detail-dialog-detail-content {
+    height: calc(100% - 8px)
+}
+
+.hmi-create-graphic-binding-popup .detail-dialog-detail-content .device-detail-header {
+    padding: 8px 0
+}
+
+.hmi-graphic-binding-device-dropdownlist-wrapper .k-widget.k-dropdown {
+    width: calc(20% - 7px);
+    margin-right: 7px
+}
+
+.hmi-graphic-binding-device-dropdownlist-wrapper .k-widget.k-dropdown.floor {
+    width: calc(20% - 56px)
+}
+
+.hmi-graphic-binding-device-dropdownlist-wrapper .k-widget.k-dropdown:last-child {
+    width: 20%;
+    margin-right: 0
+}
+
+.hmi-graphic-binding-device-dropdownlist-wrapper .k-widget.k-dropdown.device {
+    width: calc(20% + 49px)
+}
+
+.hmi-graphic-binding-device-info .hmi-graphic-binding-device-header {
+    display: table;
+    height: 45px;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2)
+}
+
+.hmi-graphic-binding-device-info .hmi-graphic-binding-device-header .header-cell {
+    display: table-cell;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    width: 25%;
+    height: 100%;
+    vertical-align: middle
+}
+
+.hmi-graphic-binding-device-info .hmi-graphic-binding-device-body {
+    height: 60px;
+    display: table;
+    width: 100%
+}
+
+.hmi-graphic-binding-device-info .hmi-graphic-binding-device-body.invalid-device .body-cell {
+    opacity: .4;
+    text-decoration: line-through
+}
+
+.hmi-graphic-binding-device-info .hmi-graphic-binding-device-body .body-cell {
+    text-align: center;
+    color: #464646;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    display: table-cell;
+    width: 25%;
+    height: 100%;
+    vertical-align: middle
+}
+
+.hmi-create-template-binding-popup .detail-dialog-header.device-dialog-header {
+    display: none
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content {
+    margin: 0;
+    overflow: hidden
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .device-detail-header {
+    height: 60px;
+    display: table;
+    width: 100%
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .device-detail-header-type {
+    width: 210px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-number {
+    width: 200px;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-number input {
+    width: 80px
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-number .hmi-template-detail-search {
+    float: right
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-number .hmi-template-detail-search button {
+    width: 80px
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-number .k-tooltip-validation {
+    display: none !important
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-msg {
+    width: auto;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    white-space: nowrap;
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    padding: 0 10px
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-link {
+    width: 210px;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-link button {
+    width: 100%
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-canvas {
+    width: 768px !important;
+    height: 302px !important;
+    background-color: #f1f1f1;
+    border: 1px solid grey;
+    position: relative
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-list {
+    margin-top: 10px
+}
+
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-list th span.disabled,
+.hmi-create-template-binding-popup .detail-dialog-detail-content .hmi-template-detail-list td span.disabled {
+    color: #aaa
+}
+
+.hmi-table-insert-dialog-row {
+    display: table;
+    line-height: 60px
+}
+
+.hmi-table-insert-dialog-col {
+    display: table-cell;
+    width: 50%
+}
+
+.detail-dialog-spinner-validator,
+.detail-dialog-spinner {
+    width: 100%
+}
+
+.common-validator.half {
+    width: 50%;
+    display: inline-block
+}
+
+.common-validator.half:first-child {
+    float: left
+}
+
+.joint-free-transform .rotate {
+    top: -25px;
+    left: calc(50% - 5px)
+}
+
+.joint-free-transform .rotate,
+.joint-free-transform .resize,
+.joint-free-transform .change,
+.joint-free-transform .new-point {
+    border-radius: 0;
+    height: 10px;
+    width: 10px
+}
+
+.joint-free-transform .change {
+    cursor: all-scroll
+}
+
+.joint-free-transform.joint-theme-default {
+    border: 1px solid #2c70ff
+}
+
+.joint-free-transform.joint-theme-default>div {
+    background-color: #000;
+    border: .5px solid #a0a0a0
+}
+
+.joint-free-transform.joint-theme-default.active>div {
+    background-color: red
+}
+
+.selection-wrapper {
+    display: none
+}
+
+.joint-selection.joint-theme-default .selection-box {
+    border: 0
+}
+
+#hmi-tab .joint-element {
+    cursor: default
+}
+
+#main-contents #hmi-tab ul.top-tab-menu,
+#main-contents #hmi-create-tab ul.top-tab-menu {
+    display: inline
+}
+
+#hmi-tab>.common-tab-strip-wrapper.k-tabstrip-wrapper,
+#hmi-create-tab>.common-tab-strip-wrapper.k-tabstrip-wrapper {
+    width: calc(100% - 310px);
+    float: left
+}
+
+.full-screen .common-tab-strip-wrapper.k-tabstrip-wrapper {
+    height: calc(100% - 60px)
+}
+
+#hmi-create-tab.full-screen .common-tab-strip-wrapper.k-tabstrip-wrapper {
+    height: calc(100% - 271px)
+}
+
+#hmi-tab,
+#hmi-create-tab {
+    height: 100%;
+    min-width: 1532px;
+    background-color: inherit
+}
+
+#hmi-create-tab .common-tab-strip-wrapper.k-tabstrip-wrapper {
+    height: calc(100% - 203px)
+}
+
+#hmi-tab>.common-tab-strip-wrapper.k-tabstrip-wrapper {
+    width: 100%
+}
+
+#hmi-tab.fold .hmi-monitoring-file-control-wrapper {
+    display: none !important
+}
+
+#hmi-tab.fold .monitoring-fold-btn {
+    right: 30px;
+    margin-right: 1px
+}
+
+.monitoring-fold-btn {
+    position: absolute;
+    top: 50%;
+    right: 310px;
+    cursor: pointer;
+    width: 27px;
+    height: 54px;
+    margin-top: -27px;
+    border: 1px solid #d6d6d6;
+    border-right: 0 none;
+    box-sizing: border-box;
+    border-radius: 27px 0 0 27px;
+    background: #e6e6e6
+}
+
+.monitoring-fold-btn .arrow {
+    display: block;
+    height: 100%;
+    width: 20px;
+    opacity: .55;
+    float: right;
+    background: url("../../src/main/resources/static-dev/images/icon/arrow-date-next.png?v=20191219_1646") center no-repeat
+}
+
+.fold .monitoring-fold-btn .arrow {
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-date-prev.png?v=20191219_1646")
+}
+
+.hmi-monitoring-canvas-wrapper {
+    margin-top: 24px;
+    height: calc(100% - 29px);
+    border: 1px solid #e3e3e3;
+    width: calc(100% - 2px);
+    display: inline-block;
+    background-color: #f1f1f1
+}
+
+.hmi-monitoring-file-control-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 280px;
+    margin-top: 34px;
+    margin-right: 30px;
+    height: calc(100% - 40px)
+}
+
+.hmi-create-panel-wrapper {
+    float: right;
+    width: 280px;
+    margin-right: 30px;
+    height: calc(100% - 203px)
+}
+
+.full-screen .hmi-create-panel-wrapper {
+    height: calc(100% - 271px)
+}
+
+.hmi-monitoring-file-control-wrapper .k-tabstrip-wrapper.common-tab-strip-wrapper,
+.hmi-create-panel-wrapper .k-tabstrip-wrapper.common-tab-strip-wrapper {
+    width: 100%;
+    border: 1px solid #d6d6d6
+}
+
+#hmi-create-tab .hmi-create-panel-wrapper .k-tabstrip-wrapper.common-tab-strip-wrapper {
+    height: 100%
+}
+
+.hmi-monitoring-file-control-tab ul.k-tabstrip-items,
+.hmi-create-panel-tab ul.k-tabstrip-items {
+    position: relative;
+    left: 0
+}
+
+.hmi-monitoring-file-control-tab ul.k-tabstrip-items>li {
+    width: 50%;
+    text-align: center
+}
+
+.hmi-create-panel-tab ul.k-tabstrip-items {
+    height: 71px
+}
+
+.hmi-create-panel-tab ul.k-tabstrip-items>li {
+    width: 33.33%;
+    text-align: center
+}
+
+.hmi-create-panel-tab ul.k-tabstrip-items>li.k-item>span.k-link {
+    padding: 22px 10px 19px
+}
+
+.hmi-monitoring-file-control-tab.common-tab-strip .k-content.k-state-active,
+.hmi-create-panel-tab.common-tab-strip .k-content.k-state-active {
+    padding: 0
+}
+
+.hmi-monitoring-file-control-tab.common-tab-strip .k-content {
+    height: calc(100% - 62px)
+}
+
+.hmi-create-panel-tab.common-tab-strip .k-content.k-state-active {
+    height: calc(100% - 73px)
+}
+
+.hmi-monitoring-file-list {
+    height: 100%
+}
+
+.hmi-create-action-toolbar-wrapper {
+    padding: 10px 30px 0 30px
+}
+
+#main-contents .top-tab-menu-wrapper.common-tab-strip-wrapper>#hmi-create-tab-area.common-tab-strip {
+    min-height: 632px
+}
+
+#main-contents .top-tab-menu-wrapper>#hmi-create-tab-area .common-tab-scroll-wrapper~.k-content {
+    padding-top: 0;
+    height: 100%
+}
+
+.hmi-no-graphic-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.hmi-no-graphic {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: .35
+}
+
+.hmi-legend-wrapper {
+    position: absolute;
+    top: 44px;
+    left: 40px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #686868;
+    cursor: pointer
+}
+
+#hmi-create-tab-area .hmi-legend-wrapper {
+    top: 10px
+}
+
+.hmi-legend-wrapper>.ic-help {
+    margin-right: 7px
+}
+
+.hmi-legend-wrapper:hover>.hmi-legend {
+    display: inline-block
+}
+
+.hmi-legend {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 10px;
+    padding: 7px;
+    background-color: #f7f7f7;
+    z-index: 2
+}
+
+.hmi-legend::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.13)
+}
+
+.hmi-legend-list {
+    position: relative;
+    padding-left: 10px;
+    white-space: nowrap
+}
+
+.hmi-legend-list>li {
+    display: inline-block;
+    position: relative;
+    padding: 6px 20px 5px 36px
+}
+
+.hmi-legend-list li.vertical {
+    border-right: 1px solid #ddd;
+    margin-right: 20px
+}
+
+.hmi-legend-list>li .ic {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px
+}
+
+.joint-external-render-image {
+    position: relative
+}
+
+.hmi-locked-box {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../src/main/resources/static-dev/images/icon/tool-lock.png?v=20191219_1646");
+    background-size: contain
+}
+
+.no-selected .cell-highlighted {
+    display: none
+}
+
+.cell-highlighted.selected {
+    border: 2px solid;
+    background-color: #3333
+}
+
+.cell-highlighted>textarea {
+    background-color: transparent;
+    resize: none;
+    overflow: hidden;
+    padding: 7px 0;
+    width: 100%;
+    height: calc(100% - 14px)
+}
+
+.joint-free-transform.joint-theme-default[data-type="hmi.Zone"] {
+    border: 1px dashed #38f
+}
+
+.joint-free-transform.joint-theme-default[data-type="hmi.Zone"]>div.resize {
+    opacity: .7;
+    border: 0;
+    background-color: transparent
+}
+
+.joint-free-transform.joint-theme-default[data-type="hmi.Zone"]>div.change,
+.joint-free-transform.joint-theme-default[data-type="hmi.Zone"]>div.new-point {
+    background-color: #0081c6;
+    border-radius: 10px
+}
+
+.joint-free-transform.joint-theme-default[data-type="hmi.Zone"]>div.new-point {
+    cursor: pointer !important
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.resize[data-position="top-left"] {
+    margin-left: -12px;
+    margin-top: -12px;
+    width: 12px;
+    height: 12px;
+    border-top: 3px dashed #0281c7;
+    border-left: 3px dashed #0281c7
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.resize[data-position="top"] {
+    margin-left: -10px;
+    margin-top: -12px;
+    width: 20px;
+    height: 12px;
+    border-top: 3px dashed #0281c7
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.resize[data-position="top-right"] {
+    margin-right: -12px;
+    margin-top: -12px;
+    width: 12px;
+    height: 12px;
+    border-top: 3px dashed #0281c7;
+    border-right: 3px dashed #0281c7
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.resize[data-position="right"] {
+    margin-right: -12px;
+    margin-top: -10px;
+    width: 12px;
+    height: 20px;
+    border-right: 3px dashed #0281c7
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.resize[data-position="bottom-right"] {
+    margin-right: -12px;
+    margin-bottom: -12px;
+    width: 12px;
+    height: 12px;
+    border-bottom: 3px dashed #0281c7;
+    border-right: 3px dashed #0281c7
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.resize[data-position="bottom"] {
+    margin-right: -10px;
+    margin-bottom: -12px;
+    width: 20px;
+    height: 12px;
+    border-bottom: 3px dashed #0281c7
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.resize[data-position="bottom-left"] {
+    margin-left: -12px;
+    margin-bottom: -12px;
+    width: 12px;
+    height: 12px;
+    border-bottom: 3px dashed #0281c7;
+    border-left: 3px dashed #0281c7
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.resize[data-position="left"] {
+    margin-left: -12px;
+    margin-bottom: -10px;
+    width: 12px;
+    height: 20px;
+    border-left: 3px dashed #0281c7
+}
+
+.joint-free-transform[data-type="hmi.Zone"]>div.rotate {
+    top: -35px
+}
+
+.joint-paper-scroller {
+    overflow: hidden
+}
+
+#hmi-create-name~.k-widget.k-tooltip-validation.k-invalid-msg {
+    padding: 0 10px
+}
+
+.k-list .hmi-text-align-dropdownlist-item.k-state-selected,
+.k-list .hmi-line-width-dropdownlist-item.k-state-selected {
+    background-color: transparent;
+    border-color: transparent;
+    color: #0081c6;
+    padding: 0 10px
+}
+
+.k-list .hmi-line-width-dropdownlist-item.k-state-selected {
+    padding: 0
+}
+
+.k-widget.hmi-palette-widget {
+    height: 100%;
+    border: 0;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+.k-widget.hmi-palette-widget .k-link.k-header {
+    background: 0;
+    display: block;
+    font-size: 16px;
+    color: #323232;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 11px 20px 9px 44px;
+    background-color: #f7f7f7
+}
+
+.k-widget.hmi-palette-widget .k-link.k-header.k-state-selected {
+    background-color: #f7f7f7
+}
+
+.k-widget.hmi-palette-widget li.k-item {
+    border: none !important
+}
+
+.k-widget.hmi-palette-widget li.k-item[aria-expanded='true'] {
+    height: calc(100% - 369px);
+    background-color: #f1f1f1
+}
+
+.k-widget.hmi-palette-widget li.k-item .k-link.k-header {
+    color: #323232;
+    border-bottom: 1px solid #e2e2e2;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.k-widget.hmi-palette-widget li.k-item .k-link.k-header .k-icon {
+    background-repeat: no-repeat;
+    background-position: right center;
+    left: 10px
+}
+
+.k-widget.hmi-palette-widget li.k-item .k-link.k-header .k-icon.k-i-arrow-s.k-panelbar-expand {
+    background-image: url("../../src/main/resources/static-dev/images/icon/list-control-right.png?v=20191219_1646");
+    opacity: 1
+}
+
+.k-widget.hmi-palette-widget li.k-item.k-state-active .k-link.k-header .k-icon.k-i-arrow-n.k-panelbar-collapse {
+    background-image: url("../../src/main/resources/static-dev/images/icon/list-control-down.png?v=20191219_1646");
+    opacity: 1
+}
+
+.k-widget.hmi-palette-widget li.k-item .k-link.k-header .k-icon:before {
+    display: none
+}
+
+.k-widget.hmi-palette-widget .k-item .k-group {
+    max-height: calc(100% - 58px);
+    overflow: hidden;
+    border: 0;
+    background-color: #f1f1f1;
+    padding: 10px
+}
+
+.k-widget.hmi-palette-widget .k-item .k-group .k-item {
+    width: 33.333%;
+    display: inline-block;
+    padding: 6px 0;
+    text-align: center;
+    background-color: #f1f1f1
+}
+
+.hmi-palette-item-draggable .k-link,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link {
+    font-weight: 600;
+    line-height: 35px;
+    font-size: 16px;
+    padding: 0
+}
+
+.hmi-palette-item-draggable {
+    list-style: none
+}
+
+.hmi-palette-item-draggable .k-link {
+    width: 82px;
+    height: 101px;
+    display: inline-block;
+    border: 0;
+    text-align: center;
+    background: 0;
+    vertical-align: middle
+}
+
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link.k-state-hover,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link.k-state-selected,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link.k-state-active {
+    background: 0
+}
+
+.hmi-palette-item-draggable .k-link .k-image,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link .k-image {
+    display: none
+}
+
+.hmi-palette-item-draggable .k-link .hmi-palette-item .hmi-palette-image,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link .hmi-palette-item .hmi-palette-image {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    cursor: move;
+    background-size: contain;
+    background-position: center;
+    margin-top: 14px;
+    position: relative;
+    z-index: 5
+}
+
+.hmi-palette-item-draggable .k-link .hmi-palette-item .hmi-palette-text,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link .hmi-palette-item .hmi-palette-text {
+    display: block;
+    padding-top: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: #000;
+    font-size: 15px;
+    line-height: 16px;
+    height: 32px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    white-space: pre-line;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link .hmi-palette-item .hmi-palette-text .search-highlight {
+    color: #0081c6
+}
+
+.hmi-palette-item-draggable .k-link:before,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link:before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 13px;
+    border: 1px dotted gray;
+    border-radius: 50%;
+    z-index: 1
+}
+
+.hmi-palette-tooltip .k-tooltip-content {
+    white-space: nowrap
+}
+
+.hmi-file-list-wrapper {
+    background-color: #f7f7f7;
+    height: 100%
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    vertical-align: middle;
+    height: 36px
+}
+
+.hmi-file-list-wrapper .create-type {
+    position: absolute;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    width: 166px;
+    z-index: 1;
+    -moz-box-shadow: 0 0 21px rgba(0, 0, 0, .13);
+    -webkit-box-shadow: 0 0 21px rgba(0, 0, 0, .13);
+    box-shadow: 0 0 21px rgba(0, 0, 0, .13);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=21, MakeShadow=true, ShadowOpacity=0.13);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=21,MakeShadow=true,ShadowOpacity=0.13)";
+    zoom: 1
+}
+
+.hmi-file-list-wrapper .create-type ul>li {
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 20px;
+    font-weight: 400
+}
+
+.hmi-file-list-wrapper .create-type ul>li:hover {
+    text-decoration: none;
+    background: rgba(0, 129, 198, .16)
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .create-btn {
+    width: 63px;
+    vertical-align: middle;
+    margin-right: 4px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .create-btn.active {
+    background-color: #0081c6;
+    color: #fff
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .search-field-wrapper {
+    position: relative;
+    display: inline-block
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .search-field {
+    vertical-align: middle;
+    margin-top: 2px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .search-field-wrapper .ic-bt-input-search {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 0;
+    box-sizing: border-box
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .search-field-wrapper.searching .ic-bt-input-search {
+    background-position: -204px -384px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-bottom {
+    padding: 15px 10px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-bottom>.k-button {
+    width: 120px;
+    margin: 0 5px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-bottom .delete-btn {
+    float: right
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content {
+    height: calc(100% - 51px) !important;
+    padding-top: 10px;
+    padding-bottom: 41px;
+    background-color: #f7f7f7
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content {
+    height: 100% !important;
+    background-color: #f7f7f7
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr {
+    cursor: pointer
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group) {
+    background-color: #f1f1f1
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr>td {
+    position: relative
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr>td,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group)>td {
+    padding: 8px 0 8px 20px;
+    text-align: left;
+    font-size: 15px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.dragging>td:after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #0081c6
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr>td .file-name,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group)>td .file-name {
+    vertical-align: middle
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr>td .file-badge,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group)>td .file-badge {
+    background: 0;
+    border-radius: 6px;
+    width: 26px;
+    height: 8px;
+    font-style: normal;
+    color: #fff;
+    font-size: 8px;
+    line-height: 8px;
+    padding: 3px 0 1px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    margin-right: 14px;
+    display: inline-block
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr>td .file-badge.new,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group)>td .file-badge.new {
+    background: #0081c6
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr>td .file-badge.root:not(.new),
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group)>td .file-badge.root:not(.new) {
+    display: none
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr>td .ic-info,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group)>td .ic-info {
+    display: none;
+    background-position: 0 -465px;
+    margin-right: 16px;
+    position: absolute;
+    right: 0
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr:hover>td .ic-info,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):hover>td .ic-info {
+    display: inline-block
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 20px;
+    background-color: #f7f7f7
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group>td {
+    padding: 11px 20px 9px 44px;
+    background: 0
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).children-first-item>td {
+    border-top: 10px solid #f1f1f1
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).children-last-item>td {
+    border-bottom: 10px solid #f1f1f1
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group>td {
+    border-bottom: 1px solid #e1e1e1
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group[aria-expanded=true]~tr.k-treelist-group>td {
+    border-top: 1px solid #e1e1e1
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td {
+    border-bottom: 1px solid #e1e1e1;
+    position: relative
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .file-name,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).child>td .file-name {
+    position: relative;
+    width: 163px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .file-name.root {
+    width: 200px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .new-folder {
+    display: block
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group:first-child>td {
+    border-top: 0
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group:last-child>td {
+    border-bottom: 0
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group>td .k-icon {
+    left: 4px;
+    margin-top: 2px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .new-folder .k-icon {
+    left: -5px;
+    margin-top: 2px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .new-folder .file-name {
+    left: 7px
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .new-folder .k-icon:before {
+    display: none
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content .k-treelist-group[aria-expanded=true]>td {
+    background: 0
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child).k-state-selected,
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr.k-state-selected,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).k-state-selected,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group.k-state-selected {
+    background-color: #d0e4f1
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child):not(.k-state-selected):hover,
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr:not(.k-state-selected):hover,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group:not(.k-state-selected):hover,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.k-state-selected):hover {
+    background-color: #e4e3e3
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .new-folder .k-icon.k-i-expand,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group .k-icon.k-i-expand,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group.has-checked-child .k-icon.k-i-expand {
+    background: url("../../src/main/resources/static-dev/images/icon/list-control-right.png?v=20191219_1646") no-repeat center
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-state-selected:not(.k-treelist-group):not(.child)>td .new-folder .k-icon.k-i-expand,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group.k-state-selected .k-icon.k-i-expand,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group.has-checked-child.k-state-selected .k-icon.k-i-expand {
+    background: url("../../src/main/resources/static-dev/images/icon/list-control-right-blue.png?v=20191219_1646") no-repeat center
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .new-folder .k-icon.k-i-collapse,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group .k-icon.k-i-collapse,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group.has-checked-child .k-icon.k-i-collapse {
+    background: url("../../src/main/resources/static-dev/images/icon/list-control-down.png?v=20191219_1646") no-repeat center
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-state-selected:not(.k-treelist-group):not(.child)>td .new-folder .k-icon.k-i-collapse,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group.k-state-selected .k-icon.k-i-collapse,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group.has-checked-child.k-state-selected .k-icon.k-i-collapse {
+    background: url("../../src/main/resources/static-dev/images/icon/list-control-down-blue.png?v=20191219_1646") no-repeat center
+}
+
+.k-treelist .k-grid-content .k-treelist-group.has-checked-child>td {
+    color: #333
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content .k-widget.k-tooltip-validation.k-invalid-msg {
+    display: block;
+    padding: 0
+}
+
+.hmi-library-palette-dialog.k-content {
+    height: calc(100% - 130px) !important
+}
+
+.hmi-library-palette-widget-wrapper {
+    height: 100%
+}
+
+.hmi-library-palette-widget-wrapper .search-wrapper {
+    padding: 10px 15px;
+    background-color: #f7f7f7
+}
+
+.hmi-library-palette-widget-wrapper .k-button.create-btn {
+    width: 63px;
+    vertical-align: middle
+}
+
+.hmi-library-palette-widget-wrapper .search-field-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px
+}
+
+.hmi-library-palette-widget-wrapper .search-field-wrapper .search-field {
+    vertical-align: middle;
+    width: 182px
+}
+
+.hmi-library-palette-widget-wrapper .search-field-wrapper .ic-bt-input-search {
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 0;
+    box-sizing: border-box
+}
+
+.hmi-library-palette-widget-wrapper .search-field-wrapper.searching .ic-bt-input-search {
+    background-position: -204px -384px
+}
+
+.hmi-library-palette-widget-wrapper .button-wrapper {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 15px 10px
+}
+
+.hmi-library-palette-widget-wrapper .button-wrapper .k-button {
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.hmi-library-palette-widget-wrapper.enable-search .k-widget.hmi-library-palette-widget {
+    height: calc(100% - 56px)
+}
+
+.hmi-library-palette-widget-wrapper.enable-button .k-widget.hmi-library-palette-widget {
+    height: calc(100% - 66px)
+}
+
+.hmi-library-palette-widget-wrapper.enable-search.enable-button .k-widget.hmi-library-palette-widget {
+    height: calc(100% - 122px)
+}
+
+.hmi-library-palette-widget-wrapper .k-widget.hmi-library-palette-widget li.k-item[aria-expanded='true'] {
+    height: calc(100% - 82px);
+    background-color: #f1f1f1
+}
+
+.hmi-library-palette-widget-wrapper .k-widget.hmi-library-palette-widget .k-item .k-group .k-item .k-link:hover:before,
+.hmi-library-palette-widget-wrapper .k-widget.hmi-library-palette-widget .k-item .k-group .k-item .k-link.k-state-selected:before {
+    background-color: rgba(0, 129, 198, .06);
+    border-color: #0081c6
+}
+
+.k-dialog .hmi-library-palette-dialog .detail-dialog-content .detail-dialog-detail-content {
+    margin: 0;
+    height: 100%
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-row {
+    padding-top: 12px;
+    padding-bottom: 3px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-name {
+    display: inline-block;
+    font-size: 16px;
+    width: 130px;
+    color: #000;
+    font-weight: 600;
+    line-height: 36px;
+    vertical-align: top
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value {
+    display: inline-block;
+    width: calc(100% - 130px)
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value .k-radio-label {
+    padding-left: 30px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value p {
+    padding-top: 8px;
+    padding-bottom: 12px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value .field-col {
+    display: inline-block;
+    vertical-align: top
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value .label {
+    width: 80px;
+    display: inline-block
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value .divider {
+    width: 64px;
+    display: inline-block;
+    line-height: 36px;
+    text-align: center;
+    font-size: 15px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header {
+    padding-bottom: 6px;
+    background-color: #fbfbfb
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header:before,
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header:after {
+    display: block
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header:before {
+    top: 47px;
+    height: 2px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header:after {
+    height: 2px;
+    top: 46px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header th {
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: #f7f7f7
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr {
+    background-color: #f0f0f0;
+    cursor: auto
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr.k-alt {
+    background-color: #fbfbfb
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td {
+    padding: 17px 0
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .image {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .image-file-name {
+    margin-left: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .k-grid tr td .image-file-name {
+    max-width: 130px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .controlled-type .k-grid tr td .image-file-name,
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .toggle-type .k-grid tr td .image-file-name {
+    cursor: pointer;
+    max-width: 383px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .controlled-type .k-grid tr td .image-file-name:hover,
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .toggle-type .k-grid tr td .image-file-name:hover,
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .k-grid tr td .image-file-name:hover {
+    text-decoration: underline
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .text-left {
+    text-align: left
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .k-grid tr td .text-left {
+    padding-left: 40px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .text-right {
+    text-align: right
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .text-center {
+    text-align: center
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .ic-btn-add-sm {
+    margin-right: 12px;
+    margin-top: -2px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .ic-close {
+    margin-top: -2px;
+    margin-left: 10px;
+    cursor: pointer
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .divider {
+    width: 30px;
+    padding-top: 6px;
+    line-height: 24px;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td span.list-range-validator {
+    display: inline-block;
+    vertical-align: top
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td span.list-range-validator .k-tooltip-validation {
+    font-size: 14px
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .image-list-add {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .ic.disabled {
+    opacity: .3;
+    cursor: default
+}
+
+.k-dialog .hmi-library-palette-dialog .detail-dialog-detail-content {
+    overflow: hidden
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail {
+    height: 100%
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type {
+    height: calc(100% - 215px)
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .field-row.list {
+    height: calc(100% - 56px)
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .field-row.list>.field-row {
+    height: calc(100% - 51px)
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .field-row.list>.field-row>.k-grid {
+    height: calc(100% - 62px) !important
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .field-row.list>.field-row>.k-grid .k-grid-content {
+    height: calc(100% - 52px) !important
+}
+
+.hmi-binding,
+.hmi-binding .hmi-binding-inner-wrapper {
+    height: 100%;
+    background-color: #f7f7f7
+}
+
+.hmi-binding .hmi-binding-tabs {
+    display: block;
+    border-bottom: 1px solid #e1e1e1
+}
+
+.hmi-binding .hmi-binding-tabs>li {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    color: #a5a5a5;
+    line-height: 18px;
+    padding: 18px 14px;
+    cursor: pointer
+}
+
+.hmi-binding .hmi-binding-tabs>li:not(.disabled).active {
+    color: #0081c6
+}
+
+.hmi-binding .hmi-binding-tabs>li.disabled {
+    opacity: .3;
+    cursor: default
+}
+
+.hmi-binding .hmi-binding-inner-wrapper .hmi-binding-device-wrapper {
+    height: calc(100% - 121px);
+    padding: 0 10px
+}
+
+.hmi-binding .hmi-binding-inner-wrapper .hmi-binding-button-wrapper {
+    padding: 15px;
+    text-align: center
+}
+
+.hmi-binding .hmi-binding-inner-wrapper .hmi-binding-button-wrapper .k-button.save-button {
+    width: 100%
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-search-wrapper {
+    padding: 10px 0;
+    background-color: #f7f7f7
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-search-wrapper .k-button.filter {
+    width: 63px;
+    vertical-align: middle
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-search-wrapper .k-button.filter.active {
+    background-color: #0081c6;
+    color: #fff
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-search-wrapper .search-field-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-search-wrapper .search-field-wrapper .search-field {
+    vertical-align: middle;
+    width: 182px
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-search-wrapper .search-field-wrapper .ic-bt-input-search {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 0;
+    box-sizing: border-box
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-search-wrapper .search-field-wrapper.searching .ic-bt-input-search {
+    background-position: -204px -384px
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper {
+    position: absolute;
+    text-align: left;
+    margin-top: 5px;
+    right: 280px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    width: 200px;
+    z-index: 1;
+    -moz-box-shadow: 0 0 21px rgba(0, 0, 0, .13);
+    -webkit-box-shadow: 0 0 21px rgba(0, 0, 0, .13);
+    box-shadow: 0 0 21px rgba(0, 0, 0, .13);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=21, MakeShadow=true, ShadowOpacity=0.13);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=21,MakeShadow=true,ShadowOpacity=0.13)";
+    zoom: 1
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li {
+    cursor: pointer;
+    position: relative
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li .title {
+    line-height: 20px;
+    padding: 10px 20px;
+    font-weight: 400;
+    color: #000;
+    display: block
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li .title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li:not(.disabled) .title.active,
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li:not(.disabled) .title:hover {
+    text-decoration: none;
+    background: rgba(0, 129, 198, .16)
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li .title:not(.active) .comma,
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li .title:not(.active) .name {
+    display: none
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter .hmi-binding-filter-item.disabled {
+    opacity: .3
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter .hmi-binding-filter-item .clear {
+    float: right;
+    font-size: 12px;
+    color: #000;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter .hmi-binding-filter-item .clear.disabled {
+    opacity: .35
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li .title .ic {
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li .title .ic {
+    background-image: url("../../src/main/resources/static-dev/images/icon/list-control-down.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li:not(.disabled) .title:hover .ic {
+    background-image: url("../../src/main/resources/static-dev/images/icon/list-control-down-blue.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li .title .ic.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/list-control-up.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li:not(.disabled) .title:hover .ic.active {
+    background-image: url("../../src/main/resources/static-dev/images/icon/list-control-up-blue.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li.hmi-binding-filter-item .list {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #f7f7f7;
+    box-sizing: border-box
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li.hmi-binding-filter-item .list .k-grid {
+    overflow: auto
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li.hmi-binding-filter-item .list .k-grid tr {
+    background: #f7f7f7
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li.hmi-binding-filter-item .list .k-grid tr:hover {
+    background-color: #e4e3e3
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li.hmi-binding-filter-item .list .k-grid tr.k-state-selected {
+    background-color: #d0e4f1
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li.hmi-binding-filter-item .list .k-grid td {
+    padding: 8px 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-filter-wrapper .hmi-binding-filter>li.hmi-binding-filter-item .list .k-grid td .hmi-filter-name-wrapper {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper {
+    height: calc(100% - 296px);
+    border-bottom: 1px solid #e1e1e1
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper .k-grid-content.k-auto-scrollable {
+    height: 100% !important;
+    background-color: #f7f7f7
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper .k-grid-content.k-auto-scrollable .k-scrollbar.k-scrollbar-vertical {
+    overflow-y: auto
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper table.hmi-binding-list .k-grid-norecords {
+    font-size: 15px
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper table.hmi-binding-list tr {
+    background: #f7f7f7
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper table.hmi-binding-list tr:hover {
+    background-color: #e4e3e3;
+    cursor: pointer
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper table.hmi-binding-list tr.k-state-selected {
+    background-color: #d0e4f1
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper table.hmi-binding-list tr td {
+    padding: 10px 20px;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: left
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-list-wrapper table.hmi-binding-list tr td .device-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-device-info-wrapper>.title {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 600;
+    padding: 22px 0 14px
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-device-info-wrapper>table.hmi-binding-device-info {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    max-width: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    table-layout: fixed;
+    outline: 0;
+    border: 1px solid #e1e1e1
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-device-info-wrapper>table.hmi-binding-device-info td {
+    border: 1px solid #e1e1e1
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-device-info-wrapper>table.hmi-binding-device-info tr.title td {
+    text-align: center;
+    color: rgba(0, 0, 0, .85);
+    background: #f0f0f0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 0 9px
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-device-info-wrapper>table.hmi-binding-device-info.invalid tr.content td {
+    opacity: .4;
+    text-decoration: line-through
+}
+
+.hmi-binding .hmi-binding-device-wrapper .hmi-binding-device-info-wrapper>table.hmi-binding-device-info tr.content td {
+    text-align: center;
+    color: rgba(0, 0, 0, .85);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    height: 18px;
+    padding: 11px 8px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.hmi-binding .hmi-binding-property-wrapper {
+    height: calc(100% - 55px)
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-inner-wrapper {
+    height: 100%;
+    overflow: auto
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-title {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding: 11px 20px 9px 44px;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 600
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-title:hover {
+    background: rgba(0, 129, 198, .16)
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-title .ic {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url("../../src/main/resources/static-dev/images/icon/list-control-right.png?v=20191219_1646") no-repeat center
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-title .ic.expand {
+    background: url("../../src/main/resources/static-dev/images/icon/list-control-down.png?v=20191219_1646") no-repeat center
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-title:hover .ic {
+    background: url("../../src/main/resources/static-dev/images/icon/list-control-right-blue.png?v=20191219_1646") no-repeat center
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-title:hover .ic.expand {
+    background: url("../../src/main/resources/static-dev/images/icon/list-control-down-blue.png?v=20191219_1646") no-repeat center
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items {
+    padding: 10px 0;
+    background: #f1f1f1;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items .ic-bt-input-remove {
+    background-image: url("../../src/main/resources/static-dev/images/ic-clear-min.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property {
+    padding: 5px 16px 5px 44px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .name {
+    display: inline-block
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .value {
+    display: inline-block;
+    position: relative
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .name:not(.block) {
+    width: 127px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .name.block {
+    display: block;
+    margin-bottom: 10px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .value input.k-input {
+    line-height: 26px;
+    height: 26px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .name.block+span.value,
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .name.block+span.value>[data-role='commonvalidator'],
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .name.block+span.value .k-input {
+    width: 100%
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .value span[data-role='commonvalidator'] {
+    display: inline-block
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .value [data-role='commonvalidator'] {
+    position: relative
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .value [data-role='commonvalidator'] .ic-btn-remove-sm {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .value [data-role='commonvalidator'] .k-invalid-msg {
+    padding: 0;
+    margin-top: 0;
+    white-space: normal
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-radio-label {
+    padding-left: 30px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .block-wrapper {
+    line-height: 36px;
+    display: block;
+    vertical-align: middle
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-dropdown-wrap {
+    height: 26px;
+    line-height: 26px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-dropdown-wrap .k-select {
+    line-height: 26px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-dropdown-wrap .k-select>.k-icon:before {
+    top: -6px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numerictextbox {
+    padding: 0;
+    border: 0;
+    height: auto
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 0;
+    background: 0;
+    box-shadow: none;
+    padding-right: 13px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-input {
+    border: solid 1px #d7d7d7;
+    height: 26px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select {
+    height: 26px;
+    width: 13px;
+    border: 0;
+    border-top: solid 1px #d7d7d7;
+    border-right: solid 1px #d7d7d7;
+    border-bottom: solid 1px #d7d7d7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-increase.k-state-selected,
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-decrease.k-state-selected {
+    background-color: inherit
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-increase {
+    width: 12px;
+    height: 12px;
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-up.png?v=20191219_1646");
+    background-position: center;
+    background-size: 20px;
+    background-color: #fff
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-decrease {
+    width: 12px;
+    height: 12px;
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-down.png?v=20191219_1646");
+    background-position: center;
+    background-size: 20px;
+    background-color: #fff
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-increase.disabled,
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-decrease.disabled {
+    opacity: .3;
+    cursor: default;
+    background-color: #fff
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-increase:not(.disabled):hover {
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-up-sel.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-decrease:not(.disabled):hover {
+    background-image: url("../../src/main/resources/static-dev/images/icon/arrow-down-sel.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-increase .k-icon,
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-select .k-link-decrease .k-icon {
+    display: none
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button {
+    width: 76px;
+    position: relative;
+    padding-right: 26px;
+    min-width: 34px;
+    padding-left: 18px;
+    text-align: left;
+    height: 26px;
+    line-height: 26px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    display: inline-block
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button.active {
+    background-color: #0081c6;
+    border-color: #0081c6
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button>.ic:not(.ic-arrow) {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button>.ic.ic-tool-textfill {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-textfill-nor.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button.active>.ic.ic-tool-textfill {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-textfill-sel.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button>.ic.ic-tool-colorfill {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-colorfill-nor.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button.active>.ic.ic-tool-colorfill {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-colorfill-sel.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button>.ic .selected-color-line {
+    width: 16px;
+    height: 2px;
+    position: absolute;
+    bottom: 2px;
+    left: 3px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button>.ic.ic-arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 26px;
+    height: 26px;
+    background-image: url("../../src/main/resources/static-dev/images/icon/select-normal-down.png?v=20191219_1646");
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .binding-colorpicker-wrapper.k-button.active>.ic.ic-arrow {
+    background-image: url("../../src/main/resources/static-dev/images/icon/select-white-up.png?v=20191219_1646")
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numerictextbox {
+    display: block
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numerictextbox .k-invalid-msg {
+    margin-top: 0;
+    display: block
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-input.k-invalid:hover,
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .k-numeric-wrap .k-input.k-invalid {
+    border-color: #ee392f;
+    color: #ee392f
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item {
+    margin-bottom: 10px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item:last-child {
+    margin-bottom: 0
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-value {
+    margin-bottom: 10px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-value span.name {
+    width: 80px;
+    line-height: 26px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-value span.value {
+    width: 120px;
+    float: right
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-value span.value .k-invalid-msg {
+    white-space: normal
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-value span.value [data-role='commonvalidator'] {
+    width: 100%
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-value span.value [data-role='commonvalidator'] .k-invalid-msg {
+    margin-top: -4px;
+    font-weight: 500
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-text span.value [data-role='commonvalidator'] {
+    width: calc(100% - 36px)
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-text span.name {
+    width: 55px;
+    float: left
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-value-item .hmi-binding-option-value-item-text span.value {
+    width: 100%
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values .hmi-binding-option-values-add {
+    text-align: center;
+    margin-top: 10px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values a.ic.disabled,
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values span.value a.ic.disabled {
+    opacity: .3;
+    cursor: default
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values span.value a.ic.remove-btn {
+    width: 26px;
+    height: 26px;
+    margin: 0;
+    background-size: contain;
+    vertical-align: top;
+    margin-top: -1px;
+    margin-left: 6px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property div.hmi-binding-option-values a.ic.add-btn {
+    width: 26px;
+    height: 26px;
+    margin: 0;
+    background-size: contain;
+    vertical-align: middle
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .value.line .k-dropdown {
+    width: 76px
+}
+
+.k-dropdown-wrap .hmi-dash-dropdownlist-value .item-image,
+.k-dropdown-wrap .hmi-marker-dropdownlist-value .item-image,
+.k-dropdown-wrap .hmi-binding-line-width-dropdownlist-value .item-image {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 4px
+}
+
+.k-dropdown-wrap .hmi-dash-dropdownlist-value .item-image {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-dashline-all-nor.png?v=20191219_1646")
+}
+
+.k-dropdown-wrap.k-state-active .hmi-dash-dropdownlist-value .item-image {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-dashline-all-sel.png?v=20191219_1646")
+}
+
+.k-dropdown-wrap .hmi-marker-dropdownlist-value .item-image {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-arrow-all-nor.png?v=20191219_1646")
+}
+
+.k-dropdown-wrap.k-state-active .hmi-marker-dropdownlist-value .item-image {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-arrow-all-sel.png?v=20191219_1646")
+}
+
+.k-dropdown-wrap .hmi-binding-line-width-dropdownlist-value .item-image {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-linewidth-nor.png?v=20191219_1646")
+}
+
+.k-dropdown-wrap.k-state-active .hmi-binding-line-width-dropdownlist-value .item-image {
+    background-image: url("../../src/main/resources/static-dev/images/icon/ic-tool-linewidth-nor.png?v=20191219_1646")
+}
+
+.hmi-dash-dropdownlist-item,
+.hmi-marker-dropdownlist-item {
+    padding: 8px 16px;
+    display: block
+}
+
+.hmi-dash-dropdownlist-item .item-image,
+.hmi-marker-dropdownlist-item .item-image {
+    display: block;
+    width: 92px;
+    margin: 0 auto;
+    height: 14px;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.hmi-binding-line-width-dropdownlist-item {
+    vertical-align: middle;
+    font-size: 14px;
+    display: table;
+    width: 100%
+}
+
+.hmi-binding-line-width-dropdownlist-item .text {
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.hmi-binding-line-width-dropdownlist-item .line-wrapper {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle
+}
+
+.hmi-binding-line-width-dropdownlist-item .line {
+    width: 50px;
+    background-color: #000;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.hmi-dash-dropdownlist-item .item-image {
+    background-repeat: repeat-x;
+    background-position: left center
+}
+
+.hmi-marker-dropdownlist-item .item-image,
+.hmi-binding-line-width-dropdownlist-item .item-image,
+{
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.hmi-dash-dropdownlist-item.selected,
+.hmi-marker-dropdownlist-item.selected,
+.hmi-binding-line-width-dropdownlist-item.selected,
+.hmi-dash-dropdownlist-item:hover,
+.hmi-marker-dropdownlist-item:hover,
+.hmi-binding-line-width-dropdownlist-item:hover {
+    background-color: #d1e7f3
+}
+
+.k-animation-container.hmi-binding-dash-dropdown-popup,
+.k-animation-container.hmi-binding-dash-dropdown-popup .k-list-container,
+.k-animation-container.hmi-binding-marker-dropdown-popup,
+.k-animation-container.hmi-binding-marker-dropdown-popup .k-list-container,
+.k-animation-container.hmi-binding-line-width-dropdown-popup,
+.k-animation-container.hmi-binding-line-width-dropdown-popup .k-list-container {
+    width: 140px !important
+}
+
+.k-animation-container.hmi-binding-dash-dropdown-popup .k-list-container ul.k-list,
+.k-animation-container.hmi-binding-marker-dropdown-popup .k-list-container ul.k-list {
+    padding: 0
+}
+
+.k-animation-container.hmi-binding-dash-dropdown-popup .k-list-container ul.k-list li.k-item,
+.k-animation-container.hmi-binding-marker-dropdown-popup .k-list-container ul.k-list li.k-item {
+    padding: 0
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .file-name {
+    color: #0081c6;
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .hyperlink-file {
+    margin-bottom: 10px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .hyperlink-text .title {
+    float: left;
+    line-height: 26px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .hyperlink-text [data-role='commonvalidator'] {
+    margin-left: 4px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .hyperlink-text [data-role='commonvalidator'] .k-invalid-msg {
+    display: block
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .hyperlink-text .k-input {
+    width: 160px
+}
+
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content {
+    margin: 0;
+    height: 100%
+}
+
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content .hmi-hyperlink-popup,
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content .hmi-hyperlink-popup .file-list-wrapper .hmi-hyperlink-file-list {
+    height: 100%
+}
+
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content .hmi-hyperlink-popup .file-list-wrapper .hmi-hyperlink-file-list .k-grid-content {
+    padding: 0;
+    height: 100% !important
+}
+
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content .hmi-hyperlink-popup .title {
+    padding: 20px 0 19px;
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content .hmi-hyperlink-popup .file-list-wrapper {
+    height: calc(100% - 180px);
+    border: 1px solid #d6d6d6
+}
+
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content .hmi-hyperlink-popup .file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group)>td .ic-info {
+    display: none !important
+}
+
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content .hmi-hyperlink-popup .file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child)>td .file-name.root {
+    width: 100%
+}
+
+.k-dialog .hmi-hyperlink-detail-popup .detail-dialog-content .detail-dialog-detail-content .hmi-hyperlink-popup .file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).child>td .file-name {
+    width: 507px
+}
+
+.hmi-binding .hmi-binding-property-wrapper .hmi-binding-property-category .category-items li.property .value .k-numeric-wrap .k-invalid-msg {
+    position: relative
+}
+
+#main-contents .top-tab-menu-wrapper.common-tab-strip-wrapper>.common-tab-strip {
+    min-width: 1222px
+}
+
+#hmi-tab .top-tab-menu~.add-btn,
+#hmi-create-tab .top-tab-menu~.add-btn {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    margin: 12px 25px 0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.add-btn.ic-plus:not(.disabled):hover {
+    background-image: url("../../../images/icon/bt-plus-sel.png");
+    cursor: pointer
+}
+
+.common-tab-strip.k-tabstrip .top-tab-menu.k-tabstrip-items .k-link {
+    /*width: 105px;padding: 15px 12.5px 15px*/
+    height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+.top-tab-menu.k-tabstrip-items .k-link .tab-name {
+    display: inline-block;
+    max-width: 76px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+#hmi-tab .top-tab-menu.k-tabstrip-items .k-item:only-child .k-link .tab-name {
+    max-width: 105px
+}
+
+#hmi-tab .top-tab-menu .ic-close,
+#hmi-create-tab .top-tab-menu .ic-close,
+#hint .top-tab-menu .ic-close {
+    float: right;
+    margin-top: 3px;
+    margin-left: 5px
+}
+
+#hint .top-tab-menu li:first-child:last-child .ic-close {
+    display: inline-block
+}
+
+#hmi-tab .top-tab-menu li:first-child:last-child .ic-close {
+    display: none
+}
+
+#hint {
+    width: auto;
+    height: auto
+}
+
+.hmi-tab-tooltip .k-tooltip-content {
+    white-space: nowrap
+}
+
+.device-data-content .k-listview {
+    border: 0
+}
+
+.tempDivision {
+    float: left;
+    height: 500px;
+    border: 1px solid #000;
+    margin-left: 10px
+}
+
+.control {
+    position: relative;
+    padding: 0 30px
+}
+
+.control .innerBox {
+    position: relative;
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    background-color: #f7f7f7
+}
+
+.control .innerBox .sliderWrapper {
+    position: absolute;
+    left: 2px;
+    top: 0;
+    right: 10px;
+    width: 100%
+}
+
+.control .pager {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    left: 0;
+    height: 26px
+}
+
+.control .pager .btPager {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    margin-top: -9px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../src/main/resources/static-dev/images/icons.png?v=20191219_1646")
+}
+
+.control .pager .btPager.left {
+    background-position: -450px -208px;
+    left: 0;
+    opacity: .57
+}
+
+.control .pager .btPager.right {
+    background-position: -450px -226px;
+    right: 0;
+    opacity: .57
+}
+
+.control .pager .pagenum {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #8f8f8f;
+    line-height: 18px;
+    padding-top: 5px
+}
+
+.control .pager .pagenum .nowpage {
+    color: #0081c6
+}
+
+.control li {
+    border-top: 1px solid #dfdfdf
+}
+
+#panelbar .k-item {
+    border-left: 0;
+    background-color: #f7f7f7
+}
+
+.indoor-control-panel {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #d6d6d6
+}
+
+.indoor-control-panel.group {
+    padding-right: 0;
+    margin-right: -10px;
+    border: 0
+}
+
+.indoor-control-panel.control .k-link.k-header,
+.indoor-control-panel.control .k-link.k-header.k-state-selected {
+    display: block;
+    font-size: 16px;
+    color: #323232;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 20px 14px 18px 0;
+    background-color: #f7f7f7
+}
+
+.indoor-control-panel>li.k-state-active {
+    height: calc(100% - 174px) !important
+}
+
+.indoor-control-panel>li.k-state-active .innerBox {
+    height: calc(100% - 58px) !important;
+    overflow-y: auto !important
+}
+
+.indoor-control-panel li.k-item .k-link.k-header .k-icon {
+    background-repeat: no-repeat;
+    background-position: right center
+}
+
+.indoor-control-panel li.k-item .k-link.k-header .k-icon:before {
+    display: none
+}
+
+.indoor-control-panel li.k-item[aria-expanded='false'] .k-link.k-header .k-icon.k-i-arrow-s.k-panelbar-expand,
+.indoor-control-panel li.k-item .k-link.k-header .k-icon.k-i-arrow-s.k-panelbar-expand {
+    background-image: url("../../src/main/resources/static-dev/images/icon/list-control-down.png?v=20191219_1646")
+}
+
+.indoor-control-panel li.k-item[aria-expanded='true'] .k-icon.k-i-arrow-n.k-panelbar-collapse,
+.indoor-control-panel li.k-item .k-link.k-header.k-state-selected .k-icon.k-i-arrow-n.k-panelbar-collapse {
+    background-image: url("../../src/main/resources/static-dev/images/icon/list-control-up.png?v=20191219_1646")
+}
+
+.bluetit {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0081c6;
+    display: block;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    padding: 13px 0 9px
+}
+
+.tb {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.bound {
+    display: table-cell;
+    width: auto;
+    vertical-align: middle;
+    height: 100%
+}
+
+.radiogroup {
+    width: 100%
+}
+
+.colorbox .icon {
+    background-image: url("../../src/main/resources/static-dev/images/icons.png?v=20191219_1646")
+}
+
+.btncontrol.selected,
+.colorbox.selected {
+    background: #0081c6;
+    color: #fff
+}
+
+.colorbox .icwrap {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    line-height: 24px;
+    height: 24px;
+    font-size: 16px;
+    padding: 5px 0 5px 36px
+}
+
+.colorbox .icwrap .icon {
+    position: absolute;
+    left: 7px;
+    top: 4px;
+    width: 24px;
+    height: 24px
+}
+
+.icon.power {
+    background-position: -336px -441px
+}
+
+a.icon.power:hover,
+.selected .icon.power {
+    background-position: -312px -441px
+}
+
+.blank10 {
+    display: block;
+    position: relative;
+    height: 10px
+}
+
+.numeric .tb {
+    height: 60px
+}
+
+.numeric .btncontrol.bound {
+    width: 88px;
+    height: 60px;
+    padding: 2px 0 0
+}
+
+.numeric .control-numeric-bound input {
+    text-align: left;
+    padding-left: 0 !important;
+    font-size: 24px
+}
+
+.numeric .control-numeric-bound .control-numeric-unit {
+    right: 40px;
+    font-size: 14px
+}
+
+#popupSingle .popup-container {
+    margin-top: 15px;
+    height: 610px
+}
+
+#popupSingle button[data-event=history] {
+    position: absolute;
+    top: 95px;
+    right: 32px
+}
+
+#popup-multiple button[data-event=history] {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 100
+}
+
+#popupSingle .popup-footer {
+    margin-top: 4px;
+    margin-bottom: 0
+}
+
+#popup-multiple .box-detail .popup-detail-row .k-dropdown-wrap {
+    top: -7px;
+    left: -11px;
+    width: 137px
+}
+
+#popup-icon .box-detail .popup-detail-row .k-dropdown-wrap .k-icon {
+    right: 8px
+}
+
+#device-detail-popup .device-dialog-content.multi .device-detail-header {
+    position: relative
+}
+
+#device-detail-popup .device-dialog-content.multi .device-detail-header-history-btn.k-button {
+    position: absolute;
+    top: 0;
+    right: 18px
+}
+
+.popup-device-history .k-window-titlebar .pop-window-btn-close {
+    top: 24px;
+    right: 40px
+}
+
+#popup-history .popup-header:before {
+    width: 1220px
+}
+
+.popup-device-history .popup-header {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6a6a6a
+}
+
+.popup-device-history .popup-header .toolbar:after,
+.popup-device-history .popup-header .toolbar-content:after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.popup-device-history .popup-header .toolbar-title,
+.popup-device-history .popup-header .toolbar-content,
+.popup-device-history .popup-header li.item {
+    float: left
+}
+
+.popup-device-history .popup-header .toolbar {
+    height: 60px
+}
+
+.popup-device-history .popup-header .toolbar-content {
+    line-height: 36px
+}
+
+.popup-device-history .popup-header .toolbar-content.controlType label {
+    padding-left: 30px
+}
+
+.popup-device-history .popup-header .toolbar-content.controlType .k-checkbox {
+    padding: 0
+}
+
+.popup-device-history .popup-header .toolbar-title {
+    display: inline-block;
+    width: 216px;
+    height: 36px;
+    line-height: 36px
+}
+
+.popup-device-history .toolbar-content .item {
+    margin-right: 100px
+}
+
+.popup-device-history .toolbar-content .item .date-title,
+.popup-device-history .toolbar-content .item .date-info {
+    margin-right: 5px
+}
+
+.popup-device-history .toolbar-content.date .date-info {
+    display: inline-block;
+    position: relative
+}
+
+.popup-device-history .popup-container {
+    overflow: hidden;
+    height: 504px
+}
+
+.popup-device-history .popup-container .ic-info {
+    cursor: pointer
+}
+
+.popup-device-history .popup-container .ic-info:hover {
+    background-position: 0 -465px
+}
+
+.popup-device-history .toolbar-content.date input.date,
+.popup-device-history .toolbar-content.date input.time {
+    padding-right: 36px;
+    width: 126px;
+    height: 36px
+}
+
+.popup-device-history .toolbar-content.date .date-info .ic {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    cursor: pointer
+}
+
+#popup-history-detail .popup-container .detail-name,
+#popup-history-detail .popup-container .detail-value {
+    float: left
+}
+
+#popup-history-detail .popup-container .popup-detail-row[data-name=attributes] .detail-value {
+    display: block;
+    float: none;
+    overflow: hidden
+}
+
+#popup-history-detail .popup-container .popup-detail-row[data-name=attributes] .detail-value div {
+    margin-top: 13px;
+    text-align: left;
+    line-height: 13px;
+    height: 14px
+}
+
+#popup-history-detail .popup-footer {
+    position: relative;
+    top: 35px
+}
+
+.device-history-calendar.k-window-content.k-content,
+.device-history-calendar .k-header,
+.device-history-calendar .k-calendar .k-content,
+.device-history-calendar .k-calendar .k-content th {
+    background-color: #f7f7f7
+}
+
+.device-history-calendar.k-window-content.k-content {
+    text-align: center
+}
+
+.device-history-calendar .popup-header {
+    border-bottom: 0
+}
+
+.device-history-calendar .popup-container {
+    height: 372px
+}
+
+.device-history-calendar .calendar.k-calendar {
+    padding-top: 25px;
+    border: 0;
+    font-size: 14px
+}
+
+.device-history-calendar .calendar.k-calendar .k-header {
+    padding-bottom: 5px
+}
+
+.device-history-calendar .calendar.k-calendar table.k-content thead th {
+    padding-bottom: 13px
+}
+
+.popup-device-history .popup-header button[data-event=view] {
+    float: right;
+    width: 108px;
+    height: 36px
+}
+
+.k-marquee {
+    display: none !important
+}
+
+.ui-draggable.ui-draggable-dragging {
+    display: inline-block;
+    position: fixed !important;
+    background: 0;
+    border: none !important;
+    width: auto;
+    height: auto
+}

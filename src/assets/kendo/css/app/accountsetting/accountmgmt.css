@@ -1,0 +1,159 @@
+.manager-content {
+	height: 100%;
+}
+.manager-content-body {
+	height: calc(100% - 96px);
+}
+.manager-float-left {
+    float: left;
+    position: relative;
+}
+
+.manager-float-right {
+    float: right;
+    position: relative;
+}
+
+.manager-btn-group li{
+    display: inline-block;
+}
+
+.k-button.manager-btn{
+    width: 120px;
+    margin-left: 9px;
+}
+
+.manager-top-categories-search::after, .manager-top-utilities::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.manager-search-keyword {
+    padding-right: 58px;
+}
+
+.manager-search-rmv-btn {
+    position: absolute;
+    top: 4px;
+    right: 30px;
+}
+
+.manager-search-sch-btn {
+    position: absolute;
+    top: 4px;
+    right: 2px;
+}
+
+.selected {
+    color: #0081c6;
+}
+#manager-categories {
+	list-style: none;
+	margin: 7px 0;
+}
+#manager-categories li {
+	display: inline-block;
+}
+
+#manager-categories .manager-category {
+    text-transform: capitalize;
+    display: block;
+    padding-right: 30px;
+	margin-right: 22px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+	cursor: pointer;
+}
+#manager-categories .selected.manager-category {
+	cursor: default;
+}
+#manager-categories li:first-child .manager-category {
+	border-right: 1px solid #d6d6d6;
+}
+
+.manager-top-block {
+    position: relative;
+    padding: 20px 0;
+}
+
+.manager-selected-member {
+    padding-right: 20px;
+}
+
+.detail-dialog-content.multi.edit-mode .detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .editable.has-edit-all-btn {
+    width: 50%;
+}
+
+.detail-dialog-content.multi.edit-mode .detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .edit-all-btn{
+    float: right;
+    width: 170px;
+	margin-top: 0;
+}
+
+.detail-dialog-grid tbody td{
+    border-top: 1px solid #d6d6d6;
+}
+
+.detail-dialog-grid tbody tr:first-child td{
+    border-top: 1px solid #d6d6d6;
+}
+
+.detail-dialog-grid tbody tr.k-state-selected td{
+    border-top: 1px solid #0081c6;
+}
+
+.k-state-selected + .detail-dialog-detail-content::after {
+    position: absolute;
+    width: 100%;
+    content: "";
+    transform: translate(0, 19px);
+    border-bottom: 1px solid #0081c6;
+}
+
+.detail-dialog-grid .k-grid-content table {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.approve-manager-type-filter {
+	display: none;
+}
+.edit-mode .approve-manager-type-filter {
+	display: inline-block;
+}
+
+span.k-widget.k-dropdown.k-header.approve-manager-type-filter {
+	float: right;
+	margin: 11px 22px;
+}
+
+#manager-popup li.detail-dialog-content-field-item, #manager-signup-approve-popup li.detail-dialog-content-field-item {
+	height: 42px;
+}
+
+#manager-signup-approve-popup .detail-dialog-content-field-value span.editable {
+	position: relative;
+}
+
+#manager-signup-approve-popup input.k-input {
+	width: 100%;
+}
+
+.detail-dialog-content-field-template span.signup-required-mark {
+	position: absolute;
+	right: 10px;
+	top: 4px;
+}
+
+span.signup-required-mark {
+	color: red;
+}
+
+#manager-signup-approve-popup .signup-required {
+	text-align: right;
+}
+
+#manager-popup li.detail-dialog-content-field-item .detail-dialog-content-field-name {
+	vertical-align: top;
+}

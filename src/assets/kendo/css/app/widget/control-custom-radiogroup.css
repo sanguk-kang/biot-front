@@ -1,0 +1,102 @@
+.buttonrow{display:table;width:100%;height:100%}
+.buttonbound{display:table-cell;width:auto;vertical-align:middle;height:100%; padding: 0 2px;}
+
+.buttonset .buttonrow{height:auto}
+.buttonset .buttonrow .buttonbound:first-child{padding-left:0}
+.buttonset .buttonrow .buttonbound:last-child{padding-right:0}
+
+.buttonset input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+            position:absolute;
+}
+.buttonset .buttonbound p{
+	text-align: center;
+	
+	color:#323232;
+	font-size:13px;
+	font-weight:600;
+	line-height:16px;
+	padding:5px 0;
+	white-space: pre;
+	
+}
+.buttonset .icon{
+    display: inline-block;
+	position: absolute;
+	left: -4px;
+	top: -5px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	/* -webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	transition: all 100ms ease-in; */
+	
+	-webkit-filter: brightness(1) opacity(1);
+	-moz-filter: brightness(1) opacity(1);
+	filter: brightness(1) opacity(1);
+}
+
+.colorbox{
+	
+	text-align:center;display:block;font-size:14px;line-height:18px;
+	vertical-align:baseline;font-weight:600;
+	padding:2px 0 0;
+	width:100%;height:36px;
+	position: relative;
+	box-shadow:0 1px 1px rgba(0,0,0,.3);
+	-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,.3);
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.3);
+	zoom: 1;
+	color:#333;
+	background-color:#e6e6e6;
+}
+.colorbox:hover{ background:#cfcfcf}
+
+input:checked + .colorbox{color: white;}
+input:disabled + .colorbox .icon{cursor:default}
+input:checked + .colorbox{background-color:#0081c6;}
+input:disabled + .colorbox{ background:#e6e6e6;opacity:.3;}
+
+input:checked + .colorbox .ic-auto-g{ background-position: -404px -276px;}
+input:checked + .colorbox .ic-cool-g{background-position: -220px -46px;} 
+input:checked + .colorbox .ic-heat-g{background-position: -358px -184px;} 
+input:checked + .colorbox .ic-dry-g{background-position: -266px -184px;}
+input:checked + .colorbox .ic-fan-g{background-position: -0px -292px;}
+input:checked + .colorbox .ic-coolwater-g {background-position: -220px -138px;}
+input:checked + .colorbox .ic-hotwater-g{background-position: -358px -276px;}
+
+input:checked + .colorbox .ic-fan-auto-g{background-position: -92px -246px;}
+input:checked + .colorbox .ic-fan-low-g{background-position: -312px -46px;}
+input:checked + .colorbox .ic-fan-mid-g {background-position: -312px -138px;}
+input:checked + .colorbox .ic-fan-high-g{background-position: -230px -246px;}
+input:checked + .colorbox .ic-fan-turbo-g{background-position: -312px -230px;}
+        
+input:checked + .colorbox .ic-wind-vertical-g{background-position: -46px -338px;}
+input:checked + .colorbox .ic-wind-horizon-g{background-position: -128px -46px;}
+input:checked + .colorbox .ic-wind-all-g{background-position: -174px 0px;}
+input:checked + .colorbox .ic-wind-fix-g{background-position: -46px -108px;}
+input:checked + .colorbox .ic-wind-spot-g{background-position: -92px -154px;}
+input:checked + .colorbox .ic-wind-mid-g{background-position: -174px -92px;}
+input:checked + .colorbox .ic-wind-wide-g{background-position: -46px -292px;}
+input:checked + .colorbox .ic-wind-swing-g{background-position: -276px -338px;}
+
+input:checked + .colorbox .ic-nolimit-g{background-position: -230px -338px;}
+input:checked + .colorbox .ic-pattern-all-g{background-position: -404px 0px;}
+input:checked + .colorbox .ic-pattern-rotate-g{background-position: -404px -184px;}
+input:checked + .colorbox .ic-pattern-eff-g{background-position: -404px -92px;}
+
+input:checked + .colorbox .ic-heat-auto-g{background-position: -138px -292px;}
+input:checked + .colorbox .ic-heat-ex-g{background-position: -358px 0px;}
+input:checked + .colorbox .ic-heat-bypass-g{background-position: -230px -292px;}
+input:checked + .colorbox .ic-heat-sleep-g{background-position: -358px -138px;}
+
+input:checked + .colorbox .ic-dhw-eco-g{background-position: -46px -200px;}
+input:checked + .colorbox .ic-dhw-standard-g{background-position: -266px -92px;}
+input:checked + .colorbox .ic-dhw-power-g{background-position: -266px 0px;}
+input:checked + .colorbox .ic-dhw-force-g{background-position: -138px -200px;}

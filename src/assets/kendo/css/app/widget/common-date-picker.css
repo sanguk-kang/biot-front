@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* input 요소 */
+.k-datepicker .k-picker-wrap.k-state-default{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: none;
+}
+.k-datepicker .k-picker-wrap.k-state-disabled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: #ededed;
+    opacity : 0.3;
+}
+
+.k-datepicker .k-picker-wrap.k-state-default.k-state-active{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.k-datepicker .k-picker-wrap.k-state-default.k-state-active .k-select{
+    border-color: #fff;
+}
+
+.k-datepicker .k-picker-wrap.k-state-disabled span.k-select{
+	border-color: #ededed;
+}
+
+.k-datepicker .k-picker-wrap span.k-select{
+	padding-right: 5px;
+    border-color: #fff;
+    cursor: pointer;
+}
+.k-datepicker .k-picker-wrap span.k-select:after{
+	content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* Date Picker 팝업 */
+.popup-date-picker .k-window-titlebar,
+.popup-date-picker .datepicker-widget-window,
+.popup-date-picker .k-calendar-container,
+.popup-date-picker .k-calendar-container .k-header,
+.popup-date-picker .k-calendar-container table.k-content,
+.popup-date-picker .k-calendar-container table.k-content thead th{
+    background-color: rgb(247, 247, 247)
+}
+.popup-date-picke .k-animation-container {
+    position: absolute !important;
+}
+.popup-date-picker .k-window-titlebar .embossBar{
+    width: 237px;
+    height: 7px;
+    padding-bottom: 6px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -6px;
+    left: 18px;
+}
+.popup-date-picker .k-window-titlebar .embossBar:before{
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    top: -3px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    -moz-box-shadow: 0 0 9px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 9px rgba(0,0,0,.2);
+    box-shadow: 0 0 9px rgba(0,0,0,.2);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=9,MakeShadow=true,ShadowOpacity=0.2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=9,MakeShadow=true,ShadowOpacity=0.2)";
+    zoom: 1;
+}
+.popup-date-picker .k-window-titlebar .embossBar:after{
+    content: "";
+    display: block;
+    height: 2px;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #fff;
+    background: rgba(255,255,255,0.96);
+}
+.popup-date-picker .k-animation-container{
+    left: 10px;
+}
+.popup-date-picker .k-calendar-container{
+    border: none;
+    box-shadow: none;
+}
+.popup-date-picker .k-calendar-container .k-calendar{
+    font-size: 12px;
+}
+.popup-date-picker .k-calendar-container table.k-content thead th{
+    border: none;
+}
+.popup-date-picker .ic-close{
+    cursor: pointer;
+}
+.popup-date-picker .ic-close:hover{
+    background-position: -495px -264px;
+}
+.popup-date-picker .popup-footer{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.popup-date-picker .popup-footer button{
+    width: 100px;
+    height: 24px;
+}

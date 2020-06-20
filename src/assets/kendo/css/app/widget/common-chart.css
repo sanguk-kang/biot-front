@@ -1,0 +1,28 @@
+.common-chart-selection-tooltip {
+	position: absolute;
+	background: #ffffff;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+	display: none
+}
+
+.common-chart-selection-tooltip-inner {
+	margin: 14px 16px;
+	display: block;
+	line-height: 30px;
+}
+
+.common-chart-selection-tooltip-inner .common-chart-selection-tooltip-row-group {
+	margin: 14px 0;
+}
+
+.common-chart-selection-tooltip-inner .common-chart-selection-tooltip-row {
+	height: 30px
+}
+
+.common-chart-selection-tooltip-row-group-name {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	width: inherit;
+	overflow: hidden;
+}

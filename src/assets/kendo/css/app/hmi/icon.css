@@ -1,0 +1,150 @@
+.ic-undo{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-undo.png); }
+/*.ic-undo:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-undo-sel.png); }*/
+.ic-redo{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-redo.png); }
+/*.ic-redo:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-redo-sel.png); }*/
+.ic-clip{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-connect-nor.png); }
+/*.ic-clip:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-connect-sel.png); }*/
+.ic-lock{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-lock.png); }
+.ic-lock.active{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-lock-wht.png); }
+/*.ic-lock:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-lock-sel.png); }*/
+.ic-template{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-template-nor.png); }
+/*.ic-template:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-template-sel.png); }*/
+.ic-fill{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-fill-nor.png); background-size : 20px 20px; }
+/*.ic-fill:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-fill-sel.png); }*/
+.ic-select{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-select-nor.png); }
+/*.ic-select:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-select-sel.png); }*/
+.ic-shape{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-shape-nor.png); }
+/*.ic-shape:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-shape-sel.png); }*/
+.ic-zoomin{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-zoomin-nor.png); }
+/*.ic-zoomin:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-zoomin-sel.png); }*/
+.ic-zoomout{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-zoomout-nor.png); }
+/*.ic-zoomout:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-zoomout-sel.png); }*/
+.ic-bold{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-bold-nor.png); }
+.ic-bold.active{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-bold-sel.png); }
+/*.ic-bold:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-bold-sel.png); }*/
+.ic-italic{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-italic.png); }
+.ic-italic.active{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-italic-sel.png); }
+.ic-textcolor{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-textcolor-nor.png); }
+/*.ic-textcolor:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-textcolor-sel.png); }*/
+.ic-linecolor{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-linecolor-nor.png); }
+/*.ic-linecolor:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-linecolor-sel.png); }*/
+.ic-fill .hmi-button-line, .ic-linecolor .hmi-button-line, .ic-textcolor .hmi-button-line { width: 25px; height: 4px; background-color: #000; display: block; position: absolute; bottom: 5px; left: 6px; }
+.ic-linewidth{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-linewidth-nor.png); }
+/*.ic-linewidth:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/ic-tool-linewidth-sel.png); }*/
+.ic-above-all{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-above-all.png); }
+/*.ic-above-all:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-above-all-sel.png); }*/
+.ic-below-all{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-below-all.png); }
+/*.ic-below-all:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-below-all-sel.png); }*/
+.ic-above{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-above.png); }
+/*.ic-above:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-above-sel.png); }*/
+.ic-below{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-below.png); }
+/*.ic-below:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-below-sel.png); }*/
+.ic-justify-both{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-justify-both.png); }
+/*.ic-justify-both:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-justify-both-sel.png); }*/
+.ic-justify-horz{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-justify-horz.png); }
+/*.ic-justify-horz:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-justify-horz-sel.png); }*/
+.ic-justify-vert{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-justify-vert.png); }
+/*.ic-justify-vert:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-justify-vert-sel.png); }*/
+.ic-align-left{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-left.png); }
+/*.ic-align-left:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-left-sel.png); }*/
+.ic-align-right{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-right.png); }
+/*.ic-align-right:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-right-sel.png); }*/
+.ic-align-top{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-top.png); }
+/*.ic-align-top:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-top-sel.png); }*/
+.ic-align-bottom{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-bottom.png); }
+/*.ic-align-bottom:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-bottom-sel.png); }*/
+.ic-align-middle{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-middle.png); }
+/*.ic-align-middle:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-middle-sel.png); }*/
+.ic-align-center{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-center.png); }
+/*.ic-align-center:hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-box-align-center-sel.png); }*/
+.ic-align-flip-v{ background-image : url(../../src/main/resources/static-dev/images/icon//tools/toolbar/ic-tool-flipvertical-nor.png); }
+/*.ic-align-flip-v:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-flipvertical-sel.png); }*/
+.ic-align-flip-h{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-fliphorizon-nor.png); }
+/*.ic-align-flip-h:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-fliphorizon-sel.png); }*/
+.ic-equal-gap-v{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-equal-v-gap.png); }
+.ic-equal-gap-h{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-equal-h-gap.png); }
+
+.ic-group{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-group.png); }
+/*.ic-group:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-group-sel.png); }*/
+.ic-ungroup{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-ungroup.png); }
+/*.ic-ungroup:not([disabled]):hover{ background-image : url(../../src/main/resources/static-dev/images/icon/tool-ungroup-sel.png); }*/
+.ic-plus{ background-image: url(../../src/main/resources/static-dev/images/icon/bt-plus.png);}
+/*.ic-plus:not([disabled]):hover{ background-image: url(../../src/main/resources/static-dev/images/icon/bt-plus-sel.png);}*/
+.ic-minus{ background-image: url(../../src/main/resources/static-dev/images/icon/bt-minus.png);}
+/*.ic-minus:not([disabled]):hover{ background-image: url(../../src/main/resources/static-dev/images/icon/bt-minus-sel.png);}*/
+.ic-rotate-right{ background-image: url(../../src/main/resources/static-dev/images/icon/90_right.png);}
+.ic-rotate-left{ background-image: url(../../src/main/resources/static-dev/images/icon/90_left.png);}
+.ic-rotate{ background-image: url(../../src/main/resources/static-dev/images/icon/icon_rotate.png);}
+.ic-text-align-left{ background-image: url(../../src/main/resources/static-dev/images/icon/left_icon.png);}
+.ic-text-align-left.active{ background-image: url(../../src/main/resources/static-dev/images/icon/left_icon_select.png);}
+.ic-text-align-right{ background-image: url(../../src/main/resources/static-dev/images/icon/right_icon.png);}
+.ic-text-align-left.active{ background-image: url(../../src/main/resources/static-dev/images/icon/right_icon_select.png);}
+.ic-text-align-center{ background-image: url(../../src/main/resources/static-dev/images/icon/middle_icon.png);}
+.ic-text-align-center.active{ background-image: url(../../src/main/resources/static-dev/images/icon/middle_icon_select.png);}
+.ic-text-align-top{ background-image: url(../../src/main/resources/static-dev/images/icon/top_icon.png);}
+.ic-text-align-top.active{ background-image: url(../../src/main/resources/static-dev/images/icon/top_icon_select.png);}
+.ic-text-align-middle{ background-image: url(../../src/main/resources/static-dev/images/icon/center_icon.png);}
+.ic-text-align-middle.active{ background-image: url(../../src/main/resources/static-dev/images/icon/center_icon_select.png);}
+.ic-text-align-bottom{ background-image: url(../../src/main/resources/static-dev/images/icon/under_icon.png);}
+.ic-text-align-bottom.active{ background-image: url(../../src/main/resources/static-dev/images/icon/under_icon_select.png);}
+.ic-map-full-screen{ background-image: url(../../src/main/resources/static-dev/images/icon/ic-map-full-screen.png);}
+.full-screen #hmi-tool-fullscreen, .full-screen #hmi-tool-create-fullscreen {
+    background-color: #0081c6;
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-map-full-screen-active.png);
+}
+.ic-map-zoom-in{ background-image: url(../../src/main/resources/static-dev/images/icon/ic-map-zoom-in.png);}
+.ic-map-zoom-out{ background-image: url(../../src/main/resources/static-dev/images/icon/ic-map-zoom-out.png);}
+.ic-map-default-zoom{ background-image: url(../../src/main/resources/static-dev/images/icon/ic-map-default-zoom.png);}
+.ic-basic-text{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-text-nor.png); }
+.ic-basic-text.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-text-sel.png); }
+.ic-basic-rect{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-rect.png); }
+.ic-basic-rect.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-rect-sel.png); }
+.ic-basic-rounded{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-rounded.png); }
+.ic-basic-rounded.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-rounded-sel.png); }
+.ic-basic-parall{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-parallelogram.png); }
+.ic-basic-parall.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-parall-sel.png); }
+.ic-basic-trapez{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-trapez-nor.png); }
+.ic-basic-trapez.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-trapez-sel.png); }
+.ic-basic-tri{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-tri.png); }
+.ic-basic-tri.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-tri-sel.png); }
+.ic-basic-circle{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-ellp.png); }
+.ic-basic-circle.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-circle-sel.png); }
+.ic-basic-straight{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-straight-nor.png); }
+.ic-basic-straight.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-straight-sel.png); }
+.ic-basic-line{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-polyline.png); }
+.ic-basic-line.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-line-sel.png); }
+.ic-basic-curve{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/ic-tool-graphic-curve.png); }
+.ic-basic-curve.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-curve-sel.png); }
+
+.ic-basic-table{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-table-nor.png); }
+.ic-basic-table.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-table-sel.png); }
+.ic-basic-picture{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-picture-nor.png); }
+.ic-basic-picture.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-picture-sel.png); }
+.ic-basic-link{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-link-nor.png); }
+.ic-basic-link.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-basic-link-sel.png); }
+
+.ic-critical{ background-image: url(../../src/main/resources/static-dev/images/icons.png); background-position: -447px -384px; }
+.ic-warning{ background-image: url(../../src/main/resources/static-dev/images/icons.png); background-position: -447px -360px; }
+
+.ic-group-bundle{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-group-bundle.png); }
+.ic-group-bundle.active{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-group-bundle-sel.png); }
+.ic-table-insert{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-box-cell-add.png); }
+.ic-table-insert-left{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-ins-left.png); }
+.ic-table-insert-right{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-ins-right.png); }
+.ic-table-insert-above{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-ins-above.png); }
+.ic-table-insert-below{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-ins-below.png); }
+.ic-table-delete{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-box-cell-remove.png); }
+.ic-table-delete-col{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-del-col.png); }
+.ic-table-delete-row{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-del-row.png); }
+.ic-table-delete-table{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-opt-del-table.png); }
+.ic-table-merge{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-box-cell-merge.png); }
+.ic-table-unmerge{ background-image: url(../../src/main/resources/static-dev/images/icon/tools/toolbar/tool-box-cell-undo.png); }
+
+.ic-device-on{ background-image: url(../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png); background-position: 0px 0px; }
+.ic-device-off{ background-image: url(../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png); background-position: -24px 0px; }
+.ic-very-bad{ background-image: url(../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png); background-position: 0px -48px; }
+.ic-bad{ background-image: url(../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png); background-position: -24px -48px; }
+.ic-normal{ background-image: url(../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png); background-position: -48px -48px; }
+.ic-good{ background-image: url(../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png); background-position: -72px -48px; }
+.ic-connected-contact{ background-image: url(../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png); background-position: 0px -72px; }
+.ic-disconnected-contact{ background-image: url(../../src/main/resources/static-dev/images/icon/icons-hmi-legends.png); background-position: -24px -72px; }

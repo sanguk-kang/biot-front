@@ -1,0 +1,252 @@
+
+
+/*New Panel List*/
+.map-panel-list-tabs .map-panel-list-tab{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    font-weight: 700;
+    position : relative;
+    cursor : pointer;
+}
+
+.map-panel-list-tabs .map-panel-list-tab.active{
+    color: #0081c6;
+}
+
+.map-panel-list-container{
+    height : calc(100% - 56px);
+}
+
+.map-panel-list-container.no-tab{
+    height : 100%;
+}
+
+.map-panel-list-tabs .map-panel-list-tab:after{
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 1px;
+    right : 0;
+    background: #d6d6d6;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.map-panel-list-tabs .map-panel-list-tab:last-child:after{
+    display : none;
+}
+
+
+.map-panel-list-container .k-grid .k-group-col{
+    width : 1px;
+}
+
+.map-panel-list-container .k-icon.k-i-none{
+    display :none;
+}
+
+.map-panel-list-container .k-grid .k-grid-content{
+    height : calc(100% - 65px) !important;
+    overflow-y : auto;
+}
+
+.map-panel-list-container .k-grid .k-grid-content.no-header{
+    height : 100% !important;
+}
+
+.map-panel-list-container .k-grid-header-wrap{
+    padding : 0;
+    font-size : 20px;
+    background : none;
+}
+
+.map-panel-list-container .k-grid-header-wrap > table{
+    padding : 0;
+}
+
+.map-panel-list-container .k-grid-header-wrap > table thead tr{
+    height : 60px;
+}
+
+.map-panel-list-container .k-grid-header .k-grid-header-wrap th.k-header{
+    text-align: left;
+    padding-left : 10px;
+}
+
+.map-panel-list-container .k-grid,
+.map-panel-list-container .k-grid .k-grid-content tr {
+    background-color: #fbfbfb;
+
+}
+
+.map-panel-list-container .k-grid .k-grid-content tr td.k-group-cell{
+    background : none;
+}
+
+.map-panel-list-container .k-grid .k-grid-content tr td{
+    padding : 0;
+}
+
+.map-panel-list-container .k-grid .k-grid-content tr.k-state-selected {
+    background-color: #d0e4f1;
+}
+
+.map-panel-list-container .k-grid-content tr.k-grouping-row td{
+    padding: 10px 5px 9px 15px;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #fbfbfb;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+        border-bottom-width: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.map-panel-list-container .k-grid .k-grid-content tr.k-grouping-row td{
+    background-color: #fbfbfb;
+}
+
+.map-panel-list-container .k-grid-content .k-grouping-row td .k-reset{
+    padding: 0;
+    text-align: left;
+    right : 9px;
+}
+
+.map-panel-list-container .k-grid-content .k-grouping-row td[aria-expanded=true]{
+    font-weight: 700;
+    background-color: #fbfbfb;
+}
+
+.map-panel-list-container .k-grid-content .k-grouping-row td .k-reset .k-icon{
+    margin : 0;
+    width : 37px;
+    background : none;
+    float : right;
+    outline : none;
+}
+
+.map-panel-list-container .k-grid-content .k-grouping-row td .k-reset .k-icon:before{
+    display : none;
+}
+
+.map-panel-list-container .k-grid-content .k-grouping-row td .k-reset .k-icon.k-i-collapse{
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-up.png) no-repeat center;
+}
+
+.map-panel-list-container .k-grid-content .k-grouping-row td .k-reset .k-icon.k-i-expand{
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-down.png) no-repeat center;
+}
+
+.map-panel-list-container .device-map-panel-list-item .detail-img{
+    width : 30px;
+    height : 30px;
+    margin-left : 37px;
+}
+
+.map-panel-list-container .device-map-panel-list-item{
+    text-align: left;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.map-panel-list-container .device-map-panel-list-item .detail-text{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 195px;
+}
+
+.map-panel-list-container .device-map-panel-list-item .detail-text .id{
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.map-panel-list-container .device-map-panel-list-item .detail-text .name{
+    display: block;
+    font-size: 14px;
+    color: #6a6a6a;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.map-panel-list-container .device-map-panel-list-item .ic.ic-info{
+    position: absolute;
+    right: 6px;
+    top: 17px;
+}
+
+.map-panel-list-container .k-treelist .k-grid-content .k-treelist-group > td{
+    padding: 10px 5px 9px 15px;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    /* background-color: #f0f0f0; */
+    background-color: #fbfbfb;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom-width: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.map-panel-list-container .k-treelist .k-grid-content .k-treelist-group[aria-expanded=true] > td{
+    font-weight: 700;
+    background-color: #fbfbfb;
+}
+
+.map-panel-list-container .k-treelist .k-grid-content .k-treelist-group .k-icon{
+    margin: 0;
+    width: 37px;
+    background: none;
+    float: right;
+    outline: none;
+}
+.map-panel-list-container .k-treelist .k-grid-content .k-treelist-group .k-icon:before{
+    display :none;
+}
+
+.map-panel-list-container .k-treelist .k-grid-content .k-treelist-group .k-icon.k-i-collapse{
+    background : url(../../src/main/resources/static-dev/images/icon/list-control-up.png) no-repeat center;
+}
+
+.map-panel-list-container .k-treelist .k-grid-content .k-treelist-group .k-icon.k-i-expand{
+    background : url(../../src/main/resources/static-dev/images/icon/list-control-down.png) no-repeat center;
+}
+
+.map-panel-list-container .k-treelist .k-status{
+    position : absolute;
+    top: 45%;
+    left : 0;
+    right :0;
+    margin : 0 auto;
+    background : none;
+    text-align :center;
+}

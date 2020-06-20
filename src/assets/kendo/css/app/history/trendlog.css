@@ -1,0 +1,609 @@
+.trendlog-create-view-btn{
+    float: right;
+    position: relative;
+    line-height: 44px;
+    height: 44px;
+}
+
+.trendlog-create-steps{
+    padding: 10px 0 20px;
+}
+
+.trendlog-create-step-list{
+    display: inline-block;
+    position: relative;
+    background: #e6e6e6;
+}
+
+.trendlog-create-step-list > li{
+    float: left;
+    position: relative;
+    color: #858585;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 8px 90px;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.trendlog-create-step-list > li:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 21px;
+    right: -21px;
+    background: url(/static/images/stepview-normal.png) no-repeat right center;
+    z-index: 5;
+}
+
+.trendlog-create-step-list > li.active{
+    background: #0081c6;
+    color: #fff;
+    font-weight: 700;
+}
+
+.trendlog-create-step-list > li.active:after{
+    background-image: url(/static/images/stepview-selected.png);
+}
+
+.trendlog-create-view-btn{
+    float: right;
+    position: relative;
+    line-height: 44px;
+    height: 44px;
+}
+
+.trendlog-create-view-btn > ul > li{
+    float: left;
+    padding: 0 0 0 1px;
+    position: relative;
+    display: block;
+    width: 38px;
+}
+
+.trendlog-create-view-btn > ul > li > .ic{
+    cursor:pointer;
+    position: relative;
+    margin: 0 5px;
+    padding : 0;
+    background-color: rgba(0, 0, 0, 0);
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.trendlog-create-view-btn > ul > li > .ic:disabled{ background-image: url(/static/images/icons.png); filter: opacity(0.3); cursor:default;}
+
+.trendlog-create-view-btn > ul > li > .ic-location.active,
+.trendlog-create-view-btn > ul > li > .ic-location:not(:disabled):hover{
+    background-position: 0px -441px;
+}
+
+.trendlog-create-view-btn > ul > li > .ic-calendar{
+    background-image: url(/static/images/icon/ic-calendar.png);
+    background-position : center;
+    background-repeat : no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.trendlog-create-view-btn .search-box .search-btn{
+    top : 7px;
+    right : 14px;
+}
+
+.trendlog-create-category{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding-top : 20px;
+}
+
+.trendlog-create-category .trendlog-category-list{
+    float: left;
+}
+
+.trendlog-category-list > li {
+    display: block;
+    float: left;
+    padding: 0 0 0 1px;
+    position: relative;
+    padding: 8px 30px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.trendlog-category-list > li > button.k-button.category-btn{
+    background: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.trendlog-category-list > li.active button,
+.trendlog-category-list > li button:hover,
+.trendlog-category-list > li button.active{
+    color: #0081c6;
+}
+
+.trendlog-category-list li+li:after{
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 1px;
+    left: 0;
+    background: #d6d6d6;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.trendlog-create-filter-action-block{
+    display: table;
+    width: 100%;
+    border: none;
+    background: none;
+}
+
+.trendlog-create-filters{
+    display: table-cell;
+}
+
+.trendlog-create-actions{
+    text-align: left;
+    vertical-align: middle;
+}
+
+.trendlog-create-actions .text-view{
+    margin-right: 7px;
+    vertical-align: middle;
+    color: #0081c6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.trendlog-create-filters .trendlog-filters-list > li:last-child,
+.trendlog-create-actions .trendlog-actions-list > li:last-child{
+    margin-right : 0;
+}
+
+.trendlog-create-filters .trendlog-filters-list > li,
+.trendlog-create-actions .trendlog-actions-list > li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.trendlog-create-filters .trendlog-filters-list button{
+    width: 178px;
+}
+
+.trendlog-create-actions.main .trendlog-actions-list button{
+    width : 88px;
+}
+
+.trendlog-create-actions .trendlog-actions-list button{
+    width: 108px;
+}
+
+.trendlog-create-actions{
+    display: table-cell;
+    text-align: right;
+}
+
+.trendlog-create-content{
+    height : calc(100% - 10px);
+}
+
+
+.trendlog-layout{
+    padding-top :20px;
+}
+
+.k-grid-header th.k-header{
+	background:	rgb(247, 247, 247);
+}
+
+.trendlog-create-header{
+	padding:14px 0 13px;
+	position:relative;
+	display:table;
+	width:100%;
+	border-bottom:1px solid #d6d6d6;
+	min-height:36px
+
+}
+
+.textInput{
+	position:relative;padding:6px 9px 4px 9px;width:100%;
+	-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;
+	line-height:24px;height:36px;font-size:16px;font-weight:600;
+	color:#c7c7c7;
+	text-shadow:none;
+	border:1px solid #ededed;
+	background:#fdfdfd;
+}
+.textBlock{padding:20px 0;display:block;text-align:left;font-weight:400;color:#000;font-size:16px;line-height:20px}
+
+.textBlock.btxt{font-weight:700;color:#000}
+
+.tbc{display:table-cell;width:auto;vertical-align:middle;height:100%}
+
+.blockFrm{padding:12px 0}
+
+.blank10{display:block;position:relative;height:10px;clear:both}
+
+.topBlock{position:relative;padding:20px 0px 0px 30px}
+
+.top-block-box{position:relative;padding:20px 0px 0px 0px}
+
+.subject{padding-left:0}
+
+.listBtns{position:relative;float:right;}
+
+.dropdown-gray{color:darkgray}
+
+#trendlog-device-grid-elem > div.k-grid-content.k-auto-scrollable > table > tbody > tr > td.grid-checkbox-cell {
+	width:150px;
+	display:block;
+}
+
+.dropdownwrapper > span{
+	display:table-cell; vertical-align: middle; margin-right:8px;
+
+}
+
+
+
+.popBody .topBlock .subject{padding-left:0}
+.popBody{padding-bottom:12px}
+.popBody{height:680px}
+.subjectBox{height:60px}
+.name{display:table-cell;vertical-align:middle;text-align:left;color:#000;font-size:16px;font-weight:600;line-height:20px}
+.subjectBox .status{display:table-cell;vertical-align:middle;text-align:right;min-width:90px;white-space:nowrap;color:rgba(0,0,0,0.8);font-size:14px;line-height:18px;font-weight:600;padding:0 10px}
+.commonBtn.icOnly .ic{width:36px;height:36px}
+.statusList > li{padding:10px 0;width:100%;min-height:20px;height:auto}
+.statusList > li .detail{width:382px;display:table-cell;vertical-align:top;color:#000;text-align:left;font-size:16px;line-height:20px;font-weight:500}
+.subjectBox{display:table;width:100%;height:60px;}
+.popBody .detailBox{position:relative;padding-top:12px;}
+.icOnly .ic{width:36px;height:36px}
+.icOnly{width:36px !important;padding:0}
+.commonBtn{text-align:center;display:block;width:100%;font-size:16px;height:36px;line-height:24px;padding:7px 7px 5px;vertical-align:baseline;font-weight:600;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-moz-box-shadow:0 1px 1px rgba(0,0,0,.3);-webkit-box-shadow:0 1px 1px rgba(0,0,0,.3);box-shadow:0 1px 1px rgba(0,0,0,.3);filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3);-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3)";zoom: 1;color:#000;background-color:#e6e6e6;}
+.subjectBox .added{display:table-cell;vertical-align:middle;width:38px;text-align:center;padding-left:0}
+.subjectBox .name .stxt{display:block;font-size:14px;color:rgba(0,0,0,0.57);line-height:18px;padding-top:2px}
+.subjectBox .name{display:table-cell;vertical-align:middle;text-align:left;color:#000;font-size:16px;font-weight:600;line-height:20px}
+.subjectBox .icon{display:table-cell;vertical-align:middle;width:48px;text-align:left}
+
+#trendlog-expander.k-icon.t-i-expand{
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-down.png) no-repeat center;
+}
+
+#trendlog-expander.k-icon.t-i-collapse{
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-up.png) no-repeat center;
+}
+#trendlog-expander-child.k-icon.t-i-expand{
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-down.png) no-repeat center;
+}
+
+#trendlog-expander-child.k-icon.t-i-collapse{
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-up.png) no-repeat center;
+}
+
+.dateFrm {
+	position: relative;
+}
+
+.dateFrm .blockFrm{
+    float: left;
+    width: 98px;
+    padding: 0 0 0 6px;
+}
+span.k-datepicker{
+    width: 8.8em;
+}
+span.k-timepicker{
+    width: 7.8em;
+}
+
+.dateFrm label {
+    float: left;
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 9px 6px 7px 0;
+    position: relative;
+}
+
+.trendlogBtns ul > li > button.ic-view-graph.active,
+.trendlogBtns ul > li > button.ic-view-graph:hover{
+    background-position: -495px -144px;
+}
+
+.trendlogBtns ul > li > button.ic-view-list.active,
+.trendlogBtns ul > li > button.ic-view-list:hover{
+    background-position: -495px -192px;
+}
+
+.trendlogBtns ul > li > button.ic{
+    cursor: pointer;
+    position: relative;
+    margin: 0 5px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
+.trendlogBtns ul > li{
+    float: right;
+    padding: 0 0 0 1px;
+    position: relative;
+    display: block;
+    width: 38px;
+}
+.trendlogBtns .chart-sub-desc {
+	float: left;
+}
+
+.viewBtns{
+    display: inline-block;
+    float: right;
+    line-height: 60px;
+}
+.historyHead .subject{font-size:16px;font-weight:700;line-height:20px;text-align:left;display:block;color:#000;padding-top:20px}
+.historyHead .detail{font-size:16px;font-weight:600;line-height:20px;text-align:left;color:#000;padding-left:30px;position:relative;top:2px}
+
+.logHistoryLabelBoxwrap{display:none;position:relative}
+.logHistoryLabelBox{padding:20px 0;display:table;width:100%}
+.logHistoryLabelBox .graphTitle{font-weight:700;font-size:16px;color:#000;display:table-cell;vertical-align:top;text-align:left;padding:10px 0 0 0px;width:150px;line-height:20px}
+.logHistoryLabelBox ul{padding-left:40px}
+.logHistoryLabelBox li{font-size:14px;font-weight:600;line-height:24px;color:#000;padding:8px 0;position:relative;}
+.logHistoryLabelBox .disc{width:12px;height:12px}
+.logHistoryLabelBox .graphColor{display:table-cell;vertical-align:top;width:auto;padding-right:110px;border-right:1px solid #d6d6d6}
+.logHistoryLabelBox .graphLine{display:table-cell;vertical-align:top;width:auto}
+.logHistoryLabelBox .graphColor li{padding-left:20px}
+.logHistoryLabelBox .graphColor .disc{position:absolute;left:0;top:50%;margin-top:-6px}
+.logHistoryLabelBox .graphLine ul{}
+.logHistoryLabelBox .graphLine ul li{display:block;position:relative;width:100%;padding:2px 0}
+.logHistoryLabelBox .graphLine ul li:after{content:"";display:block;height:0;clear:both}
+.logHistoryLabelBox .graphLine ul li .checkLabel{float:left;}
+.logHistoryLabelBox .graphLine label{font-size:14px;font-weight:600}
+.logHistoryLabelBox .graphLine .lineVisual{display:block;float:right;padding:6px 20px}
+.logHistoryLabelBox .graphLine .lineVisual img{display:block}
+.logHistoryLabelBox .btns{display:table-cell;vertical-align:top;width:108px;padding:0 0 0 10px}
+.logHistoryLabelBox .btns .commonBtn{display:block;width:100%}
+
+.svg-line-legends{
+    display : block;
+}
+
+/* Tooltip */
+.custom-chart-tooltip{
+    padding: 10px 0 10px 10px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0 0 21px rgba(0,0,0,.13);
+    -webkit-box-shadow: 0 0 21px rgba(0,0,0,.13);
+    box-shadow: 0 0 21px rgba(0,0,0,.13);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=21,MakeShadow=true,ShadowOpacity=0.13);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=21,MakeShadow=true,ShadowOpacity=0.13)";
+    font-size: 14px;
+    z-index: 20000;
+}
+
+/* Selection inner chart */
+#trendlog-history-chart .k-selector .k-selection{
+    border: none;
+}
+#trendlog-history-chart .k-selector .k-mask{
+    background-color: transparent;
+}
+#trendlog-history-chart .k-selector .k-selection .k-handle{
+    display: none;
+}
+
+.custom-chart-tooltip:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.custom-chart-tooltip .custom-chart-tooltip-container{
+    float: left;
+}
+.custom-chart-tooltip .custom-chart-tooltip-container{
+    margin-right: 10px;
+}
+.custom-chart-tooltip .custom-chart-tooltip-group-name{
+    margin: 3px 0;
+    font-weight: 600;
+}
+.custom-chart-tooltip .custom-chart-tooltip-item{
+    margin-bottom: 3px;
+}
+.custom-chart-tooltip .tooltip-item-title{
+    display: inline-block;
+    width: 300px;
+    font-weight: 500;
+}
+.custom-chart-tooltip .tooltip-item-value{
+    display: inline-block;
+    font-weight: 300;
+}
+
+#trendlog-create-grid-elem .k-grid-content{
+    background : none;
+}
+
+.trendlog-collapse .added{
+    display : table-cell;
+    height : 100%;
+    vertical-align: middle;
+    width: 30px;
+    text-align: right;
+    padding-right: 10px;
+}
+.trendlog-collapse .added:hover{
+    cursor : pointer;
+}
+
+#trendlog-device-grid-elem .k-grid-content,
+#trendlog-property-grid-elem .k-grid-content{
+    overflow : auto !important;
+    height : 100%;
+}
+
+.graphHeadBox{
+    overflow-y : hidden;
+    overflow-x : auto;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container .k-treelist .k-grid-content tr td{
+    white-space: nowrap;
+    padding: 10px 5px 9px 15px;
+    /*color: #333;*/
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom-width: 0;
+    background : none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#trendlog-device-grid-elem .map-panel-list-container .k-treelist .k-grid-content .k-treelist-group > td{
+    background-color: #f0f0f0;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container .k-grid .k-grid-content tr td{
+    padding: 17px 0;
+    padding-left : 15px;
+    text-align : left;
+    height: 60px;
+    padding-left : 70px;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container .k-grid .k-grid-content tr{
+    background-color : #f7f7f7;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container  .k-grid .k-grid-content tr.k-state-selected{
+    background-color: #d0e4f1;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container .k-treelist .k-grid-content .k-treelist-group[aria-expanded=true] > td{
+    font-weight : 700;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container .k-treelist .k-grid-content .k-treelist-group[data-level='0'] > td{
+    font-size: 20px;
+    line-height: 24px;
+    padding-top : 11px;
+    padding-bottom : 16px;
+    position : relative;
+    padding-left : 15px;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container .k-treelist .k-grid-content .k-treelist-group[data-level='0'] > .k-icon{
+    padding-top: 17px;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container .k-treelist .k-grid-content .k-treelist-group[data-level='1'] > td{
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left : 28px;
+}
+
+#trendlog-device-grid-elem .map-panel-list-container .k-treelist .k-grid-content .k-treelist-group[data-level='2'] > td{
+    font-size: 16px;
+    line-height: 20px;
+    padding-left : 51px;
+}
+
+#trendlog-excel-export{
+    width: 120px;
+    margin-left: 10px;
+}
+
+#history-view-btn{
+    width: 120px;
+}
+
+.history-trendlog-graph-tooltip-legend-Square {
+	position: relative;
+    display: block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    margin: 5px;
+}
+.history-trendlog-graph-tooltip-content-name {
+    margin-left: 7px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    width: 65px;
+    display: inline-block;
+    overflow: hidden;
+}
+.history-trendlog-graph-tooltip-content-property {
+    margin-left: 7px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    width: 170px;
+    display: inline-block;
+    overflow: hidden;
+}
+.history-trendlog-graph-tooltip-content-data {
+    float: right;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+}
+.history-trendlog-graph-tooltip-legend-line {
+	position: relative;
+    display: block;
+    float: left;
+    width: 18px;
+    height: 2px;
+    margin: 6px 1px;
+    top: 6px;
+	background-color: #808080
+}
+.history-trendlog-graph-tooltip-legend-circle{
+    position: relative;
+    display: block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    margin: 5px;
+    border-radius: 100%;
+}
+#trendlog-main-grid > div.k-grid-content.k-auto-scrollable{
+    height: calc(100% - 35px)
+}
+
+.svg-selection-icon{
+    display: inline-block;
+    margin-right: -47px;
+    margin-left: -52px;
+    padding-bottom: 2px;
+}
+.svg-selection-icon.circle{
+    padding-bottom: 3px;
+}
+.svg-selection-icon.rect{
+    padding-bottom: 3px;
+}
+.svg-selection-icon.polygon{
+}

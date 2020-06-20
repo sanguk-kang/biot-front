@@ -1,0 +1,23 @@
+.k-spreadsheet .k-spreadsheet-sheets-bar {
+	height: unset;
+}
+
+.k-spreadsheet-boolean-sheet-default {
+	background-color: #ebebeb;
+}
+.k-spreadsheet-boolean-sheet-selected {
+	background-color: #0081c6;
+}
+
+.k-spreadsheet-selection.k-spreadsheet-boolean-sheet, .k-spreadsheet-active-cell.k-spreadsheet-boolean-sheet {
+	background-color: unset;
+}
+.k-spreadsheet .k-single-selection.k-spreadsheet-boolean-sheet::after {
+	display: none;
+}
+.k-spreadsheet-scroller.k-spreadsheet-scroller-vertical-hide {
+	overflow-y: hidden;
+}
+.k-spreadsheet-scroller.k-spreadsheet-scroller-horizontal-hide {
+	overflow-x: hidden;
+}

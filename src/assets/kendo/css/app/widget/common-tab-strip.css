@@ -1,0 +1,201 @@
+.common-tab-strip.k-tabstrip .k-tabstrip-items .k-loading{
+    display : none;
+}
+
+.common-tab-strip-wrapper.k-tabstrip-wrapper, .common-tab-strip{
+    height : 100%;
+}
+
+.common-tab-strip > ul:before{
+    content: "";
+    display: none;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top : 62px;
+    background: #d6d6d6;
+}
+
+.common-tab-strip > ul{
+	position : absolute;
+	top: 0;
+	left: 380px;
+    height: 60px;
+    background-color: #ebebeb;
+}
+
+.common-tab-strip > ul > li {
+    display: inline-block;
+    padding: 20px 25px 19px;
+    color: #000;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border : none;
+    border-right : none;
+    float : left;
+    background-color:#dfdfdf;
+    position : relative;
+}
+.common-tab-strip > ul > li+li{
+	border-left:1px solid #d6d6d6;
+}
+
+
+.common-tab-strip > ul > li:first-child{
+    border-left : none;
+}
+
+.common-tab-strip > ul > li:last-child{
+   /*  border-right : 1px solid #d6d6d6; */
+}
+
+.common-tab-strip > ul > li.k-state-active{
+    background-color: #fbfbfb;
+    color: #0081c6;
+    border-bottom: none;
+}
+
+.common-tab-strip > ul > li.k-state-active:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: -1px;
+    right: 0;
+    border-bottom: 1px solid #fbfbfb;
+}
+
+.common-tab-strip > div{
+    display :none;
+}
+
+.common-tab-strip.k-tabstrip.k-header{
+    background-color : #f0f0f0;
+}
+
+.common-tab-strip.k-tabstrip .k-item{
+    border : none;
+    background-color : #dfdfdf;
+}
+.common-tab-strip.k-tabstrip .k-item + .k-item{
+    border-left : 1px solid #d6d6d6;
+}
+.common-tab-strip.k-tabstrip .k-state-active+.k-item{
+    border : none;
+}
+
+.common-tab-strip.k-tabstrip .k-tabstrip-items{
+    background-color : #ebebeb;
+}
+
+.common-tab-strip.k-tabstrip .k-item.k-state-active{
+    background-color : #fbfbfb;
+}
+
+.common-tab-strip.k-tabstrip .k-tabstrip-items .k-link{
+    font-size : 16px;
+    line-height : 30px;
+    font-weight : 700;
+    padding : 15px 25px 15px;
+}
+
+.common-tab-strip.k-tabstrip .k-tabstrip-items .k-state-default .k-link{
+    color : #000;
+}
+
+.common-tab-strip.k-tabstrip .k-tabstrip-items .k-state-hover .k-link{
+    text-decoration: none;
+}
+
+.common-tab-strip.k-tabstrip .k-tabstrip-items .k-state-hover .k-link,
+.common-tab-strip.k-tabstrip .k-tabstrip-items .k-state-active .k-link{
+    color : #0081c6;
+}
+
+.common-tab-strip.k-tabstrip .k-content{
+    margin-top:2px;
+}
+
+.common-tab-strip.k-tabstrip .k-content.k-state-active{
+    background-color : #fbfbfb;
+}
+
+.common-tab-strip.k-tabstrip .k-tabstrip-items .k-loading.k-complete{
+    border : none;
+}
+
+.common-tab-strip.k-tabstrip>.k-content{
+    height: calc(100% - 73px);
+    padding: 10px 30px 0px 30px;
+    border: none;
+}
+
+.common-tab-strip.k-tabstrip>.k-content .common-tab-top-content{
+    width: 100%;
+    position: relative;
+    padding: 10px 0 20px;
+    height : 36px;
+}
+
+.common-tab-strip.k-tabstrip>.k-content .common-tab-top-content > button{
+    float : right;
+    margin-left : 8px;
+}
+
+.common-tab-strip.k-tabstrip>.k-content .common-tab-table-content{
+    padding: 15px 0;
+    position: relative;
+    display: table;
+}
+
+.common-tab-strip.k-tabstrip>.k-content .common-tab-table-content .title-cell{
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+    font-weight: 700;
+    padding-top: 15px;
+    width : 210px;
+}
+
+.common-tab-strip.k-tabstrip>.k-content .common-tab-table-content .select-cell{
+    display: table-cell;
+    vertical-align: top;
+    line-height : 50px;
+}
+
+.common-tab-scroll-wrapper{
+
+}
+.common-tab-strip-scrollbar{
+	display: none;
+	position: fixed;
+	width: 50px;
+	height: 60px;
+	background-color: #ebebeb;
+}
+.common-tab-strip-scrollbar .common-tab-strip-scrollbar-btn{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	line-height: 50px;
+	box-shadow: none;
+	border: 1px solid #d6d6d6;
+	color: #9f9f9f;
+}
+.common-tab-strip-scrollbar .common-tab-strip-scrollbar-btn.k-button:focus:not(.k-state-disabled):not([disabled]){
+	box-shadow: none;
+}
+.common-tab-strip-scrollbar .common-tab-strip-scrollbar-btn.k-button:hover{
+	border-color: #cfcfcf;
+}
+.common-tab-strip-scrollbar .common-tab-strip-scrollbar-btn.left{
+	border-right-width: 0;
+}

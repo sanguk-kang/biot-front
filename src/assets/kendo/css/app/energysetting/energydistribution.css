@@ -1,0 +1,64 @@
+/*
+ *    SETTINGS > SAC > Energy Distribution
+ */
+.sac-energy-distribution-container {
+
+}
+.sac-energy-distribution-container input[type=text].disabled{
+    background-color: #ededed;
+}
+.sac-energy-distribution-container > .inner {
+	margin-top: 15px;
+    padding-left: 30px;
+}
+.sac-energy-distribution-container .contents {
+
+}
+.sac-energy-distribution-container .contents .content.btn-util{
+	text-align: right;
+}
+.sac-energy-distribution-container .contents .content.btn-util .k-button{
+	width: 100px;
+}
+.sac-energy-distribution-container .contents .item {
+	overflow: hidden;
+	padding: 25px 0;
+}
+.sac-energy-distribution-container .contents .title {
+	float: left;
+	width: 300px;
+}
+.sac-energy-distribution-container .contents .title .text {
+	font-weight: 600;
+}
+.sac-energy-distribution-container .contents .detail {
+	float: left;
+	width: calc(100% - 350px);
+}
+.sac-energy-distribution-container .contents .detail .radio-list {
+
+}
+.sac-energy-distribution-container .contents .detail .radio-list-item {
+	float: left;
+    margin-right: 100px;
+}
+.sac-energy-distribution-container .contents .detail .radio-list-item .k-radio-label {
+	padding-left: 25px;
+}
+.sac-energy-distribution-container .item.distribution {
+
+}
+.sac-energy-distribution-container .item .distribution-rate.k-input {
+	width: 460px;
+}
+.sac-energy-distribution-container .item.rate .title {
+	height: 36px;
+    line-height: 36px;
+}
+.sac-energy-distribution-container .item.rate .title .text {
+	/* padding-left: 50px; */
+}
+
+#energy-setting-tab .k-widget.k-tooltip-validation.k-invalid-msg{
+	padding: 0 10px;
+}

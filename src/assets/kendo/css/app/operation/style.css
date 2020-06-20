@@ -1,0 +1,810 @@
+/**
+ * Project: Quaduron
+ *
+ * Copyright (c) 2017 DMC R&D Center, SAMSUNG ELECTRONICS Co.,LTD.
+ * (Maetan dong)129, Samsung-ro Yeongtong-gu, Suwon-si. Gyeonggi-do 443-742, Korea
+ * All right reserved.
+ *
+ * This software is the confidential and proprietary information of Samsung Electronics, Inc.
+ * ("Confidential Information"). You shall not disclose such Confidential Information and
+ * shall use it only in accordance with the terms of the license agreement you entered
+ * into with Samsung Electronics.
+ */
+
+@charset "utf-8";
+html{font-family:"SamsungOneUI",sans-serif;color:#333333}
+button,
+input,
+optgroup,
+select,
+textarea{font-family:"SamsungOneUI",sans-serif;color:#333333}
+
+/* reset */
+html,body{height:100%;-webkit-text-size-adjust:none;font-size:16px;background:#ffffff}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,
+table,th,td,form,
+fieldset,legend,textarea,input,select,textarea,button,
+figure,figcaption{margin:0;padding:0;font-family:"SamsungOneUI",sans-serif;border:none;outline:none}
+ul,ol{list-style:none}
+address,caption,em{font-style:normal}
+h1,h2,h3,h4,h5,h6,caption,strong{font-weight:normal}
+fieldset,li,img{border:0 none;vertical-align:baseline}
+
+button{overflow:visible;border:0;background-color:transparent;cursor:pointer}
+button:active,button:focus{outline:none}
+button::-moz-focus-inner{padding:0;}
+input,button{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+a,a:focus,a:active,a:hover{text-decoration:none;cursor:pointer}
+hr{display:none}
+legend{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:1px;line-height:100px;white-space:nowrap}
+::-ms-clear{display:none}
+::-ms-reveal{display:none}
+
+/*wrapper scroller*/
+#wrapper .mCSB_outside+.mCSB_scrollTools{right:0}
+#wrapper .mCSB_inside>.mCSB_container{margin-right:0}
+
+#wrapper .mCSB_scrollTools{background:#e5e5e5;width:18px;z-index:10;}
+#wrapper .mCSB_scrollTools.mCSB_scrollTools_horizontal{height:18px;width:auto}
+#wrapper .mCSB_container_wrapper{margin-right:18px;margin-bottom:18px}
+#wrapper .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden{margin-bottom:0}
+#wrapper .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden{margin-right:0}
+#wrapper .mCSB_container_wrapper>.mCSB_container{padding-right:18px;padding-bottom:18px}
+#wrapper .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container{padding-bottom:0}
+#wrapper .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden>.mCSB_container{padding-right:0}
+#wrapper .mCSB_scrollTools .mCSB_draggerRail{width:12px;border-radius:0;background:none}
+#wrapper .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;margin:3px 0;height:12px}
+
+#wrapper .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:12px;border-radius:0;background:#bfbfbf}
+#wrapper .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{width:100%;height:12px;margin:3px auto}
+#wrapper .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover,
+#wrapper .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:active{background:#808080}
+
+#wrapper .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical{bottom:18px}
+#wrapper .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden+.mCSB_scrollTools.mCSB_scrollTools_vertical{bottom:0}
+
+#wrapper .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal{right:18px}
+#wrapper .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools.mCSB_scrollTools_horizontal{bottom:0}
+#wrapper .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical:after{content:"";display:block;position:absolute;width:100%;left:0;bottom:-18px;background:#ededed;height:18px}
+
+#wrapper .mCSB_scrollTools a+.mCSB_draggerContainer{margin:21px 0}
+#wrapper .mCSB_scrollTools.mCSB_scrollTools_horizontal a+.mCSB_draggerContainer{margin:0 21px}
+
+#wrapper .mCSB_scrollTools .mCSB_buttonDown,
+#wrapper .mCSB_scrollTools .mCSB_buttonLeft,
+#wrapper .mCSB_scrollTools .mCSB_buttonRight,
+#wrapper .mCSB_scrollTools .mCSB_buttonUp{background-position:center;background-repeat:no-repeat;opacity:.5;width:18px;height:18px}
+#wrapper .mCSB_scrollTools .mCSB_buttonDown{background-image:url(../../src/main/resources/static-dev/asset/ic/scroll-arrow-down.png)}
+#wrapper .mCSB_scrollTools .mCSB_buttonUp{background-image:url(../../src/main/resources/static-dev/asset/ic/scroll-arrow-up.png)}
+#wrapper .mCSB_scrollTools .mCSB_buttonLeft{background-image:url(../../src/main/resources/static-dev/asset/ic/scroll-arrow-left.png)}
+#wrapper .mCSB_scrollTools .mCSB_buttonRight{background-image:url(../../src/main/resources/static-dev/asset/ic/scroll-arrow-right.png)}
+#wrapper .mCSB_scrollTools .mCSB_buttonDown:hover,
+#wrapper .mCSB_scrollTools .mCSB_buttonDown:active,
+#wrapper .mCSB_scrollTools .mCSB_buttonLeft:hover,
+#wrapper .mCSB_scrollTools .mCSB_buttonLeft:active,
+#wrapper .mCSB_scrollTools .mCSB_buttonRight:hover,
+#wrapper .mCSB_scrollTools .mCSB_buttonRight:active,
+#wrapper .mCSB_scrollTools .mCSB_buttonUp:hover,
+#wrapper .mCSB_scrollTools .mCSB_buttonUp:active{background-color:#cccccc;opacity:1}
+
+#wrapper .mCSB_container{height:100%}
+#wrapper .mcsinner{position:absolute;width:100%;left:0;right:0;bottom:-1px;top:-1px}
+
+/*inner scroller*/
+#wrapper .mcsinner .mCSB_scrollTools{background:none;width:18px;z-index:1}
+#wrapper .mcsinner .mCSB_scrollTools.mCSB_scrollTools_horizontal{height:18px;width:auto}
+#wrapper .mcsinner .mCSB_container_wrapper{margin-right:18px;margin-bottom:18px}
+#wrapper .mcsinner .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden{margin-bottom:0}
+#wrapper .mcsinner .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden{margin-right:0}
+#wrapper .mcsinner .mCSB_container_wrapper>.mCSB_container{padding-right:18px;padding-bottom:18px}
+#wrapper .mcsinner .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container{padding-bottom:0}
+#wrapper .mcsinner .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden>.mCSB_container{padding-right:0}
+#wrapper .mcsinner .mCSB_scrollTools .mCSB_draggerRail{width:6px;border-radius:0;background:none}
+#wrapper .mcsinner .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;margin:3px 0;height:6px}
+
+#wrapper .mcsinner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px;border-radius:3px;background:rgba(75,75,75,.3);margin:0 auto}
+#wrapper .mcsinner .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{width:100%;height:6px;margin:3px auto}
+#wrapper .mcsinner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover,
+#wrapper .mcsinner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:active{background:rgba(75,75,75,.5)}
+
+#wrapper .mcsinner .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical{bottom:18px}
+#wrapper .mcsinner .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden+.mCSB_scrollTools.mCSB_scrollTools_vertical{bottom:0}
+
+#wrapper .mcsinner .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal{right:18px}
+#wrapper .mcsinner .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools.mCSB_scrollTools_horizontal{bottom:0}
+#wrapper .mcsinner .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical:after{content:"";display:block;position:absolute;width:100%;left:0;bottom:-12px;background:#ededed;height:12px}
+
+#wrapper .mcsinner .mCSB_scrollTools a+.mCSB_draggerContainer{margin:0 0}
+#wrapper .mcsinner .mCSB_scrollTools.mCSB_scrollTools_horizontal a+.mCSB_draggerContainer{margin:0 0}
+
+#wrapper .mcsinner .mCSB_scrollTools .mCSB_buttonDown,
+#wrapper .mcsinner .mCSB_scrollTools .mCSB_buttonLeft,
+#wrapper .mcsinner .mCSB_scrollTools .mCSB_buttonRight,
+#wrapper .mcsinner .mCSB_scrollTools .mCSB_buttonUp{display:none !important}
+
+
+.overlayHdmi{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 99;
+}
+
+.selectFrm{
+	min-width:90%;
+}
+
+/*popup scroller*/
+.popupLayer .popupWrap .mCSB_inside>.mCSB_container{margin-right:0}
+.popupLayer .popupWrap .mCSB_scrollTools{background:none;width:6px;z-index:1}
+.popupLayer .popupWrap .mCSB_scrollTools.mCSB_scrollTools_horizontal{height:6px;width:auto}
+.popupLayer .popupWrap .mCSB_container_wrapper{margin-right:6px;margin-bottom:6px}
+.popupLayer .popupWrap .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden{margin-bottom:0}
+.popupLayer .popupWrap .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden{margin-right:0}
+.popupLayer .popupWrap .mCSB_container_wrapper>.mCSB_container{padding-right:6px;padding-bottom:6px}
+.popupLayer .popupWrap .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container{padding-bottom:0}
+.popupLayer .popupWrap .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden>.mCSB_container{padding-right:0}
+.popupLayer .popupWrap .mCSB_scrollTools .mCSB_draggerRail{width:6px;border-radius:0;background:none}
+.popupLayer .popupWrap .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{width:100%;margin:0;height:6px}
+
+.popupLayer .popupWrap .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px;border-radius:3px;background:rgba(75,75,75,.3);margin:0}
+.popupLayer .popupWrap .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{width:100%;height:6px;margin:0}
+.popupLayer .popupWrap .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover,
+.popupLayer .popupWrap .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:active{background:rgba(75,75,75,.5)}
+
+.popupLayer .popupWrap .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical{bottom:6px}
+.popupLayer .popupWrap .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden+.mCSB_scrollTools.mCSB_scrollTools_vertical{bottom:0}
+
+.popupLayer .popupWrap .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal{right:6px}
+.popupLayer .popupWrap .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools.mCSB_scrollTools_horizontal{bottom:0}
+.popupLayer .popupWrap .mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical:after{content:"";display:block;position:absolute;width:100%;left:0;bottom:-12px;background:#ededed;height:12px}
+
+.popupLayer .popupWrap .mCSB_scrollTools a+.mCSB_draggerContainer{margin:0 auto}
+.popupLayer .popupWrap .mCSB_scrollTools.mCSB_scrollTools_horizontal a+.mCSB_draggerContainer{margin:0 auto}
+
+.popupLayer .popupWrap .mCSB_scrollTools .mCSB_buttonDown,
+.popupLayer .popupWrap .mCSB_scrollTools .mCSB_buttonLeft,
+.popupLayer .popupWrap .mCSB_scrollTools .mCSB_buttonRight,
+.popupLayer .popupWrap .mCSB_scrollTools .mCSB_buttonUp{display:none !important;background-image:none}
+
+
+.datePickLayer .ui-datepicker{padding:20px 0 0 !important;display:block;width:100%;color:#323232;padding:0;margin:0}
+.datePickLayer .ui-datepicker-header{padding:20px 0 !important}
+.datePickLayer .ui-datepicker-header .ui-datepicker-title{font-size:16px;line-height:20px;font-weight:700;text-align:center}
+.datePickLayer .ui-datepicker-calendar{}
+.datePickLayer .ui-datepicker-calendar th, .datePickLayer .ui-datepicker-calendar td{padding:0 !important;text-align:center !important;height:36pxvertical-align:middle;font-size:14px;line-height:20px;font-weight:400}
+.datePickLayer .ui-datepicker-calendar th a, .datePickLayer .ui-datepicker-calendar td a,
+.datePickLayer .ui-datepicker-calendar th span{font-weight:700;width:35px;padding:8px 0;color:#323232;display:block;margin:0 auto;text-align:center !important}
+.datePickLayer .ui-datepicker-calendar td span{font-weight:400;width:35px;padding:8px 0;color:#323232;display:block;margin:0 auto;text-align:center !important}
+.datePickLayer .ui-datepicker-calendar th{border-bottom:1px solid #d6d6d6}
+.datePickLayer .ui-datepicker-calendar .ui-state-active{background:#d7e8f0}
+.datePickLayer .ui-datepicker-calendar td:first-child span, .datePickLayer .ui-datepicker-calendar td:first-child a{color:#e83e3e}
+.datePickLayer .ui-datepicker-calendar th:first-child span, .datePickLayer .ui-datepicker-calendar th:first-child a{color:#e83e3e}
+.datePickLayer .ui-datepicker .ui-datepicker-prev{display:block;width:20px;height:20px;background:url(../../src/main/resources/static-dev/asset/ic/arrow-prev.png) no-repeat center;left:60px;top:50%;margin-top:-10px;opacity:0.57}
+.datePickLayer .ui-datepicker .ui-datepicker-next{display:block;width:20px;height:20px;background:url(../../src/main/resources/static-dev/asset/ic/arrow-next.png) no-repeat center;right:60px;top:50%;margin-top:-10px;opacity:0.57}
+.datePickLayer .ui-datepicker .ui-datepicker-prev:hover, .datePickLayer .ui-datepicker .ui-datepicker-next:hover{opacity:1}
+
+
+/*common*/
+.hidden{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:1px}
+.tb{display:table;width:100%;height:100%}
+.tbc{display:table-cell;width:auto;height:100%;vertical-align:middle;}
+.tbc.v-top{vertical-align:top !important}
+
+.aleft{text-align:left}
+.aright{text-align:right}
+.acenter{text-align:center}
+
+.ellp{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.t-upp{text-transform:uppercase !important}
+.t-cap{text-transform:capitalize !important}
+.t-w500{font-weight:500 !important}
+
+.fl{float:left;position:relative}
+.fr{float:right;position:relative}
+
+.abs{position:absolute}
+.abs.top{top:0}
+.abs.mid{top:50%}
+.abs.btm{bottom:0}
+.abs.left{left:0}
+.abs.right{right:0}
+.abs.center{left:50%}
+
+.rel{position:relative}
+.rel:after{content:"";display:block;height:0;clear:both}
+
+.clearBox{display:block;position:relative;clear:both;height:0}
+.blank10{display:block;position:relative;height:10px}
+.blank20{display:block;position:relative;height:20px}
+.blank30{display:block;position:relative;height:30px}
+.blank40{display:block;position:relative;height:40px}
+.blank50{display:block;position:relative;height:50px}
+
+/*colorset*/
+.t-blue{color:#0081c6 !important}
+.b-blue{background-color:#0081c6 !important}
+.t-red{color:#ee392f !important}
+.b-red{background-color:#ee392f !important}
+.t-yellow{color:#ffa41f !important}
+.b-yellow{background-color:#ffa41f !important}
+.t-green{color:#1aa05a !important}
+.b-green{background-color:#1aa05a !important}
+.t-black{color:#454545 !important}
+.b-black{background-color:#454545 !important}
+.b-gray{background-color:#b2b2b2 !important}
+.t-purple{color:#9976cb !important}
+.b-purple{background-color:#9976cb !important}
+
+.plan1{background-color:#e4b5b3}
+.plan2{background-color:#e1d1c2}
+.plan3{background-color:#b3c2b3}
+.plan4{background-color:#c2b3c5}
+.plan5{background-color:#b0b0b0}
+
+.embossBar{width:100%;height:2px;padding-bottom:6px;overflow:hidden;position:absolute;bottom:-6px;z-index:10}
+.embossBar:after{content:"";display:block;height:2px;top:0;width:100%;position:absolute;left:0;right:0;background:#fff;background:rgba(255,255,255,0.96)}
+.embossBar:before{content:"";display:block;height:6px;position:absolute;top:-4px;width:100%;left:0;right:0;
+-moz-box-shadow:0 0 9px rgba(0,0,0,.2);
+-webkit-box-shadow:0 0 9px rgba(0,0,0,.2);
+box-shadow:0 0 9px rgba(0,0,0,.2);
+filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=9,MakeShadow=true,ShadowOpacity=0.2);
+-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=9,MakeShadow=true,ShadowOpacity=0.2)";
+zoom: 1;
+}
+
+.disc{display:inline-block;width:8px;height:8px;overflow:hidden;
+-moz-border-radius:100%;
+-webkit-border-radius:100%;
+border-radius:100%;
+}
+.disc img{display:block;width:100%}
+.disc.r{background:#ee392f}
+.disc.y{background:#ffa41f}
+.disc.g{background:#1aa05a}
+.disc.b{background:#0081c6}
+.disc.m{background:#454545}
+
+.countmark{font-size:14px;color:#fff;background:#acacac;line-height:17px;font-weight:700;text-align:center;float:left;padding:1px 5px 0;min-width:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px
+}
+.divider{display:inline-block;font-size:0;width:1px;padding:0 10px}
+.ictxt{display:inline-block;width:auto}
+.ictxt img{display:block;float:left}
+.ic{display:inline-block;font-size:0;width:24px;height:24px;background-repeat:no-repeat;background-position:center}
+.dvcic{display:block;width:46px;height:46px;overflow:hidden;background-repeat:no-repeat;background-position:center;position:relative;
+background-size:contain;
+-moz-border-radius:100%;
+-webkit-border-radius:100%;
+border-radius:100%}
+.dvcic.regon{background-color:#0081c6}
+.dvcic.unregon{background-color:#75787b}
+.dvcic.unregon:after{content:"";display:block;position:absolute;left:0;right:0;top:0;bottom:0;border:3px solid #0081c6;
+-moz-border-radius:100%;
+-webkit-border-radius:100%;
+border-radius:100%}
+.dvcic img{display:block;width:100%}
+.dvcic.regoff{background-color:#75787b}
+.dvcic.unregoff{background-color:#75787b}
+.dvcic.unregoff:after{content:"";display:block;position:absolute;left:0;right:0;top:0;bottom:0;border:3px solid #b8b8b8;
+-moz-border-radius:100%;
+-webkit-border-radius:100%;
+border-radius:100%}
+.dvcic img{display:block;width:100%}
+.dvcic .txt{font-size:15px;overflow:hidden;white-space:nowrap;font-weight:700;text-align:center;color:#fff;display:block;line-height:20px;position:absolute;top:50%;margin-top:-10px;left:0;width:100%}
+
+
+.ic.arrstart{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-start.png)}
+.ic.arrprev{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-prev.png)}
+.ic.arrnext{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-next.png)}
+.ic.arrend{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-end.png)}
+
+.ibtn.up{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-up.png)}
+.ibtn.down{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-down.png)}
+.ibtn.top{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-top.png)}
+.ibtn.btm{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-btm.png)}
+.ibtn.up:hover, .ibtn.up.selected{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-up-sel.png)}
+.ibtn.down:hover, .ibtn.down.selected{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-down-sel.png)}
+.ibtn.top:hover, .ibtn.top.selected{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-top-sel.png)}
+.ibtn.btm:hover, .ibtn.btm.selected{background-image:url(../../src/main/resources/static-dev/asset/ic/arrow-btm-sel.png)}
+
+.ic.remove{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-remove.png)}
+
+.ic.power{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-power.png)}
+a.ic.power:hover,
+.selected .ic.power{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-power-sel.png)}
+
+.ic.close{width:18px;height:18px;background-image:url(../../src/main/resources/static-dev/asset/ic/ic-close.png)}
+a.ic.close:hover,
+.selected .ic.close{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-close-sel.png)}
+
+.ic.del{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-delete.png)}
+a.ic.del:hover,
+.selected .ic.del{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-delete-sel.png)}
+
+.ic.fav{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-favorite.png)}
+a.ic.fav:hover,
+.selected .ic.fav{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-favorite-sel.png)}
+
+.ic.alarm{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-alarm.png)}
+a.ic.alarm:hover,
+.selected .ic.alarm{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-alarm-sel.png)}
+
+.ic.calendar{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-calendar.png)}
+a.ic.calendar:hover,
+.selected .ic.calendar{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-calendar-sel.png)}
+
+.ic.time{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-time.png)}
+a.ic.time:hover,
+.selected .ic.time{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-time-sel.png)}
+
+.ic.help{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-help.png)}
+a.ic.help:hover,
+.selected .ic.help{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-help-sel.png)}
+
+.ic.info{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-info.png)}
+a.ic.info:hover,
+.selected .ic.info{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-info-sel.png)}
+
+.ic.loc{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-location.png)}
+a.ic.loc:hover,
+.selected .ic.loc{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-location-sel.png)}
+
+.ic.more{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-more.png)}
+a.ic.more:hover,
+.selected .ic.more{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-more-sel.png)}
+
+.ic.pause{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pause.png)}
+a.ic.pause:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pause-sel.png)}
+
+.ic.play{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-play.png)}
+a.ic.play:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-play-sel.png)}
+
+.ic.refresh{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-refresh.png)}
+a.ic.refresh:hover,
+.selected .ic.refresh{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-refresh-sel.png)}
+
+.ic.set{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-setting.png)}
+a.ic.set:hover,
+.selected .ic.set{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-setting-sel.png)}
+
+.ic.stat{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-statistic.png)}
+a.ic.stat:hover,
+.selected .ic.stat{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-statistic-sel.png)}
+
+.ic.graph{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-graph.png)}
+a.ic.graph:hover,
+.selected .ic.graph{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-graph-sel.png)}
+
+.ic.txt{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-text.png)}
+a.ic.txt:hover,
+.selected .ic.txt{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-text-sel.png)}
+
+.ic.txtdown{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-text-down.png)}
+a.ic.txtdown:hover,
+.selected .ic.txtdown{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-text-down-sel.png)}
+
+.ic.txtup{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-text-up.png)}
+a.ic.txtup:hover,
+.selected .ic.txtup{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-text-up-sel.png)}
+
+.ic.vgrid{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-full.png)}
+a.ic.vgrid:hover,
+.selected .ic.vgrid{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-full-sel.png)}
+
+.ic.vgrid2{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-2x2.png)}
+a.ic.vgrid2:hover,
+.selected .ic.vgrid2{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-2x2-sel.png)}
+
+.ic.vgrid3{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-3x3.png)}
+a.ic.vgrid3:hover,
+.selected .ic.vgrid3{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-3x3-sel.png)}
+
+.ic.vlist{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-list.png)}
+a.ic.vlist:hover,
+.selected .ic.vlist{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-view-list-sel.png)}
+
+.ic.wnew{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-window-new.png)}
+a.ic.wnew:hover,
+.selected .ic.wnew{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-window-new-sel.png)}
+
+.ic.wcontract{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-window-contract.png)}
+a.ic.wcontract:hover,
+.selected .ic.wcontract{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-window-contract-sel.png)}
+
+.ic.wexpand{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-window-expand.png)}
+a.ic.wexpand:hover,
+.selected .ic.wexpand{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-window-expand-sel.png)}
+
+.ic.auto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-auto-g.png)}
+a.ic.auto:hover,
+.selected .ic.auto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-auto.png)}
+
+.ic.cool{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-cool-g.png)}
+a.ic.cool:hover,
+.selected .ic.cool{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-cool.png)}
+
+.ic.heat{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-g.png)}
+a.ic.heat:hover,
+.selected .ic.heat{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat.png)}
+
+.ic.dry{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dry-g.png)}
+a.ic.dry:hover,
+.selected .ic.dry{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dry.png)}
+
+.ic.fan{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-g.png)}
+a.ic.fan:hover,
+.selected .ic.fan{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan.png)}
+
+.ic.coolwater{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-coolwater-g.png)}
+a.ic.coolwater:hover,
+.selected .ic.coolwater{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-coolwater.png)}
+
+.ic.hotwater{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-hotwater-g.png)}
+a.ic.hotwater:hover,
+.selected .ic.hotwater{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-hotwater.png)}
+
+.ic.nolimit{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-nolimit-g.png)}
+a.ic.nolimit:hover,
+.selected .ic.nolimit{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-nolimit.png)}
+
+.ic.fanauto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-auto-g.png)}
+a.ic.fanauto:hover,
+.selected .ic.fanauto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-auto.png)}
+
+.ic.fanlow{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-low-g.png)}
+a.ic.fanlow:hover,
+.selected .ic.fanlow{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-low.png)}
+
+.ic.fanmid{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-mid-g.png)}
+a.ic.fanmid:hover,
+.selected .ic.fanmid{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-mid.png)}
+
+.ic.fanhigh{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-high-g.png)}
+a.ic.fanhigh:hover,
+.selected .ic.fanhigh{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-high.png)}
+
+.ic.fanturbo{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-turbo-g.png)}
+a.ic.fanturbo:hover,
+.selected .ic.fanturbo{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-turbo.png)}
+
+.ic.heatauto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-auto-g.png)}
+a.ic.heatauto:hover,
+.selected .ic.heatauto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-auto.png)}
+
+.ic.heatex{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-ex-g.png)}
+a.ic.heatex:hover,
+.selected .ic.heatex{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-ex.png)}
+
+.ic.heatbyp{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-bypass-g.png)}
+a.ic.heatbyp:hover,
+.selected .ic.heatbyp{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-bypass.png)}
+
+.ic.heatsleep{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-sleep-g.png)}
+a.ic.heatsleep:hover,
+.selected .ic.heatsleep{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-sleep.png)}
+
+.ic.dhweco{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-eco-g.png)}
+a.ic.dhweco:hover,
+.selected .ic.dhweco{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-eco.png)}
+
+.ic.dhwstand{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-standard-g.png)}
+a.ic.dhwstand:hover,
+.selected .ic.dhwstand{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-standard.png)}
+
+.ic.dhwpower{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-power-g.png)}
+a.ic.dhwpower:hover,
+.selected .ic.dhwpower{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-power.png)}
+
+.ic.dhwforce{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-force-g.png)}
+a.ic.dhwforce:hover,
+.selected .ic.dhwforce{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-force.png)}
+
+.ic.windvertical{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-vertical-g.png)}
+a.ic.windvertical:hover,
+.selected .ic.windvertical{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-vertical.png)}
+
+.ic.windhorizon{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-horizon-g.png)}
+a.ic.windhorizon:hover,
+.selected .ic.windhorizon{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-horizon.png)}
+
+.ic.windall{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-all-g.png)}
+a.ic.windall:hover,
+.selected .ic.windall{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-all.png)}
+
+.ic.windfix{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-fix-g.png)}
+a.ic.windfix:hover,
+.selected .ic.windfix{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-fix.png)}
+
+.ic.windspot{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-spot-g.png)}
+a.ic.windspot:hover,
+.selected .ic.windspot{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-spot.png)}
+
+.ic.windmid{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-mid-g.png)}
+a.ic.windmid:hover,
+.selected .ic.windmid{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-mid-fix.png)}
+
+.ic.windwide{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-wide-g.png)}
+a.ic.windwide:hover,
+.selected .ic.windwide{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-wide.png)}
+
+.ic.windswing{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-swing-g.png)}
+a.ic.windswing:hover,
+.selected .ic.windswing{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-swing.png)}
+
+.ic.pattall{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-all-g.png)}
+a.ic.pattall:hover,
+.selected .ic.pattall{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-all.png)}
+
+.ic.pattrotate{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-rotate-g.png)}
+a.ic.pattrotate:hover,
+.selected .ic.pattrotate{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-rotate.png)}
+
+.ic.patteff{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-eff-g.png)}
+a.ic.patteff:hover,
+.selected .ic.patteff{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-eff.png)}
+
+
+.ic.noti{width:38px;height:38px;overflow:hidden;display:block;margin:0 auto;
+-moz-border-radius:100%;
+-webkit-border-radius:100%;
+border-radius:100%;
+}
+.ic.noti img{display:block;width:100%}
+
+.dvcic.noti{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-attention.png)}
+.dvcic.auto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-auto.png)}
+.dvcic.cool{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-cool.png)}
+.dvcic.heat{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat.png)}
+.dvcic.dry{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dry.png)}
+.dvcic.fan{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan.png)}
+.dvcic.coolwater{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-coolwater.png)}
+.dvcic.hotwater{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-hotwater.png)}
+.dvcic.nolimit{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-nolimit.png)}
+.dvcic.fanauto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-auto.png)}
+.dvcic.fanlow{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-low.png)}
+.dvcic.fanmid{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-mid.png)}
+.dvcic.fanhigh{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-high.png)}
+.dvcic.fanturbo{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-fan-turbo.png)}
+.dvcic.heatauto{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-auto.png)}
+.dvcic.heatex{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-ex.png)}
+.dvcic.heatbyp{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-bypass.png)}
+.dvcic.heatsleep{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-heat-sleep.png)}
+.dvcic.dhweco{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-eco.png)}
+.dvcic.dhwstand{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-standard.png)}
+.dvcic.dhwpower{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-power.png)}
+.dvcic.dhwforce{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-dhw-force.png)}
+.dvcic.windvertical{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-vertical.png)}
+.dvcic.windhorizon{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-horizon.png)}
+.dvcic.windall{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-all.png)}
+.dvcic.windfix{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-fix.png)}
+.dvcic.windspot{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-spot.png)}
+.dvcic.windmid{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-mid-fix.png)}
+.dvcic.windwide{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-wide.png)}
+.dvcic.windswing{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-wind-swing.png)}
+.dvcic.pattall{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-all.png)}
+.dvcic.pattrotate{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-rotate.png)}
+.dvcic.patteff{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-pattern-eff.png)}
+.dvcic.reg4way{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-reg-4way.png)}
+.dvcic.opr{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-opr.png)}
+.dvcic.energy{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-energy.png)}
+
+
+.tools{display:inline-block;width:24px;height:24px;background-repeat:no-repeat;background-position:center}
+
+.tools.undo{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-undo.png)}
+.tools.undo.selected,
+.tools.undo:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-undo-sel.png)}
+
+.tools.redo{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-redo.png)}
+.tools.redo.selected,
+.tools.redo:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-redo-sel.png)}
+
+.tools.above{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-above.png)}
+.tools.above.selected,
+.tools.above:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-above-sel.png)}
+
+.tools.below{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-below.png)}
+.tools.below.selected,
+.tools.below:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-below-sel.png)}
+
+.tools.above-all{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-above-all.png)}
+.tools.above-all.selected,
+.tools.above-all:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-above-all-sel.png)}
+
+.tools.below-all{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-below-all.png)}
+.tools.below-all.selected,
+.tools.below-all:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-below-all-sel.png)}
+
+.tools.lock{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-lock.png)}
+.tools.lock.selected,
+.tools.lock:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-lock-sel.png)}
+
+.tools.clip{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-tool-connect-nor.png)}
+.tools.clip.selected,
+.tools.clip:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-tool-connect-sel.png)}
+
+
+.tools.group{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-group.png)}
+.tools.group.selected,
+.tools.group:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-group-sel.png)}
+
+.tools.ungroup{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-ungroup.png)}
+.tools.ungroup.selected,
+.tools.ungroup:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-ungroup-sel.png)}
+
+.tools.select{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-select-nor.png)}
+.tools.select.selected,
+.tools.select:hover{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-select-sel.png)}
+
+.tools.justify-both{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-justify-both.png)}
+.tools.justify-both.selected,
+.tools.cjustify-bothlip:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-justify-both-sel.png)}
+
+.tools.justify-horz{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-justify-horz.png)}
+.tools.justify-horz.selected,
+.tools.justify-horz:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-justify-horz-sel.png)}
+
+.tools.justify-vert{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-justify-vert.png)}
+.tools.justify-vert.selected,
+.tools.justify-vert:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-justify-vert-sel.png)}
+
+.tools.align-left{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-left.png)}
+.tools.align-left.selected,
+.tools.align-left:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-left-sel.png)}
+
+.tools.align-right{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-right.png)}
+.tools.align-right.selected,
+.tools.align-right:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-right-sel.png)}
+
+.tools.align-top{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-top.png)}
+.tools.align-top.selected,
+.tools.align-top:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-top-sel.png)}
+
+.tools.align-bottom{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-bottom.png)}
+.tools.align-bottom.selected,
+.tools.align-bottom:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-bottom-sel.png)}
+
+.tools.align-middle{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-middle.png)}
+.tools.align-middle.selected,
+.tools.align-middle:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-middle-sel.png)}
+
+.tools.align-center{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-center.png)}
+.tools.align-center.selected,
+.tools.align-center:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-box-align-center-sel.png)}
+
+.tools.zoom-in{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-zoomin-nor.png)}
+.tools.zoom-in.selected,
+.tools.zoom-in:hover{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-zoomin-sel.png)}
+
+.tools.zoom-out{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-zoomout-nor.png)}
+.tools.zoom-out.selected,
+.tools.zoom-out:hover{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-zoomout-sel.png)}
+
+.tools.basic-shape{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-shape-nor.png)}
+.tools.basic-shape.selected,
+.tools.basic-shape:hover{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-shape-sel.png)}
+
+
+
+.tools.bold{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-tool-bold-nor.png)}
+.tools.bold.selected,
+.tools.bold:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-tool-bold-sel.png)}
+
+.tools.mirror-h{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-fliphorizon-nor.png)}
+.tools.mirror-h.selected,
+.tools.mirror-h:hover{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-fliphorizon-sel.png)}
+
+
+.tools.mirror-v{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-flipvertical-nor.png)}
+.tools.mirror-v.selected,
+.tools.mirror-v:hover{background-image:url(../../src/main/resources/static-dev/asset/images/tools/toolbar/ic-tool-flipvertical-sel.png)}
+
+
+.tools.line-width{
+ background-image: url(../../src/main/resources/static-dev/asset/ic/ic-tool-linewidth-nor.png);
+}
+.tools.line-width.selected {
+ background-image: url(../../src/main/resources/static-dev/asset/ic/ic-tool-linewidth-sel.png);
+}
+
+
+.tools.background-img{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-tool-template-nor.png)}
+.tools.background-img.selected,
+.tools.background-img:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/ic-tool-template-sel.png)}
+
+
+
+.tools.select-img{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-select.png)}
+.tools.select-img.selected,
+.tools.select-img:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/tool-select.png)}
+
+
+.tools.outlinetool{background-image:url(../../src/main/resources/static-dev/asset/ic/outlinetool.png)}
+.tools.outlinetool.selected,
+.tools.outlinetool:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/outlinetool-sel.png)}
+.tools.shapefill{background-image:url(../../src/main/resources/static-dev/asset/ic/shapefill.png)}
+.tools.shapefill.selected,
+.tools.shapefill:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/shapefill-sel.png)}
+
+.tools.basicshape{background-image:url(../../src/main/resources/static-dev/asset/ic/shapes.png)}
+.tools.basicshape.selected,
+.tools.basicshape:hover{background-image:url(../../src/main/resources/static-dev/asset/ic/shapes.png)}
+
+#tool_shape:hover #tool_shape_caret {
+  color: #4285f4;
+}
+#tool_shape .tool_shape_entry {
+  text-align: left;
+}
+
+#tool_shape  > span {
+  margin-top: 21px;
+}
+#tool_shape_caret
+{
+	width: 0;
+height: 0;
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-top: 4px solid #3a3737;
+position: relative;
+right: 13px;
+top: -5px;
+float: right;
+margin-top: 16px;
+	
+}
+
+
+
+.accordionArrow {
+	display: block;
+font-size: 16px;
+color: #323232;
+line-height: 20px;
+font-weight: 700;
+padding: 10px 14px 9px 0;
+background: url(../../src/main/resources/static-dev/asset/ic/list-control-down.png) no-repeat right center;
+}
+
+
+
+#wrapper .customSlider.ui-slider-horizontal{background:#d3d3d3;height:2px}
+#wrapper .customSlider.ui-slider-horizontal .colorRail{display:block;height:4px;position:absolute;top:50%;margin-top:-2px;left:0;background:#0081c6}
+#wrapper .customSlider.ui-slider .ui-slider-handle{width:9px;height:9px;background:#fff;border:3px solid #0081c6;margin-top:-7px;top:0;outline:none;margin-left:-7px;
+-moz-border-radius:100%;
+-webkit-border-radius:100%;
+border-radius:100%
+}
+#wrapper .customSlider.ui-slider.disabled{opacity:0.3}
+#wrapper .customSlider.ui-slider.disabled .colorRail{background:#939393}
+#wrapper .customSlider.ui-slider.disabled .ui-slider-handle{border-color:#939393}
+
+#wrapper .rangeSlider{height:40px;background:#a6d3eb}
+#wrapper .rangeSlider .ui-slider-range{background:#8cc6e5}
+#wrapper .rangeSlider .ui-slider-handle{position:absolute;width:6px;height:36px;top:2px;outline:none;margin-left:-3px;background:url(../../src/main/resources/static-dev/asset/ic/range-handle.png) no-repeat center}
+#wrapper .rangeSlider .ui-slider-handle:before{
+	content:"";display:block;top:0;bottom:0;left:0;right:0;
+	outline:none;
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,.3);
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.3);
+	box-shadow:0 1px 1px rgba(0,0,0,.3);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3)";
+	zoom: 1
+}
+
+#fontTypeText-menu,#fontTypeChart-menu,#fontTypeRadioButton-menu,#fontTypeComboBox-menu,#fontTypeCheckBox-menu,#fontTypeProgressBar-menu{ max-height: 180px !important; overflow: auto; }
+#fontStyleText-menu, #fontStyleChart-menu, #fontStyleRadioButton-menu, #fontStyleComboBox-menu, #fontStyleCheckBox-menu, #fontStyleProgressBar-menu{ max-height: 100px !important; overflow: auto; }
+#anim_mutiple_val-menu{ max-height: 350px !important; overflow: auto; }
+.picker-state-disabled{
+	opacity: .3;
+}

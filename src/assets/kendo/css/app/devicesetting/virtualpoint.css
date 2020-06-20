@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*
+ *    SETTINGS > SAC
+ */
+
+/* 공통 */
+#device-setting-virtualpoint{
+    height: 100%;
+}
+
+/*
+ *    SETTINGS > SAC > Virtual Point Management
+ */
+.sac-virtualpoint-container {
+	height: calc(100% - 10px);
+}
+.sac-virtualpoint-container .sac-virtualpoint-top {
+    margin: 10px 0 30px;
+    text-align: right;
+}
+.sac-virtualpoint-container .sac-virtualpoint-top .k-button {
+    width: 100px;
+}
+.sac-virtualpoint-container .sac-virtualpoint-top:after,
+.sac-virtualpoint-container .virtualpoint-content-util:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.sac-virtualpoint-container .virtualpoint-content-util {
+    margin-bottom: 35px;
+}
+.sac-virtualpoint-container .sac-virtualpoint-content{
+	height: calc(100% - 80px);
+}
+.sac-virtualpoint-container .sac-virtualpoint-content .virtualpoint-content-detail{
+	height: calc(100% - 71px);
+}
+.sac-virtualpoint-container .sac-virtualpoint-content .virtualpoint-content-box-btn {
+    float: right;
+}
+.sac-virtualpoint-container .sac-virtualpoint-content .virtualpoint-content-box-btn .k-button {
+    margin-left: 5px;
+    width: 166px;
+}
+.sac-virtualpoint-container .sac-virtualpoint-content .virtualpoint-content-title {
+    float: left;
+    color: #323232;
+    font-weight: 700;
+}
+.sac-virtualpoint-container .sac-virtualpoint-grid .sac-virtual-point-grid-cell {
+    padding: 0 5px;
+}
+.sac-virtualpoint-container .sac-virtualpoint-grid .sac-virtual-point-grid-content {
+    width: 100%;
+}
+.sac-virtualpoint-container .sac-virtualpoint-grid input.sac-virtual-point-grid-content {
+    height: 38px;
+}

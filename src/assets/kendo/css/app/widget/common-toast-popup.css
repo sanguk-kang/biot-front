@@ -1,0 +1,15 @@
+.common-toast-popup{
+	font-size: 20px;
+	line-height: 26px;
+	color: #fff;
+	padding: 12px 24px;
+	border-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, .4);
+}
+.common-toast-popup.k-widget.k-popup{
+	background-color: rgba(0, 0, 0, .3);
+	box-shadow: none;
+}
+.common-toast-popup .content{
+	white-space: nowrap;
+}

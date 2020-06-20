@@ -1,0 +1,1023 @@
+
+/* 기기정보 아이콘 */
+
+.detail-img{display:inline-block;width:34px;height:34px;overflow:hidden;background-repeat:no-repeat;background-position:center;position:relative;background-size:contain;-webkit-border-radius:100%;border-radius:100%;vertical-align:middle;margin-left:0;margin-right:20px}
+.device-img.Auto,.detail-img.Auto,.detail-img.auto{background-image:url("../images/icon/ic-auto.png?v=20191219_1646")}
+.device-img.Heat,.detail-img.Heat,.detail-img.heat{background-image:url("../images/icon/ic-heat.png?v=20191219_1646")}
+.device-img.Dry,.detail-img.Dry,.detail-img.dry{background-image:url("../images/icon/ic-dry.png?v=20191219_1646")}
+.device-img.Fan,.detail-img.Fan,.detail-img.fan{background-image:url("../images/icon/ic-fan.png?v=20191219_1646")}
+.device-img.Cool,.detail-img.Cool,.detail-img.cool{background-image:url("../images/icon/ic-cool.png?v=20191219_1646")}
+.device-img.CoolSt,.detail-img.Coolstr,.detail-img.coolstr,.detail-img.CoolStorage{background-image:url("../images/icon/ic-coolwater.png?v=20191219_1646")}
+.device-img.HeatSt,.device-img.HotWater,.detail-img.Heatstr,.detail-img.heatstr,.detail-img.HeatStorage,.detail-img.HotWater{background-image:url("../images/icon/ic-hotwater.png?v=20191219_1646")}
+.device-img.error,.detail-img.error{background-image:url("../images/icon/ic-noti46.png?v=20191219_1646")}
+.detail-img.Alarm{background-image:url("../images/icon/ic-attention.png?v=20191219_1646")}.detail-img.nolimit{background-image:url("../images/icon/ic-nolimit.png?v=20191219_1646")}
+.detail-img.fanauto{background-image:url("../images/icon/ic-fan-auto.png?v=20191219_1646")}.detail-img.fanlow{background-image:url("../images/icon/ic-fan-low.png?v=20191219_1646")}
+.detail-img.fanmid{background-image:url("../images/icon/ic-fan-mid.png?v=20191219_1646")}.detail-img.fanhigh{background-image:url("../images/icon/ic-fan-high.png?v=20191219_1646")}
+.detail-img.fanturbo{background-image:url("../images/icon/ic-fan-turbo.png?v=20191219_1646")}.detail-img.heatauto{background-image:url("../images/icon/ic-heat-auto.png?v=20191219_1646")}
+.device-img.HeatEx,.detail-img.heatex,.detail-img.HeatExchange{background-image:url("../images/icon/ic-heat-ex.png?v=20191219_1646")}
+.device-img.ByPass,.device-img.ByPass,.detail-img.ByPass{background-image:url("../images/icon/ic-heat-bypass.png?v=20191219_1646")}
+.device-img.Sleep,.detail-img.Sleep{background-image:url("../images/icon/ic-heat-sleep.png?v=20191219_1646")}
+.device-img.Eco,.detail-img.dhweco,.detail-img.Eco{background-image:url("../images/icon/ic-dhw-eco.png?v=20191219_1646")}
+.device-img.Standa,.detail-img.dhwstand{background-image:url("../images/icon/ic-dhw-standard.png?v=20191219_1646")}
+.device-img.Power,.detail-img.dhwpower{background-image:url("../images/icon/ic-dhw-power.png?v=20191219_1646")}
+.device-img.Force,.detail-img.dhwforce{background-image:url("../images/icon/ic-dhw-force.png?v=20191219_1646")}
+.detail-img.windvertical{background-image:url("../images/icon/ic-wind-vertical.png?v=20191219_1646")}.detail-img.windhorizon{background-image:url("../images/icon/ic-wind-horizon.png?v=20191219_1646")}
+.detail-img.windall{background-image:url("../images/icon/ic-wind-all.png?v=20191219_1646")}.detail-img.windfix{background-image:url("../images/icon/ic-wind-fix.png?v=20191219_1646")}
+.detail-img.windspot{background-image:url("../images/icon/ic-wind-spot.png?v=20191219_1646")}.detail-img.windmid{background-image:url("../images/icon/ic-wind-mid.png?v=20191219_1646")}
+.detail-img.windwide{background-image:url("../images/icon/ic-wind-wide.png?v=20191219_1646")}.detail-img.windswing{background-image:url("../images/icon/ic-wind-swing.png?v=20191219_1646")}
+.detail-img.pattall{background-image:url("../images/icon/ic-pattern-all.png?v=20191219_1646")}.detail-img.pattrotate{background-image:url("../images/icon/ic-pattern-rotate.png?v=20191219_1646")}
+.detail-img.patteff{background-image:url("../images/icon/ic-pattern-eff.png?v=20191219_1646")}.detail-img.reg4way{background-image:url("../images/icon/ic-reg-4way.png?v=20191219_1646")}
+.detail-img.opr{background-image:url("../images/icon/ic-opr.png?v=20191219_1646")}.detail-img.energy{background-image:url("../images/icon/ic-energy.png?v=20191219_1646")}
+.detail-img.AHU{background-image:url("../images/icon/ic-dvc-ahu.png?v=20191219_1646")}.detail-img.Chiller{background-image:url("../images/icon/ic-dvc-4way.png?v=20191219_1646")}
+.detail-img.Outdoor{background-image:url("../images/icon/ic-sacoutdoor30.png?v=20191219_1646")}.detail-img.Indoor{background-image:url("../images/icon/ic-sacindoor30.png?v=20191219_1646")}
+.detail-img.Meter{background-image:url("../images/icon/ic-meter30.png?v=20191219_1646")}.detail-img.Gateway{background-image:url("../images/icon/ic-gateway30.png?v=20191219_1646")}
+.detail-img.Beacon{background-image:url("../images/icon/ic-ble30.png?v=20191219_1646")}.detail-img.Beacon.movable.On,.detail-img.Beacon.movable.on{background:url("../images/icon/ic-ble30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.Beacon.movable.err,.detail-img.Beacon.movable.Warning{background:url("../images/icon/ic-ble30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.Beacon.movable.Critical{background:url("../images/icon/ic-ble30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.Beacon.movable.NetworkError{background:url("../images/icon/ic-ble30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.Beacon.movable-reg{background:url("../images/icon/ic-ble30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.k-state-selected .detail-img.Beacon.movable-reg,.detail-img.Beacon.movable-reg.selected{background:url("../images/icon/ic-ble30.png?v=20191219_1646"),url("../images/icon/drop-blue.png?v=20191219_1646")}
+.detail-img.Asset{background-image:url("../images/icon/ic-meter30.png?v=20191219_1646")}.detail-img.CCTV{background-image:url("../images/icon/ic-cctv30.png?v=20191219_1646")}
+.detail-img.Light{background-image:url("../images/icon/ic-light30.png?v=20191219_1646")}.detail-img.Temp{background-image:url("../images/icon/ic-temp30.png?v=20191219_1646")}
+.detail-img.Motion{background-image:url("../images/icon/ic-motion30.png?v=20191219_1646")}.detail-img.AI{background-image:url("../images/icon/ic-dvc-ai.png?v=20191219_1646")}
+.detail-img.AO{background-image:url("../images/icon/ic-dvc-ao.png?v=20191219_1646")}.detail-img.AV{background-image:url("../images/icon/ic-dvc-av.png?v=20191219_1646")}
+.detail-img.DI{background-image:url("../images/icon/ic-dvc-di.png?v=20191219_1646")}.detail-img.DO{background-image:url("../images/icon/ic-dvc-do.png?v=20191219_1646")}
+.detail-img.DV{background-image:url("../images/icon/ic-dvc-dv.png?v=20191219_1646")}.detail-img.SmartPlug{background-image:url("../images/icon/ic-power30.png?v=20191219_1646")}
+.detail-img.Outdoor.gray{background-image:url("../images/icon/ic-sacoutdoor30_gray.png?v=20191219_1646")}.detail-img.Meter.gray{background-image:url("../images/icon/ic-meter30_gray.png?v=20191219_1646")}
+.detail-img.Motion.gray{background-image:url("../images/icon/ic-motion30-gray.png?v=20191219_1646")}.detail-img.Indoor.gray{background-image:url("../images/icon/ic-sacindoor30_gray.png?v=20191219_1646")}
+.detail-img.Outdoor.gray{background-image:url("../images/icon/ic-sacoutdoor30_gray.png?v=20191219_1646")}.detail-img.Light.gray{background-image:url("../images/icon/ic-light30_gray.png?v=20191219_1646")}
+.detail-img.Temp.gray{background-image:url("../images/icon/ic-temp30_gray.png?v=20191219_1646")}.detail-img.AI.gray{background-image:url("../images/icon/ic-dvc-ai-gray.png?v=20191219_1646")}
+.detail-img.AO.gray{background-image:url("../images/icon/ic-dvc-ao-gray.png?v=20191219_1646")}.detail-img.AV.gray{background-image:url("../images/icon/ic-dvc-av-gray.png?v=20191219_1646")}
+.detail-img.DI.gray{background-image:url("../images/icon/ic-dvc-di-gray.png?v=20191219_1646")}.detail-img.DO.gray{background-image:url("../images/icon/ic-dvc-do-gray.png?v=20191219_1646")}
+.detail-img.DV.gray{background-image:url("../images/icon/ic-dvc-dv-gray.png?v=20191219_1646")}.detail-img.Gateway.gray{background-image:url("../images/icon/facility_ic_iot.png?v=20191219_1646");background-size:35px 35px;background-position:center}
+.detail-img.Beacon.gray{background-image:url("../images/icon/facility_ic_beacon.png?v=20191219_1646");background-size:35px 35px;background-position:center}
+.detail-img.CCTV.gray{background-image:url("../images/icon/facility_ic_cctv.png?v=20191219_1646");background-size:35px 35px;background-position:center}
+.detail-img.SmartPlug.gray{background-image:url("../images/icon/facility_ic_power.png?v=20191219_1646");background-size:40px 40px;background-position:center}
+.detail-img.asset.computer,.detail-img.asset.computation{background-image:url("../images/icon/ic-computation30.png?v=20191219_1646")}
+.detail-img.asset.computer.movable.On,.detail-img.asset.computation.movable.On{background:url("../images/icon/ic-computation30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.computer.movable.Critical,.detail-img.asset.computation.movable.Critical{background:url("../images/icon/ic-computation30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.computer.movable.Warning,.detail-img.asset.computation.movable.Warning{background:url("../images/icon/ic-computation30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.computer.movable.NetworkError,.detail-img.asset.computation.movable.NetworkError{background:url("../images/icon/ic-computation30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.asset.office{background-image:url("../images/icon/ic-office30.png?v=20191219_1646")}.detail-img.asset.office.movable.On{background:url("../images/icon/ic-office30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.office.movable.Critical{background:url("../images/icon/ic-office30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.office.movable.Warning{background:url("../images/icon/ic-office30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.office.movable.NetworkError{background:url("../images/icon/ic-office30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.asset.medical{background-image:url("../images/icon/ic-medical30.png?v=20191219_1646")}.detail-img.asset.medical.movable.On{background:url("../images/icon/ic-medical30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.medical.movable.Critical{background:url("../images/icon/ic-medical30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.medical.movable.Warning{background:url("../images/icon/ic-medical30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.medical.movable.NetworkError{background:url("../images/icon/ic-medical30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.asset.power{background-image:url("../images/icon/ic-power30.png?v=20191219_1646")}.detail-img.asset.power.movable.On{background:url("../images/icon/ic-power30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.power.movable.Critical{background:url("../images/icon/ic-power30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.power.movable.Warning{background:url("../images/icon/ic-power30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.power.movable.NetworkError{background:url("../images/icon/ic-power30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.asset.firefighting{background-image:url("../images/icon/ic-firefighting30.png?v=20191219_1646")}.detail-img.asset.firefighting.movable.On{background:url("../images/icon/ic-firefighting30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.firefighting.movable.Critical{background:url("../images/icon/ic-firefighting30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.firefighting.movable.Warning{background:url("../images/icon/ic-firefighting30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.firefighting.movable.NetworkError{background:url("../images/icon/ic-firefighting30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.asset.security{background-image:url("../images/icon/ic-security30.png?v=20191219_1646")}.detail-img.asset.security.movable.On{background:url("../images/icon/ic-security30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.security.movable.Critical{background:url("../images/icon/ic-security30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.security.movable.Warning{background:url("../images/icon/ic-security30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.security.movable.NetworkError{background:url("../images/icon/ic-security30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.asset.network{background-image:url("../images/icon/ic-network30.png?v=20191219_1646")}.detail-img.asset.network.movable.On{background:url("../images/icon/ic-network30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.network.movable.Critical{background:url("../images/icon/ic-network30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.network.movable.Warning{background:url("../images/icon/ic-network30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.network.movable.NetworkError{background:url("../images/icon/ic-network30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.asset.hvac{background-image:url("../images/icon/ic-hvac30.png?v=20191219_1646")}.detail-img.asset.hvac.movable.On{background:url("../images/icon/ic-hvac30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.hvac.movable.Critical{background:url("../images/icon/ic-hvac30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.hvac.movable.Warning{background:url("../images/icon/ic-hvac30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.hvac.movable.NetworkError{background:url("../images/icon/ic-hvac30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.asset.etc,.detail-img.asset{background-image:url("../images/icon/ic-etc30.png?v=20191219_1646")}
+.detail-img.asset.etc.movable.On,.detail-img.asset.movable.On{background:url("../images/icon/ic-etc30.png?v=20191219_1646"),url("../images/icon/drop-green.png?v=20191219_1646")}
+.detail-img.asset.etc.movable.Critical,.detail-img.asset.movable.Critical{background:url("../images/icon/ic-etc30.png?v=20191219_1646"),url("../images/icon/drop-red.png?v=20191219_1646")}
+.detail-img.asset.etc.movable.Warning,.detail-img.asset.movable.Warning{background:url("../images/icon/ic-etc30.png?v=20191219_1646"),url("../images/icon/drop-yellow.png?v=20191219_1646")}
+.detail-img.asset.etc.movable.NetworkError,.detail-img.asset.movable.NetworkError{background:url("../images/icon/ic-etc30.png?v=20191219_1646"),url("../images/icon/drop-gray.png?v=20191219_1646")}
+.detail-img.movable.asset,.detail-img.movable-reg.asset{background-size:85%,contain !important;background-position:center 2px,center !important}
+.detail-img.movable,.detail-img.movable-reg{background-size:contain,contain !important;background-position:center,center !important;background-repeat:no-repeat !important}
+.k-state-selected .detail-img.reg{background-color:#0081c6}.detail-img.reg.selected{background-color:#0081c6}
+.detail-img.asset{background-color:#0081c6}.detail-img.asset.Off,.detail-img.off,.detail-img.Off{background-color:#454545}
+.detail-img.asset.On,.detail-img.on,.detail-img.On{background-color:#1aa05a}.detail-img.asset.Warning,.detail-img.err,.detail-img.Warning{background-color:#ffa41f}
+.detail-img.asset.Critical,.detail-img.Critical{background-color:#ee392f}.detail-img.asset.NetworkError,.detail-img.NetworkError{background-color:#b2b2b2}
+
+.device-img.Normal-Asset,.circle-icon.Normal-Asset,.device-img.Normal-On,.circle-icon.Normal-On{background-color:#1aa05a}
+.device-img.Normal-Off,.circle-icon.Normal-Off{background-color:#454545}.device-img.Alarm-Critical,.circle-icon.Alarm-Critical{background-color:#ee392f}
+.device-img.Alarm-Warning,.circle-icon.Alarm-Warning{background-color:#ffa41f}.device-img.Alarm-NetworkError,.circle-icon.Alarm-NetworkError{background-color:#b2b2b2}
+.device-img.Auto,.detail-img.Auto,.detail-img.auto{background-image:url("../images/icon/ic-auto.png?v=20191219_1646")}
+.device-img.Heat,.detail-img.Heat,.detail-img.heat{background-image:url("../images/icon/ic-heat.png?v=20191219_1646")}
+.device-img.Dry,.detail-img.Dry,.detail-img.dry{background-image:url("../images/icon/ic-dry.png?v=20191219_1646")}
+.device-img.Fan,.detail-img.Fan,.detail-img.fan{background-image:url("../images/icon/ic-fan.png?v=20191219_1646")}
+.device-img.FanAuto,.detail-img.FanAuto,.detail-img.FanAuto{background-image:url("../images/icon/ic-fan-auto.png")}
+.device-img.FanHigh,.detail-img.FanHigh,.detail-img.FanHigh{background-image:url("../images/icon/ic-fan-high.png")}
+.device-img.FanLow,.detail-img.FanLow,.detail-img.FanLow{background-image:url("../images/icon/ic-fan-low.png")}
+.device-img.FanMid,.detail-img.FanMid,.detail-img.FanMid{background-image:url("../images/icon/ic-fan-mid.png")}
+.device-img.FanTb,.detail-img.FanTb,.detail-img.FanTb{background-image:url("../images/icon/ic-fan-turbo.png")}
+.device-img.FanLess,.detail-img.FanLess,.detail-img.FanLess{background-image:url("../images/icon/ic-fan-less.png") }
+
+.device-img.Showcase,.detail-img.Showcase,.detail-img.Showcase{background-image:url("../images/icon/ic-showcase.png")}
+.device-img.Freezer,.detail-img.Freezer,.detail-img.Freezer{background-image:url("../images/icon/ic-freezer.png")}
+.device-img.airQ,.detail-img.airQ,.detail-img.airQ{background-image:url("../images/icon/ic-aitq.png")}
+.device-img.weather,.detail-img.weather,.detail-img.weather{background-image:url("../images/icon/ic-weather.png")}
+
+.device-img.Cool,.detail-img.Cool,.detail-img.cool{background-image:url("../images/icon/ic-cool.png?v=20191219_1646")}
+.device-img.CoolSt,.detail-img.Coolstr,.detail-img.coolstr,.detail-img.CoolStorage{background-image:url("../images/icon/ic-coolwater.png?v=20191219_1646")}
+.device-img.HeatSt,.device-img.HotWater,.detail-img.Heatstr,.detail-img.heatstr,.detail-img.HeatStorage,.detail-img.HotWater{background-image:url("../images/icon/ic-hotwater.png?v=20191219_1646")}
+.device-img.error,.detail-img.error{background-image:url("../images/icon/ic-noti46.png?v=20191219_1646")}
+.device-img.HeatEx,.detail-img.heatex,.detail-img.HeatExchange{background-image:url("../images/icon/ic-heat-ex.png?v=20191219_1646")}
+.device-img.ByPass,.device-img.ByPass,.detail-img.ByPass{background-image:url("../images/icon/ic-heat-bypass.png?v=20191219_1646")}
+.device-img.Sleep,.detail-img.Sleep{background-image:url("../images/icon/ic-heat-sleep.png?v=20191219_1646")}
+.device-img.Eco,.detail-img.dhweco,.detail-img.Eco{background-image:url("../images/icon/ic-dhw-eco.png?v=20191219_1646")}
+.device-img.Standa,.detail-img.dhwstand{background-image:url("../images/icon/ic-dhw-standard.png?v=20191219_1646")}
+.device-img.Power,.detail-img.dhwpower{background-image:url("../images/icon/ic-dhw-power.png?v=20191219_1646")}
+.device-img.Force,.detail-img.dhwforce{background-image:url("../images/icon/ic-dhw-force.png?v=20191219_1646")}
+
+.device-img.energyM,.detail-img.energyM,.detail-img.energyM{ background-image: url(../images/icon/ic-meter46.png);}
+.device-img.Light,.detail-img.Light,.detail-img.Light{ background-image: url(../images/icon/ic-light46.png);}
+.item-bottom .device-type-img.I4WAY {background-image: url(../images/icon/ic-dvc-4way.png);}
+.item-bottom .device-type-img.noicon {background-image: unset;padding-left: 20px;}
+
+
+.color-Wait, .color-Active{ color:#08b5d4}
+.color-Charge { color:#68ba11}
+.color-Discharge {  color:#f0824f}
+.color-Electricity { color:#2c81db}
+.color-Stop {  color:#454545}
+.color-Warning {  color:#ffa41f}
+.color-Critical {  color:#ee392f}
+
+.circle-icon.Wait, .circle-icon.Active {background-color:#08b5d4;}
+.circle-icon.Charge {background-color:#68ba11;  }
+.circle-icon.Discharge {background-color:#f0824f;  }
+.circle-icon.Electricity {background-color:#2c81db;  }
+.circle-icon.Stop {background-color:#454545;  }
+.circle-icon.Warning {background-color:#ffa41f;  }
+.circle-icon.Critical {background-color:#ee392f;  }
+
+
+/* e: 버튼 아이콘 */
+input:checked+.colorbox{background-color:#0081c6}input:disabled+.colorbox{background:#e6e6e6;opacity:.3}
+input:checked+.colorbox .ic-auto-g{background-position:-404px -276px}input:checked+.colorbox .ic-cool-g{background-position:-220px -46px}
+input:checked+.colorbox .ic-heat-g{background-position:-358px -184px}input:checked+.colorbox .ic-dry-g{background-position:-266px -184px}
+input:checked+.colorbox .ic-fan-g{background-position:-0 -292px}input:checked+.colorbox .ic-coolwater-g{background-position:-220px -138px}
+input:checked+.colorbox .ic-hotwater-g{background-position:-358px -276px}input:checked+.colorbox .ic-fan-auto-g{background-position:-92px -246px}
+input:checked+.colorbox .ic-fan-low-g{background-position:-312px -46px}input:checked+.colorbox .ic-fan-mid-g{background-position:-312px -138px}
+input:checked+.colorbox .ic-fan-high-g{background-position:-230px -246px}input:checked+.colorbox .ic-fan-turbo-g{background-position:-312px -230px}
+input:checked+.colorbox .ic-wind-vertical-g{background-position:-46px -338px}input:checked+.colorbox .ic-wind-horizon-g{background-position:-128px -46px}
+input:checked+.colorbox .ic-wind-all-g{background-position:-174px 0}input:checked+.colorbox .ic-wind-fix-g{background-position:-46px -108px}
+input:checked+.colorbox .ic-wind-spot-g{background-position:-92px -154px}input:checked+.colorbox .ic-wind-mid-g{background-position:-174px -92px}
+input:checked+.colorbox .ic-wind-wide-g{background-position:-46px -292px}input:checked+.colorbox .ic-wind-swing-g{background-position:-276px -338px}
+input:checked+.colorbox .ic-nolimit-g{background-position:-230px -338px}input:checked+.colorbox .ic-pattern-all-g{background-position:-404px 0}
+input:checked+.colorbox .ic-pattern-rotate-g{background-position:-404px -184px}input:checked+.colorbox .ic-pattern-eff-g{background-position:-404px -92px}
+input:checked+.colorbox .ic-heat-auto-g{background-position:-138px -292px}input:checked+.colorbox .ic-heat-ex-g{background-position:-358px 0}
+input:checked+.colorbox .ic-heat-bypass-g{background-position:-230px -292px}input:checked+.colorbox .ic-heat-sleep-g{background-position:-358px -138px}
+input:checked+.colorbox .ic-dhw-eco-g{background-position:-46px -200px}input:checked+.colorbox .ic-dhw-standard-g{background-position:-266px -92px}
+input:checked+.colorbox .ic-dhw-power-g{background-position:-266px 0}input:checked+.colorbox .ic-dhw-force-g{background-position:-138px -200px}
+input:checked+.colorbox .ic-heatauto-g{background-image: url(../images/icon/ic-heat-auto.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-less-g{ background-image: url(../images/common/ic_less_w.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-heatsleep-g{ background-image: url(../images/icon/ic-heat-sleep.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-heatbyp-g{ background-image: url(../images/icon/ic-heat-bypass.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-heatex-g{ background-image: url(../images/icon/ic-heat-ex.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-dhwforce-g{ background-image: url(../images/icon/ic-dhw-force.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-dhwpower-g{ background-image: url(../images/icon/ic-dhw-power.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-dhwstand-g{ background-image: url(../images/icon/ic-dhw-power.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-dhweco-g{ background-image: url(../images/icon/ic-dhw-eco.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-pattall-g{ background-image: url(../images/icon/ic-pattern-all.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-pattrotate-g{ background-image: url(../images/icon/ic-pattern-rotate.png) !important; background-repeat: no-repeat;background-position: center center;}
+input:checked+.colorbox .ic-patteff-g{ background-image: url(../images/icon/ic-pattern-eff.png) !important; background-repeat: no-repeat;background-position: center center;}
+
+
+
+.ic-antifreeze {
+    background-image: url("../images/icons.png");
+    background-position: -240px -465px;
+    width: 24px;
+    height: 24px
+}
+.ic-spi {
+    background-image: url("../images/icons.png");
+    background-position: -96px -465px;
+    width: 24px;
+    height: 24px
+}
+.ic-schedule {
+    background-image: url("../images/icons.png");
+    background-position: -471px -168px;
+    width: 24px;
+    height: 24px
+}
+.ic-thurmo {
+    background-image: url("../images/icons.png");
+    background-position: -456px -465px;
+    width: 24px;
+    height: 24px
+}
+.ic-rock {
+    background-image: url("../images/icons.png");
+    background-position: -471px -144px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-filter-0 {
+    background: url("../images/icon/ic-filter-0.png")no-repeat center center;
+    width: 24px;
+    height: 24px
+}
+.ic-filter-1 {
+    background: url("../images/icon/ic-filter-1.png")no-repeat center center;
+    width: 24px;
+    height: 24px
+}
+.ic-filter-2 {
+    background: url("../images/icon/ic-filter-2.png")no-repeat center center;
+    width: 24px;
+    height: 24px
+}
+.ic-filter-3 {
+    background: url("../images/icon/ic-filter-3.png")no-repeat center center;
+    width: 24px;
+    height: 24px
+}
+.ic-filter-4 {
+    background: url("../images/icon/ic-filter-4.png")no-repeat center center;
+    width: 24px;
+    height: 24px
+}
+.ic-rc-disable {
+    background-image: url("../images/icons.png");
+    background-position: -471px -48px;
+    width: 24px;
+    height: 24px
+}
+.ic-deforest {
+    background-image: url("../images/icons.png");
+    background-position: -471px -336px;
+    width: 24px;
+    height: 24px
+}
+.ic-peak {
+    background-image: url("../images/icons.png");
+    background-position: -288px -441px;
+    width: 24px;
+    height: 24px
+}
+.ic-dhweco-g {
+    background-image: url(../images/icon/ic-dhw-eco-g.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+}
+.ic-dhwstand-g {
+    background-image: url(../images/icon/ic-dhw-power-g.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+}
+.ic-dhwpower-g {
+    background-image: url(../images/icon/ic-dhw-power-g.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+}
+.ic-dhwforce-g {
+    background-image: url(../images/icon/ic-dhw-force-g.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+}
+.ic-heatex-g {
+    background-image: url(../images/icon/ic-heat-ex-g.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+}
+.ic-heatbyp-g {
+    background-image: url(../images/icon/ic-heat-bypass-g.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+
+}
+.ic-heatsleep-g {
+    background-image: url(../images/icon/ic-heat-sleep-g.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+
+}
+.ic-less-g {
+    background-image: url(../images/common/ic_less_g.png) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+
+}
+.ic-heatauto-g {
+    background-image:url("../images/icon/ic-heat-auto-g.png")  !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px;
+}
+
+
+.ic-auto-g {
+    background-image: url(../images/icons.png);
+    background-position: -138px -154px;
+    width: 46px;
+    height: 46px;
+}
+.ic-auto {
+    background-image: url("../images/icons.png");
+    background-position: -404px -276px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-cool-g {
+    background-image: url("../images/icons.png");
+    background-position: -220px 0;
+    width: 46px;
+    height: 46px
+}
+
+.ic-cool {
+    background-image: url("../images/icons.png");
+    background-position: -220px -46px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-coolwater-g {
+    background-image: url("../images/icons.png");
+    background-position: -220px -92px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-coolwater {
+    background-image: url("../images/icons.png");
+    background-position: -220px -138px;
+    width: 46px;
+    height: 46px
+}
+
+
+
+.ic-delete-sel {
+    background-image: url("../images/icons.png");
+    background-position: -471px -408px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-delete {
+    background-image: url("../images/icons.png");
+    background-position: -471px -432px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dhw-eco-g {
+    background-image: url("../images/icons.png");
+    background-position: 0 -200px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dhw-eco {
+    background-image: url("../images/icons.png");
+    background-position: -46px -200px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dhw-force-g {
+    background-image: url("../images/icons.png");
+    background-position: -92px -200px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dhw-force {
+    background-image: url("../images/icons.png");
+    background-position: -138px -200px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dhw-power-g {
+    background-image: url("../images/icons.png");
+    background-position: -184px -200px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dhw-power {
+    background-image: url("../images/icons.png");
+    background-position: -266px 0;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dhw-standard-g {
+    background-image: url("../images/icons.png");
+    background-position: -266px -46px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dhw-standard {
+    background-image: url("../images/icons.png");
+    background-position: -266px -92px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dry-g {
+    background-image: url("../images/icons.png");
+    background-position: -266px -138px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dry {
+    background-image: url("../images/icons.png");
+    background-position: -266px -184px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-dvc-1way {
+    background-image: url("../images/icons.png");
+    background-position: -495px -312px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-2way {
+    background-image: url("../images/icons.png");
+    background-position: -24px -441px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-4way {
+    background-image: url("../images/icons.png");
+    background-position: -48px -441px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-ahu-mini {
+    background-image: url("../images/icons.png");
+    background-position: -72px -441px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-ahu {
+    background-image: url("../images/icons.png");
+    background-position: -96px -441px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-bottom {
+    background-image: url("../images/icons.png");
+    background-position: -120px -441px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-ceiling {
+    background-image: url("../images/icons.png");
+    background-position: -432px -441px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-console {
+    background-image: url("../images/icons.png");
+    background-position: -471px 0;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-duct {
+    background-image: url("../images/icons.png");
+    background-position: -471px -24px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-ehs {
+    background-image: url("../images/icons.png");
+    background-position: -471px -120px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-erv-plus {
+    background-image: url("../images/icons.png");
+    background-position: -471px -192px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-erv {
+    background-image: url("../images/icons.png");
+    background-position: -471px -216px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-middle {
+    background-image: url("../images/icons.png");
+    background-position: -471px -240px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-rac {
+    background-image: url("../images/icons.png");
+    background-position: -471px -264px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-dvc-ventilation {
+    background-image: url("../images/icons.png");
+    background-position: -471px -288px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-energy {
+    background-image: url("../images/icons.png");
+    background-position: 0 -246px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-auto-g {
+    background-image: url("../images/icons.png");
+    background-position: -46px -246px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-auto {
+    background-image: url("../images/icons.png");
+    background-position: -92px -246px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-g {
+    background-image: url("../images/icons.png");
+    background-position: -138px -246px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-high-g {
+    background-image: url("../images/icons.png");
+    background-position: -184px -246px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-high {
+    background-image: url("../images/icons.png");
+    background-position: -230px -246px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-low-g {
+    background-image: url("../images/icons.png");
+    background-position: -312px 0;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-low {
+    background-image: url("../images/icons.png");
+    background-position: -312px -46px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-mid-g {
+    background-image: url("../images/icons.png");
+    background-position: -312px -92px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-mid {
+    background-image: url("../images/icons.png");
+    background-position: -312px -138px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-turbo-g {
+    background-image: url("../images/icons.png");
+    background-position: -312px -184px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan-turbo {
+    background-image: url("../images/icons.png");
+    background-position: -312px -230px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-fan {
+    background-image: url("../images/icons.png");
+    background-position: 0 -292px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-favorite-sel {
+    background-image: url("../images/icons.png");
+    background-position: -144px -441px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-favorite {
+    background-image: url("../images/icons.png");
+    background-position: -168px -441px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-filter {
+    background-image: url("../images/icons.png");
+    background-position: -192px -441px;
+    width: 24px;
+    height: 24px
+}
+.ic-floor-blue-down {
+    background-image: url("../images/icons.png");
+    background-position: -495px -432px;
+    width: 20px;
+    height: 20px
+}
+
+.ic-floor-blue-up {
+    background-image: url("../images/icons.png");
+    background-position: -495px -452px;
+    width: 20px;
+    height: 20px
+}
+
+.ic-floor-normal-down {
+    background-image: url("../images/icons.png");
+    background-position: -450px -132px;
+    width: 20px;
+    height: 20px
+}
+
+.ic-floor-normal-up {
+    background-image: url("../images/icons.png");
+    background-position: -450px -152px;
+    width: 20px;
+    height: 20px
+}
+
+.ic-flyout-legends {
+    background-image: url("../images/icons.png");
+    background-position: -495px -472px;
+    width: 22px;
+    height: 15px
+}
+
+.ic-heat-auto-g {
+    background-image: url("../images/icons.png");
+    background-position: -92px -292px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat-auto {
+    background-image: url("../images/icons.png");
+    background-position: -138px -292px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat-bypass-g {
+    background-image: url("../images/icons.png");
+    background-position: -184px -292px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat-bypass {
+    background-image: url("../images/icons.png");
+    background-position: -230px -292px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat-ex-g {
+    background-image: url("../images/icons.png");
+    background-position: -276px -292px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat-ex {
+    background-image: url("../images/icons.png");
+    background-position: -358px 0;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat-g {
+    background-image: url("../images/icons.png");
+    background-position: -358px -46px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat-sleep-g {
+    background-image: url("../images/icons.png");
+    background-position: -128px 0;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat-sleep {
+    background-image: url("../images/icons.png");
+    background-position: -358px -138px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-heat {
+    background-image: url("../images/icons.png");
+    background-position: -358px -184px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-help-sel {
+    background-image: url("../images/icons.png");
+    background-position: -471px -360px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-help {
+    background-image: url("../images/icons.png");
+    background-position: -471px -384px;
+    width: 24px;
+    height: 24px
+}
+
+.ic-hotwater-g {
+    background-image: url("../images/icons.png");
+    background-position: -358px -230px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-hotwater {
+    background-image: url("../images/icons.png");
+    background-position: -358px -276px;
+    width: 46px;
+    height: 46px
+}
+.ic-wind-all-g {
+    background-image: url("../images/icons.png");
+    background-position: -174px -46px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-all {
+    background-image: url("../images/icons.png");
+    background-position: -174px 0;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-fix-g {
+    background-image: url("../images/icons.png");
+    background-position: -92px -108px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-fix {
+    background-image: url("../images/icons.png");
+    background-position: -46px -108px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-horizon-g {
+    background-image: url("../images/icons.png");
+    background-position: 0 -108px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-horizon {
+    background-image: url("../images/icons.png");
+    background-position: -128px -46px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-mid-g {
+    background-image: url("../images/icons.png");
+    background-position: -46px -154px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-mid {
+    background-image: url("../images/icons.png");
+    background-position: -174px -92px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-spot-g {
+    background-image: url("../images/icons.png");
+    background-position: 0 -154px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-spot {
+    background-image: url("../images/icons.png");
+    background-position: -92px -154px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-swing-g {
+    background-image: url("../images/icons.png");
+    background-position: -138px -338px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-swing {
+    background-image: url("../images/icons.png");
+    background-position: -276px -338px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-vertical-g {
+    background-image: url("../images/icons.png");
+    background-position: -404px -230px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-vertical {
+    background-image: url("../images/icons.png");
+    background-position: -46px -338px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-wide-g {
+    background-image: url("../images/icons.png");
+    background-position: 0 -338px;
+    width: 46px;
+    height: 46px
+}
+
+.ic-wind-wide {
+    background-image: url("../images/icons.png");
+    background-position: -46px -292px;
+    width: 46px;
+    height: 46px
+}
+.ic-nolimit-g {
+    background-image: url("../images/icons.png");
+    background-position: -184px -338px;
+    width: 46px;
+    height: 46px
+}
+.ic-nolimit {
+    background-image: url("../images/icons.png");
+    background-position: -230px -338px;
+    width: 46px;
+    height: 46px
+}
+.ic-setting-sel{background-image:url("../images/icons.png");background-position:-24px -465px;width:24px;height:24px}
+.ic-setting{background-image:url("../images/icons.png");background-position:-48px -465px;width:24px;height:24px}
+
+.ic-pattall-g {
+    background-image: url("../images/icon/ic-pattern-all-g.png") !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px
+}
+.ic-pattrotate-g {
+    background-image: url("../images/icon/ic-pattern-rotate-g.png") !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px
+}
+
+.ic-patteff-g {
+    background-image: url("../images/icon/ic-pattern-eff-g.png") !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 46px;
+    height: 46px
+}
+
+/* e: 버튼 아이콘 */
+.device-img.Normal-Asset, .circle-icon.Normal-Asset, .device-img.Normal-On, .circle-icon.Normal-On {
+    background-color: rgb(26, 160, 90);
+}
+.device-img.Alarm-Critical, .circle-icon.Alarm-Critical {
+    background-color: rgb(238, 57, 47);
+}
+.device-img.Normal-Off, .circle-icon.Normal-Off {
+    background-color: rgb(69, 69, 69);
+}
+
+.circle-icon {
+    display: inline-block;
+    width: 12px;
+    position: relative;
+    height: 12px;
+    background-color: rgb(69, 69, 69);
+    overflow: hidden;
+    border-radius: 100%;
+}
+.circle-icon.detail-popup {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 7px;
+    margin-top: -3px;
+}
+
+/* 그래프 컬러 */
+.fc_charge {color: #68ba11;}
+.fc_discharge {color: #f0824f;}
+.fc_electricity {color: #2c81db;}
+.fc_power {color: #08b5d4;}
+.fc_normal {color: #1aa05a;}
+.fc_disabled {color: #b2b2b2;}
+.fc_error {color: #ee392f;}
+.fc_poor {color: #ffa41f;}
+/* 공기질 센서*/
+.airQ_comfort_bg {
+    background: #0081c6;
+}
+.airQ_comfort {
+    color: #0081c6;
+}
+.airQ_normal_bg {
+    background: #1aa05a;
+}
+.airQ_normal {
+    color: #1aa05a;
+}
+.airQ_verypoor_bg,
+.airQ_uncomfort_bg{
+    background: #ee392f;
+}
+.airQ_verypoor,
+.airQ_uncomfort{
+    color: #ee392f;
+}
+.airQ_none_bg {
+    background: #b2b2b2;
+}
+.airQ_none {
+    color: #b2b2b2;
+}
+.airQ_poor_bg {
+    background: #ffa41f;
+}
+.airQ_poor {
+    color: #ffa41f;
+}

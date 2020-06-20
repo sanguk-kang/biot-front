@@ -1,0 +1,100 @@
+.tab-area-select .device-panel-layout-actions-list  .k-button{
+    width : 100px;
+}
+
+.asset-sub-type-list{
+    padding: 16px 20px 11px 86px;
+}
+
+.asset-sub-type-popup-checkbox-list{
+    padding: 5px 5px 3px;
+    height: 28px;
+}
+
+.asset-sub-type-popup-checkbox-list .k-checkbox-label{
+    font-weight: 600;
+    padding-left: 28px;
+}
+
+#asset-type-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-state-selected,
+#asset-type-popup .detail-dialog-content.device-dialog-content .k-grid .k-state-selected, 
+#asset-type-popup .detail-dialog-content.device-dialog-content .k-grid td.k-state-selected.k-state-focused{
+    background-color: #d0e4f1;
+}
+
+#asset-type-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-grouping-row{
+    cursor : default;
+}
+
+#asset-type-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-grouping-row.k-state-selected{
+    background : none;
+}
+
+#asset-type-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-state-selected:hover{
+    background-color: #d0e4f1;
+}
+#asset-type-popup .detail-dialog-content.device-dialog-content .k-grid tr:hover{
+    background : none;
+}
+
+#asset-type-add-popup .asset-type-add-wrapper{
+    margin-left: 5px;
+    margin-right: 10px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+#asset-type-add-popup .device-detail-header{
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 16px;
+}
+
+#asset-type-add-popup .asset-name-wrapper,
+#asset-type-add-popup .asset-type-dropdown-wrapper{
+    height: 60px;
+    display: table;
+    width: 100%;
+}
+
+#asset-type-add-popup .asset-type-dropdown-wrapper{
+    background-color: #f0f0f0;    
+}
+
+#asset-type-add-popup .asset-type-dropdown-wrapper .tbc:first-child,
+#asset-type-add-popup .asset-name-wrapper .tbc:first-child{
+    width : 22%;
+    padding-left : 8px;
+}
+
+#asset-type-add-popup .asset-type-dropdown-wrapper .k-dropdown,
+#asset-type-add-popup .asset-name-wrapper .k-input{
+    width : 100%;
+}
+
+#asset-type-add-popup .asset-name-wrapper .k-widget.k-tooltip-validation.k-invalid-msg{
+    padding : 0;
+    margin-top : 5px;
+}
+
+.detail-dialog-content .group.search{
+    width : 100%;
+}
+
+.detail-dialog-content .group .search-title{
+    line-height : 36px;
+}
+
+.detail-dialog-content .group .search-btn{
+    float : right;
+    margin-right : 10px;
+}
+
+.asset-search-wrapper {
+    height : 100%;
+}
+.asset-search-wrapper .search-box{
+    width : 100%;
+    height : 59px;
+}
+.asset-search-wrapper .asset-search-grid{
+    height : calc(100% - 59px) !important;
+}

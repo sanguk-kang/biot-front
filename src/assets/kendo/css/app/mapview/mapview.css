@@ -1,0 +1,8 @@
+.map{
+    display : inline-block;
+}
+.list{
+    float: right;
+    width: 420px;
+    display: inline-block;    
+}

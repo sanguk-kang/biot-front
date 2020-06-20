@@ -1,0 +1,293 @@
+.hmi-library-palette-dialog.k-content{
+	height : calc(100% - 130px) !important;
+}
+
+.hmi-library-palette-widget-wrapper{
+	height : 100%;
+}
+
+.hmi-library-palette-widget-wrapper .search-wrapper{
+	padding : 10px 15px;
+	background-color: #f7f7f7;
+}
+
+.hmi-library-palette-widget-wrapper .k-button.create-btn{
+	width : 63px;
+	vertical-align: middle;
+}
+
+.hmi-library-palette-widget-wrapper .search-field-wrapper{
+	position : relative;
+	display : inline-block;
+	margin-left : 5px;
+}
+
+.hmi-library-palette-widget-wrapper .search-field-wrapper .search-field{
+	vertical-align: middle;
+	width : 182px;
+}
+
+.hmi-library-palette-widget-wrapper .search-field-wrapper .ic-bt-input-search{
+	position : absolute;
+	top: 4px;
+    right: 3px;
+    background-color: rgba(0,0,0,0);
+    webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.hmi-library-palette-widget-wrapper .search-field-wrapper.searching .ic-bt-input-search{
+	background-position: -204px -384px;
+}
+
+.hmi-library-palette-widget-wrapper .button-wrapper{
+	text-align : center;
+	background-color: #f7f7f7;
+	padding : 15px 10px;
+}
+
+.hmi-library-palette-widget-wrapper .button-wrapper .k-button{
+	width : 120px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*.hmi-library-palette-widget-wrapper .k-widget.hmi-library-palette-widget{
+	overflow : auto;
+}*/
+/* 옵션 별 리스트 높이 */
+.hmi-library-palette-widget-wrapper.enable-search .k-widget.hmi-library-palette-widget{
+	height : calc(100% - 56px);
+}
+
+.hmi-library-palette-widget-wrapper.enable-button .k-widget.hmi-library-palette-widget{
+	height : calc(100% - 66px);
+}
+
+.hmi-library-palette-widget-wrapper.enable-search.enable-button .k-widget.hmi-library-palette-widget{
+	height : calc(100% - 122px);
+}
+
+.hmi-library-palette-widget-wrapper .k-widget.hmi-library-palette-widget li.k-item[aria-expanded='true']{
+	/*높이는 나머지 그룹의 개수 * 41px x 2개 */
+	height : calc( 100% - 82px );
+	background-color: #f1f1f1;
+}
+
+.hmi-library-palette-widget-wrapper .k-widget.hmi-library-palette-widget .k-item .k-group .k-item .k-link:hover:before,
+.hmi-library-palette-widget-wrapper .k-widget.hmi-library-palette-widget .k-item .k-group .k-item .k-link.k-state-selected:before{
+	background-color: rgba(0,129,198,.06);
+    border-color: #0081c6;
+}
+
+.k-dialog .hmi-library-palette-dialog .detail-dialog-content .detail-dialog-detail-content{
+	margin : 0;
+	height : 100%;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-row{
+	padding-top: 12px;
+	padding-bottom: 3px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-name{
+	display: inline-block;
+	font-size: 16px;
+    width: 130px;
+    color: #000;
+    font-weight: 600;
+    line-height: 36px;
+	vertical-align: top;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value{
+	display: inline-block;
+    width: calc(100% - 130px);
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value .k-radio-label{
+	padding-left : 30px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value p{
+	padding-top: 8px;
+	padding-bottom: 12px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value .field-col{
+	display : inline-block;
+	vertical-align:  top;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value .label{
+	width : 80px;
+	display : inline-block;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .field-value .divider{
+	width : 64px;
+	display : inline-block;
+	line-height : 36px;
+	text-align : center;
+	font-size : 15px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header{
+	padding-bottom: 6px;
+	background-color: #fbfbfb;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header:before,
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header:after{
+	display : block;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header:before{
+	top: 47px;
+	height : 2px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header:after{
+	height : 2px;
+	top : 46px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid .k-grid-header th{
+	text-align : center;
+	padding-bottom: 15px;
+	background-color: rgb(247, 247, 247);
+	/*border : none;*/
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr{
+	background-color: #f0f0f0;
+	cursor : auto;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr.k-alt{
+	background-color: #fbfbfb;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td{
+	padding : 17px 0;
+}
+
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .image{
+	width : 36px;
+	height : 36px;
+	vertical-align: middle;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .image-file-name{
+	margin-left : 12px;
+	overflow : hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display : inline-block;
+	vertical-align: middle;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .k-grid tr td .image-file-name{
+	max-width: 130px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor : pointer;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .controlled-type .k-grid tr td .image-file-name,
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .toggle-type .k-grid tr td .image-file-name{
+	cursor : pointer;
+	max-width : 383px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .controlled-type .k-grid tr td .image-file-name:hover,
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .toggle-type .k-grid tr td .image-file-name:hover,
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .k-grid tr td .image-file-name:hover{
+	text-decoration: underline;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .text-left{
+	text-align : left;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .k-grid tr td .text-left{
+	padding-left : 40px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .text-right{
+	text-align : right;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .text-center{
+	text-align : center;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .ic-btn-add-sm{
+	margin-right : 12px;
+	margin-top : -2px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .ic-close{
+	margin-top: -2px;
+	margin-left: 10px;
+	cursor : pointer;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td .divider{
+	width : 30px;
+	padding-top: 6px;
+	line-height : 24px;
+	display: inline-block;
+    font-size: 15px;
+	vertical-align: top;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td span.list-range-validator{
+	display : inline-block;
+	vertical-align: top;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .k-grid tr td span.list-range-validator .k-tooltip-validation{
+	font-size : 14px;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .image-list-add{
+	padding-top : 16px;
+	padding-bottom : 16px;
+	text-align : center;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .ic.disabled{
+	opacity : 0.3;
+	cursor : default;
+}
+
+.k-dialog .hmi-library-palette-dialog .detail-dialog-detail-content{
+	overflow : hidden;
+}
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail{
+	height : 100%;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type{
+	height : calc(100% - 215px);
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .field-row.list{
+	height : calc(100% - 56px);
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .field-row.list > .field-row{
+	height : calc(100% - 51px);
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .field-row.list > .field-row > .k-grid{
+	height : calc(100% - 62px) !important;
+}
+
+.k-dialog .hmi-library-palette-dialog .hmi-palette-library-popup-detail .multi-type .field-row.list > .field-row > .k-grid .k-grid-content{
+	height : calc(100% - 52px) !important;
+}

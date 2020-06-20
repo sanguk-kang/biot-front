@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+/*
+ *    SETTINGS > SAC
+ */
+
+/* 공통 */
+#settings-sac{
+    height: 100%;
+}
+.settings-devider-line{
+    margin: 40px 0;
+    width: 100%;
+    height: 1px;
+    background: #d6d6d6;
+}
+.settings-devider-line.bacnet-server{
+    margin: 20px 0;
+}
+.sac-sac-device-grid .ic-info:hover {
+    background-position: 0px -465px;
+    cursor: pointer;
+}
+
+/*
+ *    SETTINGS > SAC > SAC
+ */
+.sac-sac-container .sac-sac-content{
+    position: relative;
+}
+
+.sac-sac-container .sac-content-title{
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+    font-weight: 700;
+    padding: 5px 0 27px;
+}
+.sac-sac-container .sac-sac-content.adddevice{
+    padding-top: 30px;
+}
+.sac-content-detail .content-category{
+    height: 50px;
+    line-height: 50px;
+}
+.sac-content-detail .content-category:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.sac-content-detail .content-category .content-name{
+    float: left;
+    width: 210px;
+    font-size: 14px;
+    color: #686868;
+    font-weight: 600;
+}
+
+.sac-content-detail .content-category .content-item{
+    position: relative;
+}
+.sac-content-detail .content-category .content-item:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.sac-content-detail .content-category .content-item span.k-widget.k-tooltip-validation.k-invalid-msg{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.sac-content-detail .content-category .content-item .k-input[data-role=inputnetwork]{
+    width: 500px;
+}
+.sac-content-detail .content-category .content-item .k-button{
+    margin-left: 5px;
+    width: 88px;
+    vertical-align: baseline;
+}
+.sac-content-detail .content-category .sac-sac-device-type-selector.k-dropdown {
+    width: 250px;
+}
+.sac-sac-content .sac-content-box-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sac-sac-content .sac-content-box-btn .k-button{
+    margin-left: 5px;
+}
+.sac-sac-content .sac-content-box-btn .k-button[data-event=deletedevice]{
+    width: 100px;
+}
+
+/* 그리드 */
+.sac-sac-container,
+.sac-sac-content.devicelist,
+.sac-sac-content.devicelist .sac-content-detail,
+.sac-sac-content.devicelist .sac-content-detail .sac-sac-device-grid,
+.sac-sac-content.devicelist .sac-content-detail .sac-sac-device-grid .k-grid-content{
+    height: 100%;
+}
+.sac-sac-content.devicelist{
+    height: calc(100% - 283px);
+}
+.sac-sac-content.devicelist .sac-content-detail{
+    height: calc(100% - 52px);
+}
+
+.sac-sac-device-grid .highlighted{
+    color: #ee392f;
+}
+.sac-sac-device-grid .no-device-list{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #686868;
+    font-weight: 600;
+}
+
+/* 디테일 팝업창 */
+#popup-sac-sac-device{
+    overflow: hidden;
+}
+#popup-sac-sac-device .popup-header:before{
+    width: 1436px;
+}
+#popup-sac-sac-device .popup-container{
+    overflow: hidden;
+    height: 650px;
+}
+#popup-sac-sac-device .popup-detail-content{
+    margin-top: 20px;
+}
+#popup-sac-sac-device .popup-detail-content .popup-detail-device-grid{
+    margin-top: 10px;
+}
+/* 기기 갱신 팝업 메시지 */
+#popup-sac-sac-device-update-message .pop-confirm-detailbox{
+    overflow-y: auto;
+}
+#popup-sac-sac-device-update-message .pop-confirm-message{
+    width: 99%;
+}
+#popup-sac-sac-device-update-message .device-update-info-message{
+    margin-bottom: 16px;
+}
+#popup-sac-sac-device-update-message .device-update-info{
+    width: 100%;
+}
+#popup-sac-sac-device-update-message .device-update-info .device-name{
+    display: inline-block;
+    width: 180px;
+    font-weight: 500;
+}
+#popup-sac-sac-device-update-message .device-update-info .device-detail{
+    display: inline-block;
+    font-weight: 400;
+}
+
+/*
+ *    SETTINGS > SAC > Energy Distribution
+ */
+.sac-energy-distribution-container {
+
+}
+.sac-energy-distribution-container input[type=text].disabled{
+    background-color: #ededed;
+}
+.sac-energy-distribution-container > .inner {
+	margin-top: 15px;
+    padding-left: 30px;
+}
+.sac-energy-distribution-container .contents {
+
+}
+.sac-energy-distribution-container .contents .content.btn-util{
+	text-align: right;
+}
+.sac-energy-distribution-container .contents .content.btn-util .k-button{
+	width: 100px;
+}
+.sac-energy-distribution-container .contents .item {
+	overflow: hidden;
+	padding: 25px 0;
+}
+.sac-energy-distribution-container .contents .title {
+	float: left;
+	width: 300px;
+}
+.sac-energy-distribution-container .contents .title .text {
+	font-weight: 600;
+}
+.sac-energy-distribution-container .contents .detail {
+	float: left;
+	width: calc(100% - 350px);
+}
+.sac-energy-distribution-container .contents .detail .radio-list {
+
+}
+.sac-energy-distribution-container .contents .detail .radio-list-item {
+	float: left;
+    margin-right: 100px;
+}
+.sac-energy-distribution-container .contents .detail .radio-list-item .k-radio-label {
+	padding-left: 25px;
+}
+.sac-energy-distribution-container .item.distribution {
+
+}
+.sac-energy-distribution-container .item .distribution-rate.k-input {
+	width: 460px;
+}
+.sac-energy-distribution-container .item.rate .title {
+	height: 36px;
+    line-height: 36px;
+}
+.sac-energy-distribution-container .item.rate .title .text {
+	/* padding-left: 50px; */
+}

@@ -1,0 +1,53 @@
+#main-contents .top-tab-menu-wrapper.common-tab-strip-wrapper > .common-tab-strip{
+	min-width: 1222px;
+}
+#hmi-tab .top-tab-menu ~ .add-btn, #hmi-create-tab .top-tab-menu ~ .add-btn{
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	margin: 12px 25px 0;
+	border-radius: 100%;
+}
+.add-btn.ic-plus:not(.disabled):hover{
+	background-image: url(../../src/main/resources/static-dev/images/icon/bt-plus-sel.png);
+	cursor: pointer;
+}
+.common-tab-strip.k-tabstrip .top-tab-menu.k-tabstrip-items .k-link {
+	width: 105px;
+	height: 30px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding: 15px 12.5px 15px;
+}
+.top-tab-menu.k-tabstrip-items .k-link .tab-name{
+	display: inline-block;
+	max-width: 76px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+#hmi-tab .top-tab-menu.k-tabstrip-items .k-item:only-child .k-link .tab-name{
+	max-width: 105px;
+}
+
+#hmi-tab .top-tab-menu .ic-close, #hmi-create-tab .top-tab-menu .ic-close, #hint .top-tab-menu .ic-close{
+	float: right;
+	margin-top: 3px;
+	margin-left : 5px;
+}
+#hint .top-tab-menu li:first-child:last-child .ic-close{
+	display: inline-block;
+}
+#hmi-tab .top-tab-menu li:first-child:last-child .ic-close{
+	display: none;
+}
+
+#hint{
+	width: auto;
+	height: auto;
+}
+
+.hmi-tab-tooltip .k-tooltip-content{
+	white-space: nowrap;
+}

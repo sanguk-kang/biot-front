@@ -1,0 +1,211 @@
+.schedule-create-filter-action-block{
+    width: 100%;
+    padding: 10px 0 0;
+}
+
+#rule-alarm-control-list .detail-img,
+#rule-control-list .detail-img{
+    margin-right : 0;
+}
+
+.custom-tab-li-block .ic-close{
+    margin-top: 1px;
+    margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.schedule-layout,
+.schedule-create-content .schedule-panel-wrapper, .map-panel-wrapper,
+.schedule-create-content .create-view-router-wrapper,
+.schedule-create-content .create-view-router-wrapper > div,
+.schedule-create-content .create-view-router-wrapper > div > .schedule-view-content,
+.schedule-create-content .create-view-router-wrapper > div > .schedule-view-content > div,
+.schedule-create-content .create-view-router-wrapper > div > .schedule-view-content > div > .k-grid{
+    height : 100%;
+}
+
+.schedule-create-content .create-view-router-wrapper > div > .schedule-view-content > div > .k-grid .k-grid-content{
+    height : calc(100% - 58px) !important;
+}
+
+.schedule-create-content .create-view-router-wrapper > div > .schedule-view-content > div > #rule-create-map{
+    height : 100%;
+    /*overflow : auto;*/
+}
+
+.create-view-router-wrapper {
+    width: 100%;
+}
+
+.create-view-router-wrapper.no-panel {
+    width : 100%;
+}
+
+.create-view-router-wrapper.schedul-has-panel{
+    width : 100%;
+}
+
+.fl{
+    float: left;
+    position: relative;
+}
+
+.comboType2{
+    position : relative;
+}
+
+.clearBox{
+    display: block;
+    position: relative;
+    clear: both;
+    height: 0;
+}
+
+.create-view-router-wrapper .createBlock .blockFrm.fl{
+    margin-right : 12px;
+    padding-right : 0;
+}
+
+.create-view-router-wrapper .createBlock .blockFrm.fl .comboType2 .k-dropdown{
+    width : 188px;
+}
+
+.createRule .btCreate .groupBtn{
+    width : 160px;
+}
+
+.createRule .btCreate .groupBtn .commonBtn{
+    margin : 0;
+    width : 80px;
+    float : left;
+}
+
+.commonBtn.selected{
+    background : #0081c6;
+    color : #fff;
+}
+
+.groupBtn .commonBtn:first-child{
+    border-left: none;
+}
+
+.groupBtn .commonBtn{
+    float: left;
+    padding: 0;
+}
+
+.commonBtn{
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    height: 36px;
+    line-height: 24px;
+    padding: 7px 7px 5px;
+    vertical-align: baseline;
+    font-weight: 600;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,.3);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3)";
+    zoom: 1;
+    color: #000;
+    background-color: #e6e6e6;
+}
+
+.horzline{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #d6d6d6;
+    margin-top: -1px;
+}
+
+.createBlock.rootBlock{
+    border-bottom : none;
+}
+
+.createBlock .tbc.btCreate{
+    vertical-align: top;
+    width: 50px;
+    padding-right: 20px;
+    padding-top: 12px;
+}
+
+.createBlock .tbc.btCreate > .bt{
+    float: right;
+}
+
+.add-device-btn{
+    float: right;
+    margin: 12px 0;
+}
+
+.createBlock.schedule-datetime .createFrm,
+.createBlock.schedule-datetime .createFrm .tbc{
+    vertical-align: middle;
+}
+
+.datetime-timepickers{
+    padding-top : 20px;
+    padding-bottom : 20px;
+    border : none;
+}
+.all-day-wrapper{
+    position: absolute;
+    right: 100px;
+    top: 22px;
+    z-index : 1;
+}
+
+.k-numerictextbox input.device-point-numeric{
+    height : 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.k-numerictextbox.value-input .k-numeric-wrap{
+    padding : 0;
+}
+
+.k-numerictextbox.value-input .k-numeric-wrap.k-state-focused .k-input{
+    border-color: #0081c6;
+}
+
+.k-numerictextbox.value-input .k-numeric-wrap.k-state-default, .k-numeric-wrap.k-state-disabled{
+    box-shadow : none;
+    border : none;
+}
+
+#rule-create-floor-list tr td, #rule-create-selected-list tr td{
+    white-space: pre;
+}
+
+.k-widget.k-tooltip.k-tooltip-validation.k-invalid-msg.common-time-picker-invalid-msg{
+    display: block;
+    text-align: right;
+    padding: 14px 0px 0px 10px;
+    font-size: 11px;
+}
+
+.datetime-pickers-list .tbc{
+    vertical-align:top;
+}
+.datetime-pickers-list .btCreate{
+    vertical-align:top;
+}
+
+#rule-create-tab .schedule-content-block {
+    height: calc(100% - 123px);
+}
+#rule-create-tab .schedule-create-content .schedule-layout, .schedule-exceptional-content .schedule-layout {
+    height: calc(100% - 92px);
+}

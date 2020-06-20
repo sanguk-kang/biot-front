@@ -1,0 +1,314 @@
+.hmi-file-list-wrapper{
+	background-color: #f7f7f7;
+	height : 100%;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top{
+	padding-top : 8px;
+	padding-bottom : 8px;
+    text-align: center;
+    vertical-align: middle;
+    height: 36px;
+}
+
+.hmi-file-list-wrapper .create-type{
+	position : absolute;
+	text-align : left;
+	background-color : #fff;
+	border : 1px solid #e1e1e1;
+	width : 166px;
+	z-index : 1;
+	-moz-box-shadow: 0 0 21px rgba(0,0,0,.13);
+    -webkit-box-shadow: 0 0 21px rgba(0,0,0,.13);
+    box-shadow: 0 0 21px rgba(0,0,0,.13);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=21,MakeShadow=true,ShadowOpacity=0.13);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=21,MakeShadow=true,ShadowOpacity=0.13)";
+    zoom: 1;
+}
+
+.hmi-file-list-wrapper .create-type ul > li{
+	cursor : pointer;
+	font-size: 15px;
+    line-height: 20px;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+
+.hmi-file-list-wrapper .create-type ul > li:hover{
+	text-decoration: none;
+    background: rgba(0,129,198,.16);
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .create-btn{
+	width: 63px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .create-btn.active{
+	background-color : #0081c6;
+	color : #fff;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .search-field-wrapper{
+	position : relative;
+	display : inline-block;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .search-field{
+	vertical-align: middle;
+    margin-top: 2px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .search-field-wrapper .ic-bt-input-search{
+	position: absolute;
+    top: 5px;
+    right: 3px;
+    background-color: rgba(0,0,0,0);
+    webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-top .search-field-wrapper.searching .ic-bt-input-search{
+	background-position: -204px -384px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-bottom{
+	padding: 15px 10px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-bottom > .k-button{
+	width : 120px;
+	margin: 0 5px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-bottom .delete-btn{
+	float : right;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content{
+	height : calc(100% - 51px) !important;
+	padding-top : 10px;
+	padding-bottom: 41px;
+    background-color: #f7f7f7;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content{
+	height : 100% !important;
+	background-color: #f7f7f7;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr{
+	cursor : pointer;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group){
+	background-color: #f1f1f1;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr > td{
+	position : relative;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr > td,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group) > td{
+	padding: 8px 0 8px 20px;
+    text-align: left;
+	font-size : 15px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.dragging > td:after{
+	display : block;
+	content : '';
+	position : absolute;
+	left:0;
+	right:0;
+	bottom : 0;
+	height : 2px;
+	background-color : #0081c6;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr > td .file-name,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group) > td .file-name{
+	vertical-align: middle;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr > td .file-badge,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group) > td .file-badge{
+	background: none;
+	border-radius: 6px;
+	width: 26px;
+	height: 8px;
+	font-style: normal;
+	color: #fff;
+	font-size: 8px;
+	line-height: 8px;
+	padding: 3px 0 1px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: -0.05em;
+	margin-right: 14px;
+	display: inline-block;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr > td .file-badge.new,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group) > td .file-badge.new{
+	background: #0081c6;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr > td .file-badge.root:not(.new),
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group) > td .file-badge.root:not(.new){
+	display : none;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr > td .ic-info,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group) > td .ic-info{
+	display : none;
+	background-position : 0px -465px;
+	margin-right : 16px;
+	position: absolute;
+	right: 0;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr:hover > td .ic-info,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):hover > td .ic-info{
+	display : inline-block;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child){
+	font-weight : 600;
+	font-size : 60px;
+	line-height : 20px;
+	background-color : #f7f7f7;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group > td{
+	padding: 11px 20px 9px 44px;
+	background :none;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).children-first-item > td{
+	border-top : 10px solid #f1f1f1;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).children-last-item > td{
+	border-bottom : 10px solid #f1f1f1;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group > td{
+	border-bottom : 1px solid #e1e1e1;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group[aria-expanded=true]~tr.k-treelist-group > td{
+	border-top : 1px solid #e1e1e1;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td{
+	/*border-top : 1px solid #e1e1e1;*/
+	border-bottom : 1px solid #e1e1e1;
+	position : relative;
+}
+
+/*.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child):first-child > td{
+	border-top : 1px solid #e1e1e1;
+}*/
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td .file-name,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).child > td .file-name{
+	position : relative;
+	width: 163px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td .file-name.root{
+	width : 200px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td .new-folder{
+	display:block;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group:first-child > td{
+	border-top: 0;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group:last-child > td{
+	border-bottom : 0;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group > td .k-icon{
+	left : 4px;
+	margin-top : 2px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td .new-folder .k-icon{
+	left : -5px;
+	margin-top : 2px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td .new-folder .file-name{
+	left : 7px;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td .new-folder .k-icon:before{
+	display : none;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content .k-treelist-group[aria-expanded=true] > td{
+	background : none;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child).k-state-selected,
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr.k-state-selected,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group).k-state-selected,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group.k-state-selected{
+	background-color: #d0e4f1;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child):not(.k-state-selected):hover,	/*새 폴더 및 새 파일*/
+.hmi-file-list-wrapper .hmi-file-list-search-list .k-grid-content tr:not(.k-state-selected):hover,	/*검색 리스트*/
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group:not(.k-state-selected):hover, /* 폴더 */
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.k-state-selected):hover{	/* 파일 */
+	background-color: #e4e3e3;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td .new-folder .k-icon.k-i-expand,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group .k-icon.k-i-expand,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group.has-checked-child .k-icon.k-i-expand {
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-right.png) no-repeat center;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-state-selected:not(.k-treelist-group):not(.child) > td .new-folder .k-icon.k-i-expand,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group.k-state-selected .k-icon.k-i-expand,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group.has-checked-child.k-state-selected .k-icon.k-i-expand{
+	background: url(../../src/main/resources/static-dev/images/icon/list-control-right-blue.png) no-repeat center;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr:not(.k-treelist-group):not(.child) > td .new-folder .k-icon.k-i-collapse,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group .k-icon.k-i-collapse,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group.has-checked-child .k-icon.k-i-collapse {
+    background: url(../../src/main/resources/static-dev/images/icon/list-control-down.png) no-repeat center;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-state-selected:not(.k-treelist-group):not(.child) > td .new-folder .k-icon.k-i-collapse,
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content tr.k-treelist-group.k-state-selected .k-icon.k-i-collapse,
+.hmi-file-list-wrapper .hmi-file-list-tree.k-treelist .k-grid-content .k-treelist-group.has-checked-child.k-state-selected .k-icon.k-i-collapse{
+	background: url(../../src/main/resources/static-dev/images/icon/list-control-down-blue.png) no-repeat center;
+}
+
+.k-treelist .k-grid-content .k-treelist-group.has-checked-child > td{
+	color : #333;
+}
+
+.hmi-file-list-wrapper .hmi-file-list-tree .k-grid-content .k-widget.k-tooltip-validation.k-invalid-msg{
+	display : block;
+	padding : 0;
+}

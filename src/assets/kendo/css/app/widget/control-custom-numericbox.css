@@ -1,0 +1,100 @@
+/* .control-custom-box-select{
+	width: 36px !important;
+} */
+
+.control-numeric-bound{
+	display:table-cell;width:auto;vertical-align:middle;height:100%;
+}
+
+.control-numeric-name {
+  position: absolute;
+  top: 16px;
+  left: 7px;
+  text-align:right;
+  width:27%;
+  font-size:12px;line-height:14px;
+  font-weight:600;
+}
+
+.control-numeric-unit {
+  position: absolute;
+  top: 13px;
+  right: 45px;
+  font-size:16px;line-height:20px;
+  font-weight:600;
+}
+
+.control-numeric-bound input {
+  text-align : center;
+  padding-left : 30px !important;
+}
+
+.control-custom-wrap .k-formatted-value.k-input{
+    cursor : default;
+}
+
+.control-custom-box .k-link{
+	position:absolute;right:0;width:36px;height:50%;background-repeat:no-repeat;background-position:center;background-color:#ebebeb
+}
+
+.control-custom-box .k-link-increase{
+	background-position:center;
+	top:0;
+}
+
+/*k-select*/
+.control-custom-box .k-link-decrease{
+	background-position:center;
+	bottom:0;
+}
+.control-custom-wrap{
+	border-color : #ededed !important;
+}
+.control-custom-wrap .k-input {
+	width : 97%;
+	font-size : 32px;
+	line-height : 36px;
+    text-indent : 5px;
+    text-shadow: 0 0 0 black;
+
+    /* padding-left: 5px; */
+}
+.control-custom-wrap .k-input.block-key-event{
+    color: transparent;
+}
+
+.control-custom-wrap .k-input.block-key-event:focus{
+	outline: none;
+}
+
+.control-numeric-bound .k-numeric-wrap.k-state-disabled,
+.control-numeric-bound .k-numeric-wrap.k-state-default,
+.bound  .k-numeric-wrap.k-state-disabled,
+.bound  .k-numeric-wrap.k-state-default
+{
+	height: 61px;
+	padding-left: 0px;
+	-webkit-box-shadow: 0;
+	box-shadow: 0 0 0;
+}
+
+.c-i-arrow-60, .k-select.control-custom-box .c-i-arrow-60{
+	background-image: url(../../src/main/resources/static-dev/images/icons.png);
+	width: 18px;
+  	height: 10px;
+  	top : 7px;
+}
+
+.up.c-i-arrow-60{
+	background-position: -450px -269px;
+}
+
+.down.c-i-arrow-60{
+	background-position: -450px -258px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.2), only screen and (min-device-pixel-ratio: 1.2) {
+	.k-icon:not(.k-loading):not(.k-i-loading){
+		background-size: auto;
+	}
+}

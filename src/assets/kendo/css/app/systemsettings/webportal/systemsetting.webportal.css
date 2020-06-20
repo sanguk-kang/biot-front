@@ -1,0 +1,64 @@
+@charset "UTF-8";.select-cell ul:after{content:'';display:block;clear:both}
+.select-cell li.value{float:left}.select-cell .k-dropdown{margin-right:5px}.select-cell li.value{width:210px}
+.select-cell li.value label.k-radio-label{padding-left:25px}.settings-display-content.view-type{padding:25px 0}
+.settings-display-content.num-items-page,.settings-display-content.device-type-ordering{padding:25px 0;border-top:1px solid #d6d6d6}
+.settings-display-content.num-items-page{overflow:hidden;height:50px;line-height:50px}
+.settings-display-content ul:after{content:'';display:block;clear:both}
+.settings-display-content li{float:left}.settings-display-content .content-category.energy .content-list>li{float:none}
+.settings-display-content .content-title{width:210px;font-size:16px;line-height:20px;color:#323232;font-weight:700;padding:5px 0 27px}
+.settings-display-content.view-type .content-title{display:inline-block;vertical-align:middle;line-height:20px;float:left;width:230px;padding-top:5px;padding-bottom:32px}
+.settings-display-content.num-items-page .content-title{float:left;padding:0;line-height:50px}
+.settings-display-content.view-type .category-title{font-size:14px;font-weight:600;color:#0081c6;display:block;position:relative;line-height:18px;padding:10px 0}
+.settings-display-content .content-list,.settings-display-content .content-list>.item{padding:0 0 10px 0}
+.settings-display-content .content-list>li{padding-left:20px}.settings-display-content .content-list .content-detail-item{width:200px;font-size:14px}
+.settings-display-content .content-list .content-detail-item label{padding-left:25px}
+.settings-display-content .content-list .content-detail-item .ic{margin-right:10px}
+.settings-display-content.view-type .content-list>li{padding-left:0}.settings-display-content.view-type .category-content,.settings-display-content.view-type .content-list .content-detail{display:inline-block;overflow:hidden;padding-top:3px}
+.settings-display-content.view-type .content-list .content-detail-item label.k-radio-label:before{top:2px}
+.settings-display-content.view-type .content-name{float:left;font-size:14px;line-height:20px;color:#686868;font-weight:600;width:190px}
+.settings-display-content.num-items-page .content-list .content-detail-item:first-child{padding-left:20px}
+.settings-display-content.num-items-page .content-detail-item{padding-left:0}.settings-display-content.device-type-ordering .content-title{float:left}
+.settings-display-content.device-type-ordering .content-detail{overflow:hidden}.settings-display-content.device-type-ordering .content-ordering-btn{margin:0 0 40px 20px}
+.settings-display-content.device-type-ordering .content-list{padding:0;padding-right:300px}
+.settings-display-content.device-type-ordering .content-list .content-detail-item{margin-bottom:15px}
+#settings-common-data{padding-top:50px}#settings-common-data .select-cell .k-button{width:100px}
+#popup-settings-common-data-backup .popup-container{overflow-x:hidden}#settings{height:100%}
+.sac-menuconfig-container{height:calc(100% - 18px)}.sac-menuconfig-contents{float:left;height:calc(100% - 70px)}
+#menuconfig-contents-checkbox{width:65%;background-color:#f7f7f7}#menuconfig-contents-grid{width:35%}
+.sac-menuconfig-contents::after{content:'';display:block;clear:both}
+.settings-menuconfig-devider-line{margin:20px 0;width:100%;height:1px;background:#d6d6d6}
+.sac-menuconfig-container .sac-menuconfig-top{overflow:hidden}.sac-menuconfig-container .sac-menuconfig-top .k-button{float:right;width:100px;margin-top:19px;margin-bottom:12px}
+.sac-menuconfig-container .sac-menuconfig-contents .sac-menuconfig-category:after,.sac-menuconfig-container .sac-menuconfig-category .check-list:after{content:'';display:block;clear:both}
+.sac-menuconfig-container .sac-menuconfig-category{height:79px;border-bottom:1px solid #d6d6d6}
+.sac-menuconfig-container .sac-menuconfig-category:last-child{margin-bottom:0;padding-bottom:0;border-bottom:0}
+.sac-menuconfig-container .sac-menuconfig-category .title{float:left;color:#323232;font-weight:700;line-height:79px;width:252px}
+.sac-menuconfig-container .sac-menuconfig-category[data-category=Device] .title{line-height:50px}
+.sac-menuconfig-container .sac-menuconfig-category .title::after{content:'';display:block;clear:both}
+.sac-menuconfig-container .sac-menuconfig-category .detail{overflow:hidden;height:79px}
+.sac-menuconfig-container .sac-menuconfig-category[data-category=Device] .detail{margin-top:14px;margin-bottom:17px}
+.sac-menuconfig-container .sac-menuconfig-category .item{float:left;width:220px;font-weight:400;line-height:79px}
+.sac-menuconfig-container .sac-menuconfig-category[data-category=Device] .item{line-height:50px;height:50px}
+.sac-menuconfig-container .sac-menuconfig-category .item .k-checkbox-label{padding-left:25px;font-size:16px;color:#000}
+.sac-menuconfig-container .sac-menuconfig-category .sub-title{line-height:40px}.sac-menuconfig-container .sac-menuconfig-category .sub-detail{clear:both}
+.sac-menuconfig-container .sac-menuconfig-category .sub-detail.upper{margin-top:60px;padding-top:20px;border-top:1px solid #d6d6d6}
+.sac-menuconfig-container .sac-menuconfig-category .sub-detail.lower{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #d6d6d6}
+#settings-common-information .select-cell .version{font-weight:600}#settings-common-information .select-cell .k-button{width:136px}
+#popup-settings-common-information-detail .popup-header{font-size:17px;font-weight:700;border-bottom:0}
+#popup-settings-common-information-detail .popup-header:before{width:507px}#popup-settings-common-information-detail .popup-container{margin-bottom:18px;height:425px}
+#popup-settings-common-information-detail .popup-container .detail-text{display:block;padding:5px 0;line-height:20px;font-weight:600}
+#popup-settings-common-information-detail .popup-container .img-box{text-align:center}
+#popup-settings-common-information-detail .popup-footer{margin-bottom:0}#license-container .top:after{content:'';display:block;clear:both}
+#license-container .top .btn-box{float:right;margin:20px 0 50px;text-align:right;line-height:36px;height:36px}
+#license-container .top .btn-box .k-button[data-event=licenseadd]{width:90px}#license-container .contents{height:calc(100% - 106px)}
+#license-license-grid{position:relative;height:100%}#license-license-grid .k-grid-content{height:calc(100% - 104px)}
+#license-license-grid .k-grid-header{margin-bottom:55px}#license-license-grid .k-grid-footer{position:absolute;top:43px}
+#license-license-grid .k-grid-footer .k-grid-footer-wrap{border:0}#popup-select-license-file .popup-header{border-bottom:0}
+#popup-select-license-file .popup-header:before{width:838px;left:-3px}#popup-select-license-file .popup-container{position:relative;height:75px;margin:0}
+#popup-select-license-file .popup-container .k-widget.k-tooltip.k-tooltip-validation{margin-left:104px;padding-top:5px}
+#popup-select-license-file .popup-footer{position:relative;margin:0;top:25px}#popup-select-license-file .popup-license-file-name{display:inline-block;width:720px;height:36px;padding-left:10px;margin-right:5px;line-height:30px;border:0;background-color:#f7f7f7;vertical-align:middle}
+#popup-select-license-file .popup-license-file-search-btn{display:inline-block;padding:7px 7px 5px;border:0;width:100px;height:30px;font-size:.8em;line-height:30px;text-align:center;vertical-align:middle;box-shadow:0 1px 1px rgba(0,0,0,.3);background-color:#e6e6e6;box-sizing:border-box;line-height:24px;font-weight:600;font-size:16px;height:36px;cursor:pointer}
+#popup-license-find-file{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+#manager-view-grid{width:calc(100% - 15px);height:calc(100% - 81px)}
+.grid-detail-btn:hover{background-position:0 -465px}.grid-detail-btn{background-image:url("../../src/main/resources/static-dev/images/icons.png?v=20191219_1646");background-position:-168px -465px;width:24px;height:24px;display:inline-block;vertical-align:middle;cursor:pointer}
+#menuconfig-contents-checkbox>.sac-menuconfig-category>div.title>label{margin-left:20px}
+.sac-menuconfig-container .sac-menuconfig-category:last-child{border-bottom:1px solid #d6d6d6}

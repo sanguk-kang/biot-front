@@ -1,0 +1,7 @@
+li.k-virtual-item.k-item.custom-multiselect-selectAll-item{
+    position : static;
+}
+
+li.k-virtual-item.k-item .dropdown-checkbox.checked{
+    color: #0081c6;
+}

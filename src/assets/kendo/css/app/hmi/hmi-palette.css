@@ -1,0 +1,179 @@
+.k-widget.hmi-palette-widget{
+	height : 100%;
+	border: none;
+	overflow : hidden;
+	box-sizing: border-box;
+}
+
+.k-widget.hmi-palette-widget .k-link.k-header{
+	background : none;
+	display: block;
+    font-size: 16px;
+    color: #323232;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 11px 20px 9px 44px;
+	background-color: #f7f7f7;
+}
+
+.k-widget.hmi-palette-widget .k-link.k-header.k-state-selected{
+	background-color: #f7f7f7;
+}
+
+.k-widget.hmi-palette-widget li.k-item{
+	border : none !important;
+}
+.k-widget.hmi-palette-widget li.k-item[aria-expanded='true']{
+	/*Element 탭 내 그래픽 컴포넌트의 카테고리 개수 * 41px*/
+	height : calc( 100% - 369px );
+	background-color: #f1f1f1;
+}
+
+.k-widget.hmi-palette-widget li.k-item .k-link.k-header{
+	color : #323232;
+	border-bottom : 1px solid #e2e2e2;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.k-widget.hmi-palette-widget li.k-item .k-link.k-header .k-icon{
+	background-repeat : no-repeat;
+	background-position : right center;
+	left : 10px;
+}
+
+.k-widget.hmi-palette-widget li.k-item .k-link.k-header .k-icon.k-i-arrow-s.k-panelbar-expand{
+	background-image : url(../../src/main/resources/static-dev/images/icon/list-control-right.png);
+	opacity : 1;
+}
+
+.k-widget.hmi-palette-widget li.k-item.k-state-active .k-link.k-header .k-icon.k-i-arrow-n.k-panelbar-collapse{
+	background-image : url(../../src/main/resources/static-dev/images/icon/list-control-down.png);
+	opacity : 1;
+}
+
+.k-widget.hmi-palette-widget li.k-item .k-link.k-header .k-icon:before{
+	display :none;
+}
+
+.k-widget.hmi-palette-widget .k-item .k-group{
+	max-height : calc( 100% - 58px );
+	/*에니메이션으로 인하여 동적으로 조정 필요*/
+	/*overflow-y : auto !important;*/
+	overflow : hidden;
+	border : none;
+	background-color : #f1f1f1;
+	padding : 10px;
+}
+
+.k-widget.hmi-palette-widget .k-item .k-group .k-item{
+	width : 33.333%;
+	display : inline-block;
+	padding : 6px 0;
+	text-align : center;
+	background-color : #f1f1f1;
+}
+
+.hmi-palette-item-draggable .k-link,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link{
+	font-weight: 600;
+	line-height: 35px;
+	font-size: 16px;
+	padding : 0;
+}
+
+.hmi-palette-item-draggable{
+	list-style: none;
+}
+.hmi-palette-item-draggable .k-link{
+	width: 82px;
+	height: 101px;
+	display: inline-block;
+	border: none;
+	text-align: center;
+	background: none;
+	vertical-align: middle;
+}
+
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link.k-state-hover,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link.k-state-selected,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link.k-state-active{
+	background:none;
+}
+
+.hmi-palette-item-draggable .k-link .k-image,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link .k-image{
+    display : none;
+}
+
+.hmi-palette-item-draggable .k-link .hmi-palette-item .hmi-palette-image,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link .hmi-palette-item .hmi-palette-image{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	cursor: move;
+	background-size: contain;
+	background-position: center;
+	margin-top : 14px;
+	position:relative;
+	z-index : 5;
+}
+
+.hmi-palette-item-draggable .k-link .hmi-palette-item .hmi-palette-text,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link .hmi-palette-item .hmi-palette-text{
+	display : block;
+	padding-top : 18px;
+	text-overflow: ellipsis;
+	overflow : hidden;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: #000;
+	font-size: 15px;
+	line-height : 16px;
+	height : 32px;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+	white-space: pre-line;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+	  -moz-user-select: none;
+	   -ms-user-select: none;
+		   user-select: none;
+}
+
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link .hmi-palette-item .hmi-palette-text .search-highlight{
+	color: #0081c6;
+}
+
+/*Basic Shape 이미지에 border-radius가 적용될 경우 이미지가 잘리므로 가상요소로 대체.*/
+.hmi-palette-item-draggable .k-link:before,
+.k-widget.hmi-palette-widget .k-item .k-group .k-item .k-link:before{
+	content: "";
+	display: block;
+	width: 56px;
+	height: 56px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-left : 13px;
+	border: 1px dotted gray;
+	border-radius: 50%;
+	z-index : 1;
+}
+
+.hmi-palette-tooltip .k-tooltip-content{
+	white-space : nowrap;
+}
+/*Basic Shape 이미지만 border-radius를 삭제*/
+/*.k-widget.hmi-palette-widget .k-item:nth-child(2) .k-item .k-link .k-image{
+	border-radius : 0;
+}*/

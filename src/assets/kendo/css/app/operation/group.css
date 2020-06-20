@@ -1,0 +1,909 @@
+#group-control-popup{
+    padding-top :0;
+    position : relative;
+}
+
+#group-control-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-state-selected,
+#group-control-popup .detail-dialog-content.device-dialog-content .k-grid .k-state-selected,
+#group-control-popup .detail-dialog-content.device-dialog-content .k-grid td.k-state-selected.k-state-focused{
+    background-color: #d0e4f1;
+}
+
+#group-control-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-grouping-row{
+    cursor : default;
+}
+
+#group-control-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-grouping-row.k-state-selected{
+    background : none;
+}
+
+#group-control-popup .detail-dialog-content.device-dialog-content .k-grid tr.k-state-selected:hover{
+    background-color: #d0e4f1;
+}
+#group-control-popup .detail-dialog-content.device-dialog-content .k-grid tr:hover{
+    background : none;
+}
+
+.k-window-titlebar.k-dialog-titlebar.k-header{
+    min-height : 25px;
+}
+
+#group-control-popup .k-grid .k-grid-content .k-treelist-group[data-level='0'] > td,
+#group-control-popup .k-grid .k-grid-content tr.k-grouping-row[data-level='0'] .grid-group-row-wrapper{
+    padding-left : 10px;
+}
+
+#group-control-popup .k-grid .k-grid-content .k-treelist-group[data-level='0'] > td,
+#group-control-popup .k-grid .k-grid-content tr.k-grouping-row td{
+    height: 60px;
+    background: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+#group-control-popup .k-grid .k-grouping-row .k-reset{
+    right : 5px;
+}
+
+#group-control-popup .indoor-temperature-title .control-numeric-unit {
+    right: 40px;
+}
+
+#group-control-popup .indoor-temperature-title input {
+	width: calc(100% - 36px);
+}
+
+#group-control-popup .indoor-temperature-title .control-custom-box {
+	border-left-width: 0px
+}
+
+.k-numerictextbox .k-numeric-wrap.k-state-default, .k-numeric-wrap.k-state-disabled{
+    box-shadow: none;
+    border: none;
+}
+
+.k-numerictextbox .k-numeric-wrap{
+    padding : 0;
+}
+
+.group-filter-action-block{
+	display: table;
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 10px 0px 20px;
+}
+
+.group-filters {
+	display: table-cell;
+}
+
+.group-filters .group-filters-list > li:last-child {
+    margin-right : 0;
+}
+
+.group-filters .group-filters-list > li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.group-filters .group-filters-list {
+	padding: 10px 0px 20px;
+}
+
+.group-actions-list{
+    text-align : right;
+    position : relative;
+    padding : 10px 0px 20px;
+}
+
+.group-actions-list > li {
+    display : inline-block;
+    margin-left : 9px;
+}
+
+.group-actions-list > li .text-view{
+    color: #0081c6;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 7px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.group-actions-list > li button {
+    width : 100px;
+}
+
+
+#group-create-tab .group-actions-list{
+    padding : 0;
+}
+
+#group-create-tab .group-actions-list > li button{
+    width : 166px;
+}
+
+.custom-tab-li-block{
+    position: relative;
+    padding-right: 25px;
+}
+
+.group-top-content{
+    position : relative;
+    padding: 10px 0 20px;
+}
+
+.group-top-content .group-create-name-wrapper{
+    display: table;
+    position: relative;
+}
+
+.group-top-content .group-create-name-wrapper .group-create-name-input-wrapper{
+    display: table-cell;
+    vertical-align: middle;
+    position : relative;
+}
+
+.group-top-content .group-create-name-wrapper .ic-bt-input-remove{
+    position: absolute;
+    left: 217px;
+    top: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.group-top-content .group-create-name-wrapper .k-widget.k-tooltip-validation.k-invalid-msg{
+    display : inline-block;
+    padding: 0;
+    margin-left : 14px;
+}
+
+.group-create-name-wrapper > label{
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    line-height: 36px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.group-create-name-wrapper #group-create-name{
+    width: 250px;
+}
+
+.group-create-name-wrapper .group-create-energy-distribution-checkbox {
+	display: table-cell;
+    vertical-align: middle;
+    position: relative;
+	padding-left: 10px;
+}
+
+.group-create-name-wrapper .group-create-energy-distribution-checkbox > label{
+	padding-left: 22px;
+}
+
+.group-create-view-btn{
+    float: right;
+    position: relative;
+    line-height: 44px;
+    height: 44px;
+    position : absolute;
+    right : 0;
+    top : 10px;
+}
+
+.group-create-view-btn > ul > li{
+    float: left;
+    padding: 0 0 0 1px;
+    position: relative;
+    display: block;
+    width: 38px;
+}
+
+.group-create-view-btn > ul > li > .ic{
+    cursor:pointer;
+    position: relative;
+    margin: 0 5px;
+    padding : 0;
+    background-color: rgba(0, 0, 0, 0);
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.group-create-view-btn > ul > li > .ic:disabled{ background-image: url(../../src/main/resources/static-dev/images/icons.png); filter: opacity(0.3); cursor:default;}
+
+.group-create-view-btn > ul > li > .ic-location.active,
+.group-create-view-btn > ul > li > .ic-location:not(:disabled):hover{
+    background-position: 0px -441px;
+}
+
+.group-create-view-btn > ul > li > .ic-calendar:disabled{ background-image: url(../../src/main/resources/static-dev/images/icon/ic-calendar.png); filter: opacity(0.3); }
+
+.group-create-view-btn > ul > li > .ic-calendar{
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-calendar.png);
+    background-position : center;
+    background-repeat : no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.group-create-view-btn > ul > li > .ic-calendar.active,
+.group-create-view-btn > ul > li > .ic-calendar:not(:disabled):hover{
+    background-image: url(../../src/main/resources/static-dev/images/icon/ic-calendar-sel.png);
+}
+
+.group-create-view-btn > ul > li > .ic-view-list.active,
+.group-create-view-btn > ul > li > .ic-view-list:not(:disabled):hover{
+    background-position: -495px -192px;
+}
+
+.group-create-category{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 2px;
+    padding-bottom: 12px;
+}
+
+.group-create-category .group-category-list{
+    float: left;
+}
+
+.group-category-list > li {
+    display: block;
+    float: left;
+    padding: 0 0 0 1px;
+    position: relative;
+    padding: 8px 30px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.group-category-list > li > button.k-button.category-btn{
+    background: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.group-category-list > li.active button,
+.group-category-list > li button:hover,
+.group-category-list > li button.active{
+    color: #0081c6;
+}
+
+.group-category-list li+li:after{
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 1px;
+    left: 0;
+    background: #d6d6d6;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.group-create-filter-action-block{
+    display: table;
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 10px 0px 20px;
+}
+
+.group-create-filters{
+    display: table-cell;
+}
+
+.group-create-actions{
+    text-align: left;
+    vertical-align: middle;
+}
+
+.group-create-actions .text-view{
+    margin-right: 7px;
+    vertical-align: middle;
+    color: #0081c6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.group-create-filters .group-filters-list > li:last-child,
+.group-create-actions .group-actions-list > li:last-child{
+    margin-right : 0;
+}
+
+.group-create-filters .group-filters-list > li,
+.group-create-actions .group-actions-list > li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.group-create-filters .group-filters-list button{
+    width: 178px;
+}
+
+.group-create-actions.main .group-actions-list button{
+    width : 79px;
+}
+
+.group-create-actions .group-actions-list button{
+    width: 108px;
+}
+
+.group-create-actions{
+    display: table-cell;
+    text-align: right;
+}
+
+.group-create-content{
+    height : calc(100% - 10px);
+}
+
+.group-view-content{
+    overflow : auto;
+}
+
+.group-layout,
+.group-create-content .group-panel-wrapper, .map-panel-wrapper,
+.group-create-content #group-view,
+.group-create-content #group-view > div,
+.group-create-content #group-view > div > .group-view-content,
+.group-create-content #group-view > div > .group-view-content > div,
+.group-create-content #group-view > div > .group-view-content > div > .k-grid{
+    height : 100%;
+}
+
+.group-create-content .group-panel-wrapper .map-panel-list-container .k-treelist-group[data-level='0']{
+    position : relative;
+}
+
+.group-create-content .group-panel-wrapper .map-panel-list-container .k-treelist-group[data-level='0'] > td{
+    font-size: 20px;
+    line-height: 24px;
+    padding-top : 11px;
+    padding-bottom : 20px;
+    position : relative;
+}
+
+.group-create-content .group-panel-wrapper .map-panel-list-container .k-treelist-group[data-level='0'] > td:before{
+	content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.2);
+    box-shadow: 0 1px 5px rgba(0,0,0,.2);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=9,MakeShadow=true,ShadowOpacity=0.2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=9,MakeShadow=true,ShadowOpacity=0.2)";
+    zoom: 1;
+	z-index : 1;
+}
+
+.group-create-content .group-panel-wrapper .map-panel-list-container .k-treelist-group[data-level='0'] > td:after{
+    content: "";
+    display: block;
+    height: 1px;
+    bottom: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    z-index: 2;
+}
+
+.group-create-content .group-panel-wrapper .map-panel-list-container tr > td{
+	height : 60px;
+}
+
+.group-create-content .group-panel-wrapper .map-panel-list-container .k-treelist-group[data-level='0'] .k-reset{
+    padding-top: 17px;
+}
+
+.group-create-content .group-panel-wrapper .map-panel-list-container .k-treelist-group[data-level='1'] > td{
+	padding-left : 22px;
+    font-size: 18px;
+    line-height: 22px;
+	border-bottom: 1px solid #dedede;
+}
+
+.group-create-content .group-panel-wrapper .map-panel-list-container .k-treelist-group[data-level='2'] > td{
+    font-size: 16px;
+    line-height: 20px;
+	padding-left : 22px;
+}
+.group-create-content #group-view > div > .group-view-content > div > .k-grid .k-grid-content{
+    height : calc(100% - 58px) !important;
+}
+
+.group-create-content #group-view > div > .group-view-content > div > #create-group-map{
+    height : 100%;
+    /*overflow : auto;*/
+}
+
+.group-create-content .group-content-block{
+    height : calc(100% - 122px);
+}
+
+.group-create-content .group-layout{
+    height : calc(100% - 66px);
+}
+
+.group-create-content .group-layout.no-category{
+    height : 100%;
+}
+
+#group-view {
+    width: 1140px;
+}
+
+#group-view.no-panel {
+    width : 100%;
+}
+
+.group-panel-wrapper{
+    float:right;
+    width : 350px;
+}
+
+.group-panel-wrapper .map-panel-wrapper{
+    width : 100%;
+}
+
+#group-close-create{
+    margin-top: -2px;
+    margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#group-close-create:hover{
+    background-image : url(../../src/main/resources/static-dev/images/icons.png);
+    background-position : -495px -264px;
+}
+
+.group-control-dialog.detail-dialog-content.device-dialog-content .k-grid .k-grid-content{
+    height: 100% !important;
+}
+
+.group-control-dialog .detail-dialog-header .selected-num{
+    font-size: 14px;
+    line-height: 60px;
+    font-weight: 600;
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.customSlider .k-slider .k-slider-track .k-draghandle{
+    width: 9px;
+    height: 9px;
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 129, 198);
+    border-radius: 100%;
+    top: -7px;
+}
+/*
+    Group Control Pop-up Publishing CSS
+*/
+
+/*controller*/
+.controllerList{position:relative;padding:0 0}
+.controllerList.disabled{opacity:0.3 !important}
+.controllerList.disabled:after{content:"";display:block;position:absolute;top:0;bottom:0;left:0;right:0;z-index:1;background:rgba(0,0,0,0)}
+.controllerList li{position:relative}
+.controllerList li:before{content:"";display:block;height:1px;position:absolute;left:15px;right:15px;background:#d6d6d6;bottom:0}
+.controllerList li > a:hover{}
+.controllerList .typename{display:block;font-size:16px;color:#323232;line-height:24px;font-weight:700;padding:13px 0 11px;width:250px;margin:0 auto;background:url(../../src/main/resources/static-dev/images/icon/list-control-down.png) no-repeat right center; padding: 24px 0 24px 30px;line-height: 20px;}
+.controllerList .innerBox{position:relative;height:615px;width:280px;display:none;overflow:hidden}
+.controllerList .innerBox .innerSet{padding:10px 0 30px;position:relative;margin:0 auto;width:220px}
+.controllerList .innerBox .slider{height:600px !important;width:220px !important;padding:10px 30px 5px !important;}
+.controllerList .innerBox.disabled{opacity:0.3 !important}
+.controllerList .innerBox.disabled:after{content:"";display:block;position:absolute;left:0;right:0;top:0;z-index:1;bottom:0}
+.graphics > .controllerList .innerBox{height:600px}
+.graphics > .controllerList > li:after{content:"";display:block;position:absolute;left:15px;right:15px;height:1px;bottom:0;background:#d6d6d6}
+.controllerList .opened .innerBox{display:block}
+.controllerList .opened .typename{background-image:url(../../src/main/resources/static-dev/images/icon/list-control-up.png)}
+.controllerList.noarr .typename{background:none}
+.controllerList.noarr .innerBox{height:auto;display:block;overflow:visible}
+.controllerList.noarr .innerBox .typename{padding:15px 0 14px}
+
+.controllerList .bluetit{font-size:14px;font-weight:600;color:#0081c6;display:block;line-height:20px;letter-spacing:-0.02em;padding:16px 0 4px}
+.controllerList .bluetit.lowtop{padding-top:5px}
+.controllerList .tb{height:auto}
+.controllerList .tbc{padding:0 2px}
+.controllerList .tb.in8 .tbc{width:12.5%}
+.controllerList .tb.in7 .tbc{width:14.285%}
+.controllerList .tb.in6 .tbc{width:16.6%}
+.controllerList .tb.in5 .tbc{width:20%}
+.controllerList .tb.in4 .tbc{width:25%}
+.controllerList .tb.in3 .tbc{width:33.3%}
+.controllerList .tb.in2 .tbc{width:50%}
+.controllerList .tb.in1 .tbc{width:100%}
+.controllerList .tb .tbc:first-child{padding-left:0}
+.controllerList .tb .tbc:last-child{padding-right:0}
+.controllerList .tbc p{text-align:center;color:#000;font-size:13px;font-weight:600;line-height:20px;padding:5px 0}
+.controllerList .controlBtn.tbc{width:88px;height:54px;padding:0}
+.controllerList .tbc.pdn{padding:0}
+.controllerList .comboType2{width:92px}
+
+
+/*button*/
+.commonBtn{text-align:center;display:block;width:100%;font-size:16px;height:36px;line-height:24px;padding:7px 7px 5px;vertical-align:baseline;font-weight:600;
+-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;
+-moz-box-shadow:0 1px 1px rgba(0,0,0,.3);
+-webkit-box-shadow:0 1px 1px rgba(0,0,0,.3);
+box-shadow:0 1px 1px rgba(0,0,0,.3);
+filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3);
+-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3)";
+zoom: 1;
+color:#000;background-color:#e6e6e6;
+}
+.groupControl .ic{
+    display: inline-block;
+    font-size: 0;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.commonBtn:hover, .commonBtn:active{background:#cfcfcf}
+.commonBtn:disabled{background:#e6e6e6;opacity:.3;cursor:default}
+.commonBtn.selected{background:#0081c6;color:#fff}
+.commonBtn.left{float:left;width:185px}
+.commonBtn.right{float:right;width:185px}
+.commonBtn .stxt{font-size:13px}
+.commonBtn.map{width:36px;background-image:url(../../src/main/resources/static-dev/images/icon/ic-location.png);background-position:center;background-repeat:no-repeat}
+.commonBtn.icOnly{width:36px !important;padding:0}
+.commonBtn.icOnly .ic{width:36px;height:36px}
+.commonBtn.mbtn{width:78px}
+
+.controlBtn{text-align:center;display:block;width:100%;font-size:16px;line-height:36px;height:36px;vertical-align:baseline;font-weight:600;
+-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;
+-moz-box-shadow:0 1px 1px rgba(0,0,0,.3);
+-webkit-box-shadow:0 1px 1px rgba(0,0,0,.3);
+box-shadow:0 1px 1px rgba(0,0,0,.3);
+filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3);
+-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.3)";
+zoom: 1;
+color:#333;background-color:#e6e6e6;padding:0;
+}
+.controlBtn:hover{background:#cfcfcf}
+.controlBtn.selected{background:#0081c6;color:#fff}
+.controlBtn .icwrap{position:relative;display:inline-block;width:auto;line-height:24px;height:24px;font-size:16px;padding:8px 0 6px 36px}
+.controlBtn .icwrap .ic{position:absolute;left:0;top:0;width:36px;height:36px}
+.controlBtn:disabled{background:#e6e6e6;opacity:.3;cursor:default}
+
+
+.groupControl{position: absolute;right: 0px;top: 0;bottom: 10px;width: 288px;padding-left: 0;overflow-y: auto;overflow-x: hidden;border-left: 1px solid #d6d6d6;margin-top: 10px;}
+
+.groupControl .popScroller{top:0;left:0}
+.groupControl .controllerList{padding:0 30px 0 0;height:100%}
+.groupControl .popScroller .typename{padding:24px 0 24px 30px;line-height:20px}
+.groupControl .controllerList .pager{bottom:0}
+.groupControl .controllerList .innerBox .innerSet{padding-top:0;padding-bottom:10px}
+.groupControl .controllerList .horzline{width:220px;position:relative;left:30px}
+.groupControl .controllerList .innerBox .slider{float:none;padding:0 !important;height:36px !important;width:100% !important}
+.groupControl .controllerList .innerBox .slider .valTxt{position:absolute;left:100%;width:44px;text-align:right;font-size:14px;line-height:18px;margin-top:-9px;top:50%;font-weight:600;color:#0081c6}
+.groupControl .controllerList .customSlider{width:160px;float:left;position:relative;left:7px}
+.groupControl .controllerList  .tb.frmAddBtn .tbc{width:auto}
+.groupControl .controllerList .tb.frmAddBtn .tbc.bt{width:64px;padding-left:9px}
+.groupControl .controllerList .tb.frmAddBtn .tbc.bt button{ font-size : 14px;}
+
+.tb{display:table;width:100%;height:100%}
+.tbc{display:table-cell;width:auto;vertical-align:middle;height:100%}
+.tbc.v-top{vertical-align:top !important}
+.tbc.half{width:50%}
+
+
+.ic.arrstart{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-start.png)}
+.ic.arrprev{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-prev.png)}
+.ic.arrnext{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-next.png)}
+.ic.arrend{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-end.png)}
+
+.ibtn.up{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-up.png)}
+.ibtn.down{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-down.png)}
+.ibtn.top{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-top.png)}
+.ibtn.btm{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-btm.png)}
+.ibtn.up:hover, .ibtn.up.selected{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-up-sel.png)}
+.ibtn.down:hover, .ibtn.down.selected{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-down-sel.png)}
+.ibtn.top:hover, .ibtn.top.selected{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-top-sel.png)}
+.ibtn.btm:hover, .ibtn.btm.selected{background-image:url(../../src/main/resources/static-dev/images/icon/arrow-btm-sel.png)}
+
+.ic.remove{background-image:url(../../src/main/resources/static-dev/images/icon/ic-remove.png)}
+
+.ic.power{background-image:url(../../src/main/resources/static-dev/images/icon/ic-power.png)}
+a.ic.power:hover,
+.selected .ic.power{background-image:url(../../src/main/resources/static-dev/images/icon/ic-power-sel.png)}
+
+.ic.close{width:18px;height:18px;background-image:url(../../src/main/resources/static-dev/images/icon/ic-close.png)}
+a.ic.close:hover,
+.selected .ic.close{background-image:url(../../src/main/resources/static-dev/images/icon/ic-close-sel.png)}
+
+.ic.del{background-image:url(../../src/main/resources/static-dev/images/icon/ic-delete.png)}
+a.ic.del:hover,
+.selected .ic.del{background-image:url(../../src/main/resources/static-dev/images/icon/ic-delete-sel.png)}
+
+.ic.fav{background-image:url(../../src/main/resources/static-dev/images/icon/ic-favorite.png)}
+a.ic.fav:hover,
+.selected .ic.fav{background-image:url(../../src/main/resources/static-dev/images/icon/ic-favorite-sel.png)}
+
+.ic.alarm{background-image:url(../../src/main/resources/static-dev/images/icon/ic-alarm.png)}
+a.ic.alarm:hover,
+.selected .ic.alarm{background-image:url(../../src/main/resources/static-dev/images/icon/ic-alarm-sel.png)}
+
+.ic.calendar{background-image:url(../../src/main/resources/static-dev/images/icon/ic-calendar.png)}
+a.ic.calendar:hover,
+.selected .ic.calendar{background-image:url(../../src/main/resources/static-dev/images/icon/ic-calendar-sel.png)}
+
+.ic.time{background-image:url(../../src/main/resources/static-dev/images/icon/ic-time.png)}
+a.ic.time:hover,
+.selected .ic.time{background-image:url(../../src/main/resources/static-dev/images/icon/ic-time-sel.png)}
+
+.ic.help{background-image:url(../../src/main/resources/static-dev/images/icon/ic-help.png)}
+a.ic.help:hover,
+.selected .ic.help{background-image:url(../../src/main/resources/static-dev/images/icon/ic-help-sel.png)}
+
+.ic.info{background-image:url(../../src/main/resources/static-dev/images/icon/ic-info.png)}
+a.ic.info:hover,
+.selected .ic.info{background-image:url(../../src/main/resources/static-dev/images/icon/ic-info-sel.png)}
+
+.ic.loc{background-image:url(../../src/main/resources/static-dev/images/icon/ic-location.png)}
+a.ic.loc:hover,
+.selected .ic.loc{background-image:url(../../src/main/resources/static-dev/images/icon/ic-location-sel.png)}
+
+.ic.more{background-image:url(../../src/main/resources/static-dev/images/icon/ic-more.png)}
+a.ic.more:hover,
+.selected .ic.more{background-image:url(../../src/main/resources/static-dev/images/icon/ic-more-sel.png)}
+
+.ic.pause{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pause.png)}
+a.ic.pause:hover{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pause-sel.png)}
+
+.ic.play{background-image:url(../../src/main/resources/static-dev/images/icon/ic-play.png)}
+a.ic.play:hover{background-image:url(../../src/main/resources/static-dev/images/icon/ic-play-sel.png)}
+
+.ic.refresh{background-image:url(../../src/main/resources/static-dev/images/icon/ic-refresh.png)}
+a.ic.refresh:hover,
+.selected .ic.refresh{background-image:url(../../src/main/resources/static-dev/images/icon/ic-refresh-sel.png)}
+
+.ic.set{background-image:url(../../src/main/resources/static-dev/images/icon/ic-setting.png)}
+a.ic.set:hover,
+.selected .ic.set{background-image:url(../../src/main/resources/static-dev/images/icon/ic-setting-sel.png)}
+
+.ic.stat{background-image:url(../../src/main/resources/static-dev/images/icon/ic-statistic.png)}
+a.ic.stat:hover,
+.selected .ic.stat{background-image:url(../../src/main/resources/static-dev/images/icon/ic-statistic-sel.png)}
+
+.ic.graph{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-graph.png)}
+a.ic.graph:hover,
+.selected .ic.graph{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-graph-sel.png)}
+
+.ic.txt{background-image:url(../../src/main/resources/static-dev/images/icon/ic-text.png)}
+a.ic.txt:hover,
+.selected .ic.txt{background-image:url(../../src/main/resources/static-dev/images/icon/ic-text-sel.png)}
+
+.ic.txtdown{background-image:url(../../src/main/resources/static-dev/images/icon/ic-text-down.png)}
+a.ic.txtdown:hover,
+.selected .ic.txtdown{background-image:url(../../src/main/resources/static-dev/images/icon/ic-text-down-sel.png)}
+
+.ic.txtup{background-image:url(../../src/main/resources/static-dev/images/icon/ic-text-up.png)}
+a.ic.txtup:hover,
+.selected .ic.txtup{background-image:url(../../src/main/resources/static-dev/images/icon/ic-text-up-sel.png)}
+
+.ic.vgrid{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-full.png)}
+a.ic.vgrid:hover,
+.selected .ic.vgrid{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-full-sel.png)}
+
+.ic.vgrid2{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-2x2.png)}
+a.ic.vgrid2:hover,
+.selected .ic.vgrid2{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-2x2-sel.png)}
+
+.ic.vgrid3{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-3x3.png)}
+a.ic.vgrid3:hover,
+.selected .ic.vgrid3{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-3x3-sel.png)}
+
+.ic.vlist{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-list.png)}
+a.ic.vlist:hover,
+.selected .ic.vlist{background-image:url(../../src/main/resources/static-dev/images/icon/ic-view-list-sel.png)}
+
+.ic.wnew{background-image:url(../../src/main/resources/static-dev/images/icon/ic-window-new.png)}
+a.ic.wnew:hover,
+.selected .ic.wnew{background-image:url(../../src/main/resources/static-dev/images/icon/ic-window-new-sel.png)}
+
+.ic.wcontract{background-image:url(../../src/main/resources/static-dev/images/icon/ic-window-contract.png)}
+a.ic.wcontract:hover,
+.selected .ic.wcontract{background-image:url(../../src/main/resources/static-dev/images/icon/ic-window-contract-sel.png)}
+
+.ic.wexpand{background-image:url(../../src/main/resources/static-dev/images/icon/ic-window-expand.png)}
+a.ic.wexpand:hover,
+.selected .ic.wexpand{background-image:url(../../src/main/resources/static-dev/images/icon/ic-window-expand-sel.png)}
+
+.ic.auto{background-image:url(../../src/main/resources/static-dev/images/icon/ic-auto-g.png)}
+a.ic.auto:hover,
+.selected .ic.auto{background-image:url(../../src/main/resources/static-dev/images/icon/ic-auto.png)}
+
+.ic.cool{background-image:url(../../src/main/resources/static-dev/images/icon/ic-cool-g.png)}
+a.ic.cool:hover,
+.selected .ic.cool{background-image:url(../../src/main/resources/static-dev/images/icon/ic-cool.png)}
+
+.ic.heat{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-g.png)}
+a.ic.heat:hover,
+.selected .ic.heat{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat.png)}
+
+.ic.dry{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dry-g.png)}
+a.ic.dry:hover,
+.selected .ic.dry{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dry.png)}
+
+.ic.fan{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-g.png)}
+a.ic.fan:hover,
+.selected .ic.fan{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan.png)}
+
+.ic.coolwater{background-image:url(../../src/main/resources/static-dev/images/icon/ic-coolwater-g.png)}
+a.ic.coolwater:hover,
+.selected .ic.coolwater{background-image:url(../../src/main/resources/static-dev/images/icon/ic-coolwater.png)}
+
+.ic.coolst{background-image:url(../../src/main/resources/static-dev/images/icon/ic-coolst-g.png)}
+a.ic.coolst:hover,
+.selected .ic.coolst{background-image:url(../../src/main/resources/static-dev/images/icon/ic-coolst.png)}
+
+.ic.hotwater{background-image:url(../../src/main/resources/static-dev/images/icon/ic-hotwater-g.png)}
+a.ic.hotwater:hover,
+.selected .ic.hotwater{background-image:url(../../src/main/resources/static-dev/images/icon/ic-hotwater.png)}
+
+.ic.nolimit{background-image:url(../../src/main/resources/static-dev/images/icon/ic-nolimit-g.png)}
+a.ic.nolimit:hover,
+.selected .ic.nolimit{background-image:url(../../src/main/resources/static-dev/images/icon/ic-nolimit.png)}
+
+.ic.fanauto{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-auto-g.png)}
+a.ic.fanauto:hover,
+.selected .ic.fanauto{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-auto.png)}
+
+.ic.fanlow{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-low-g.png)}
+a.ic.fanlow:hover,
+.selected .ic.fanlow{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-low.png)}
+
+.ic.fanmid{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-mid-g.png)}
+a.ic.fanmid:hover,
+.selected .ic.fanmid{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-mid.png)}
+
+.ic.fanhigh{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-high-g.png)}
+a.ic.fanhigh:hover,
+.selected .ic.fanhigh{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-high.png)}
+
+.ic.fanturbo{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-turbo-g.png)}
+a.ic.fanturbo:hover,
+.selected .ic.fanturbo{background-image:url(../../src/main/resources/static-dev/images/icon/ic-fan-turbo.png)}
+
+.ic.heatauto{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-auto-g.png)}
+a.ic.heatauto:hover,
+.selected .ic.heatauto{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-auto.png)}
+
+.ic.heatex{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-ex-g.png)}
+a.ic.heatex:hover,
+.selected .ic.heatex{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-ex.png)}
+
+.ic.heatbyp{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-bypass-g.png)}
+a.ic.heatbyp:hover,
+.selected .ic.heatbyp{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-bypass.png)}
+
+.ic.heatsleep{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-sleep-g.png)}
+a.ic.heatsleep:hover,
+.selected .ic.heatsleep{background-image:url(../../src/main/resources/static-dev/images/icon/ic-heat-sleep.png)}
+
+.ic.dhweco{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dhw-eco-g.png)}
+a.ic.dhweco:hover,
+.selected .ic.dhweco{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dhw-eco.png)}
+
+.ic.dhwstand{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dhw-standard-g.png)}
+a.ic.dhwstand:hover,
+.selected .ic.dhwstand{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dhw-standard.png)}
+
+.ic.dhwpower{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dhw-power-g.png)}
+a.ic.dhwpower:hover,
+.selected .ic.dhwpower{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dhw-power.png)}
+
+.ic.dhwforce{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dhw-force-g.png)}
+a.ic.dhwforce:hover,
+.selected .ic.dhwforce{background-image:url(../../src/main/resources/static-dev/images/icon/ic-dhw-force.png)}
+
+.ic.windvertical{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-vertical-g.png)}
+a.ic.windvertical:hover,
+.selected .ic.windvertical{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-vertical.png)}
+
+.ic.windhorizon{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-horizon-g.png)}
+a.ic.windhorizon:hover,
+.selected .ic.windhorizon{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-horizon.png)}
+
+.ic.windall{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-all-g.png)}
+a.ic.windall:hover,
+.selected .ic.windall{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-all.png)}
+
+.ic.windfix{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-fix-g.png)}
+a.ic.windfix:hover,
+.selected .ic.windfix{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-fix.png)}
+
+.ic.windspot{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-spot-g.png)}
+a.ic.windspot:hover,
+.selected .ic.windspot{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-spot.png)}
+
+.ic.windmid{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-mid-g.png)}
+a.ic.windmid:hover,
+.selected .ic.windmid{background-image:url(../../src/main/resources/static-dev/images/icon/ic-mid-fix.png)}
+
+.ic.windwide{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-wide-g.png)}
+a.ic.windwide:hover,
+.selected .ic.windwide{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-wide.png)}
+
+.ic.windswing{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-swing-g.png)}
+a.ic.windswing:hover,
+.selected .ic.windswing{background-image:url(../../src/main/resources/static-dev/images/icon/ic-wind-swing.png)}
+
+.ic.pattall{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pattern-all-g.png)}
+a.ic.pattall:hover,
+.selected .ic.pattall{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pattern-all.png)}
+
+.ic.pattrotate{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pattern-rotate-g.png)}
+a.ic.pattrotate:hover,
+.selected .ic.pattrotate{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pattern-rotate.png)}
+
+.ic.pattseq{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pattern-seq-g.png)}
+a.ic.pattseq:hover,
+.selected .ic.pattseq{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pattern-seq.png)}
+
+.ic.patteff{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pattern-eff-g.png)}
+a.ic.patteff:hover,
+.selected .ic.patteff{background-image:url(../../src/main/resources/static-dev/images/icon/ic-pattern-eff.png)}
+
+.group-control-dialog-control.groupControl .control-panel .k-panelbar-collapse.k-icon, .group-control-dialog-control.groupControl .control-panel .k-panelbar-expand.k-icon{
+    display : none;
+}
+
+.group-control-dialog-control.groupControl .control-panel .k-link.k-header{
+    border : none;
+}
+
+.group-control-dialog-control.groupControl .control-panel .innerBox{
+    overflow : hidden !important;
+    padding-left : 0;
+    padding-right : 0;
+    width : 100%;
+    border : none;
+    height : auto !important;
+}
+
+.group-control-dialog-control.groupControl .control-panel li.k-item:before{
+    display : none;
+}
+
+/*.group-control-dialog-control.groupControl .control-panel #item1 .innerBox{
+    height : 340px !important;
+}
+
+.group-control-dialog-control.groupControl .control-panel #item2 .innerBox{
+    height : 150px !important;
+}
+
+.group-control-dialog-control.groupControl .control-panel #item3 .innerBox{
+    height : 235px !important;
+}
+.group-control-dialog-control.groupControl .control-panel #item4 .innerBox{
+    height : 70px !important;
+    padding-top : 0;
+}*/
+
+#group-create-floor-list tr td, #group-create-selected-list tr td{
+    white-space: pre;
+}
+.group-content {
+    height: 100%
+}
+.group-content .group-content-block {
+    height: calc(100% - 96px)
+}

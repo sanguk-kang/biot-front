@@ -1,0 +1,445 @@
+    #sign_main {
+        height: 100%;
+        position: relative;
+    }
+    
+    body.sign-background #sign_main {
+        height: auto;
+    }
+    
+    #main-contents {
+        height: 100%;
+    }
+    
+    #signin-container {
+        width: 100%;
+        height: 100%;
+        background-color: #f7f7f7;
+    }
+    
+    .signin-brand-visual {
+        display: flex;
+        position: absolute;
+        left: 0;
+        width: 844px;
+        height: 100%;
+        top: 0;
+        background: #ededed url('../images/signup/bg_intro.png') no-repeat 0 0;
+        overflow: hidden;
+    }
+    
+    .flex_al_center .signin-brand-visual {
+        background: #ededed url('../images/signup/bg_intro.png') no-repeat 0 center;
+    }
+    
+    .flex_al_center .signin-contents {
+        display: flex;
+        align-items: center;
+    }
+    
+    .flex_al_center .signin-contents .signin-contents-block {
+        padding-top: 0;
+    }
+    
+    .signin-contents {
+        position: absolute;
+        top: 0;
+        left: 844px;
+        right: 0;
+        height: 100%;
+    }
+    
+    .sign-background .signin-contents {
+        width: 500px;
+        position: relative;
+    }
+    
+    .signin-contents-block {
+        padding: 308px 0 0 40px;
+        width: 420px;
+    }
+    
+    .signin-contents-title {
+        padding: 0 0 40px;
+        font-weight: normal
+    }
+    
+    .find-contents-title {
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 25px;
+        letter-spacing: -1px;
+    }
+    
+    .signin-contents-title .signin-logo-img {
+        display: block
+    }
+    
+    .signin-contents-title .signin-logo-text {
+        font-size: 42px;
+        font-weight: 300;
+        text-indent: -0.075em;
+        display: block
+    }
+    
+    .signin-contents-title .signin-logo-text em {
+        font-weight: 600;
+        font-style: normal
+    }
+
+    .signin-form-block,
+    .signin-contents-formfieldset .input_wrap {
+        position: relative;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .signin-form-block>input,
+    .signin-contents-formfieldset .input_wrap>input{
+        width: 100%;
+        padding-right: 34px
+    }
+    
+    .signin-form-block .signin-input-remove,
+    .signin-contents-formfieldset .input_wrap .signin-input-remove{
+        position: absolute;
+        right: 8px;
+        top: 4px;
+        display: none;
+        cursor: pointer
+    }
+
+    .signin-contents-formfieldset .input_wrap .signin-input-remove.time-limt {
+        right: 55px;
+        top: 5px;
+    }
+
+    .signin-form-block .ic_ess+.signin-input-remove,
+    .signin-contents-formfieldset .input_wrap .ic_ess+.signin-input-remove{
+        right: 20px;
+    }
+    
+    .signin-form-block .ic_ess,
+    .signin-contents-formfieldset .input_wrap .ic_ess {
+        display: inline-block;
+        position: absolute;
+        right: 12px;
+        top: 14px;
+    }
+    
+    .signin-form-block .signin-remember-label,
+    .signin-contents-formfieldset .input_wrap  .signin-remember-label{
+        color: #6a6a6a;
+        line-height: 1;
+        position: relative;
+        top: 0
+    }
+    
+    .signin-form-block .k-button,
+    .signin-contents-formfieldset .input_wrap .k-button {
+        width: 100%;
+    }
+    
+    .signin-footer {
+        position: absolute;
+        bottom: 40px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #a0a0a0;
+    }
+    
+    .sign-background .signin-footer {
+        position: static;
+        bottom: auto;
+        padding: 100px 0 30px 0;
+    }
+    
+    .sign-background .signin-contents-block {
+        padding-top: 290px;
+    }
+    
+    .signin-password-right-block {
+        position: absolute;
+        right: 8px;
+        top: 16px;
+        display: inline-block
+    }
+    
+    .signin-password-right-block .signin-capslock-on {
+        display: none;
+        float: left;
+        color: rgba(0, 0, 0, 0.6)
+    }
+    
+    .signin-form-block .signin-password-right-block .signin-input-remove,
+    .signin-contents-formfieldset .input_wrap .signin-password-right-block .signin-input-remove{
+        float: left;
+        position: relative;
+        top: -4px;
+        right: 0
+    }
+    
+    .signin-contents-formfieldset>.signin-form-block:first-child,
+    .signin-contents-formfieldset .input_wrap:first-child
+    {
+        margin-bottom: 14px;
+    }
+    
+    .signin-form-block.checkid,
+    .signin-contents-formfieldset .input_wrap.checkid{
+        padding: 23px 0;
+    }
+    
+    .signin-form-block .textlink-list,
+    .signin-contents-formfieldset .input_wrap .textlink-list{
+        overflow: hidden;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .signin-form-block .textlink-list li,
+    .signin-contents-formfieldset .input_wrap .textlink-list li{
+        float: left;
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    
+    .signin-form-block .textlink-list li:last-child,
+    .signin-contents-formfieldset .input_wrap .textlink-list li:last-child{
+        margin-bottom: 0;
+    }
+    
+    .signin-form-block a.k-link,
+    .signin-contents-formfieldset .input_wrap a.k-link{
+        display: inline-block;
+        font-size: 16px;
+        color: #000;
+        position: relative;
+        font-weight: 400;
+    }
+    
+    .signin-form-block a.k-link:after,
+    .signin-contents-formfieldset .input_wrap  a.k-link:after{
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        width: 100%;
+        background: #000
+    }
+    
+    .signin-form-block .k-widget.k-tooltip-validation.k-invalid-msg,
+    .signin-form-block .k-widget.k-tooltip-validation.k-success-msg,
+    .signin-contents-formfieldset .input_wrap .k-widget.k-tooltip-validation.k-invalid-msg,
+    .signin-contents-formfieldset .input_wrap .k-widget.k-tooltip-validation.k-success-msg{
+        padding: 8px 0 0 0;
+    }
+    
+    .find-idpw-button {
+        overflow: hidden;
+        padding-top: 40px;
+    }
+    
+    .find-idpw-button li {
+        float: left;
+    }
+    
+    .find-idpw-button li:last-child {
+        float: right;
+    }
+    
+    .find-idpw-button .k-button {
+        width: 185px;
+    }
+    
+    .find-result-block li {
+        border-bottom: 1px solid #d6d6d6;
+    }
+    
+    .find-result-block li .resutl_text {
+        margin-bottom: 40px;
+    }
+    
+    .find-result-block li .resutl_id {
+        font-size: 17px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    
+    .find-result-block li .resutl_date {
+        color: #6a6a6a;
+        padding: 14px 0 20px 0;
+    }
+    
+    .find-idpw-block li .flex_both_right li,
+    .signin-contents-formfieldset .find-idpw-block li .flex_both_right li .input_wrap:first-child {
+        margin-bottom: 0;
+
+    }
+    .find-idpw-block li {
+        margin-bottom: 14px;
+        position: relative;
+    }
+     .k-selected-msg {
+        display: block;
+        color: #6a6a6a;
+        font-size: 14px;
+         line-height: 20px;
+         padding-top: 8px;
+    }
+
+    .find-idpw-block li:last-child {
+        margin-bottom: 0;
+    }
+    
+    .creat-id li {
+        border-bottom: 0;
+        margin-bottom: 40px;
+    }
+    
+    .creat-id li:last-child {
+        margin-bottom: 0;
+    }
+    
+    .creat-id li .resutl_id {
+        padding-top: 0;
+    }
+    
+    .creat-id li .resutl_date {
+        padding: 14px 0 25px 0;
+    }
+    
+    .creat-id li .k-button {
+        width: 185px;
+    }
+    
+    .creat-id li .info_text {
+        color: #6a6a6a;
+        margin-bottom: 25px;
+        width: 340px;
+    }
+    
+    .agreement li {
+        border-bottom: 0;
+        padding-bottom: 30px;
+    }
+    
+    .agreement li:last-child {
+        padding: 30px 0 0 0;
+        border-top: 1px solid #d6d6d6;
+    }
+    
+    .agreement li .textbox_agr {
+        margin-top: 20px;
+        height: 95px;
+    }
+    
+    .side_link {
+        display: block;
+        margin-top: 25px;
+    }
+    
+    .certification_num {
+        width: 100%;
+        display: block;
+        margin: 25px 0 14px 0;
+    }
+    
+    .certification_num .check_text {
+        color: #6a6a6a;
+        padding-bottom: 8px;
+    }
+    
+    .certification_num .time_intb {
+        padding-bottom: 25px;
+    }
+    
+    .signin-form-block .time-limt,
+    .input_wrap .time-limt
+    {
+        display: inline-block;
+        position: absolute;
+        right: 12px;
+        top: 10px;
+        color: #ee392f;
+    }
+    
+    .reset_end {
+        padding-bottom: 40px;
+    }
+    
+    .ess_top {
+        font-size: 14px;
+        text-align: right;
+        padding-bottom: 15px;
+    }
+    
+    .ess_top .ic_ess {
+        margin-right: 5px;
+    }
+    .detail-dialog-detail-content .ess_top {
+        margin-top: 13px;
+    }
+    .signin-contents .text_area {
+        padding: 25px 0 25px 0;
+    }
+    
+    .signin-contents .text_area .q_text {
+        color: #6a6a6a;
+        padding-bottom: 8px;
+    }
+    
+    .bk_side {
+        margin-top: 40px;
+    }
+
+    .bk_side2 {
+        margin-top: 20px;
+    }
+    
+    .end_bot,
+    .end_bot .btn_text {
+        color: #6a6a6a;
+        font-size: 14px;
+    }
+    
+    .end_tb {
+        border-top: 1px solid #d6d6d6;
+        border-bottom: 1px solid #d6d6d6;
+        padding: 25px 0;
+        margin: 40px 0;
+    }
+    
+    .end_tb table th {
+        color: #6a6a6a;
+        text-align: left;
+        padding-bottom: 12px;
+        vertical-align: top;
+    }
+    
+    .end_tb table td {
+        text-align: left;
+        padding-bottom: 12px;
+    }
+    
+    .end_tb table tr:last-child th,
+    .end_tb table tr:last-child td {
+        padding-bottom: 0;
+    }
+    .end_tb .sub_title {
+        font-weight: 600;
+        margin: 25px 0;
+        font-size: 17px;
+    }
+    .end_tb .sub_title:first-child {
+        margin-top: 0;
+
+    }
+    .end_tb .sub_title.bdt {
+        border-top: 1px solid #d6d6d6;
+        padding-top: 25px;
+
+    }

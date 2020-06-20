@@ -1,0 +1,500 @@
+.detail-dialog-content{
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.detail-dialog-content .action-button-wrapper{
+    float: right;
+    line-height: 50px;
+    display: inline-block;
+    height: 50px;
+}
+
+.detail-dialog-content .detail-multi-dialog-header .action-button-wrapper{
+    line-height : 60px;
+    margin-right : 15px;
+}
+
+.detail-dialog-grid tbody button.k-button{
+    min-width : initial;
+}
+
+.detail-dialog-content-field-value .detail-dialog-grid,
+.detail-dialog-content-field-value .detail-dialog-grid .k-grid-content tr.k-grouping-row td{
+    background-color : #f7f7f7;
+}
+
+.detail-dialog-content-field-value .detail-dialog-grid .k-grid-content tr.k-grouping-row:hover,
+.detail-dialog-content-field-value .detail-dialog-grid .k-grid-content tr.k-grouping-row:hover td{
+    background-color: #d0e4f1;
+}
+
+.detail-dialog-content-field-value .detail-dialog-grid .k-grid-content tr.k-grouping-row td{
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-value .detail-dialog-grid{
+    height : 100%;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-value .detail-dialog-grid .k-grid-header th{
+    text-align : center;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-value .detail-dialog-grid .k-grid-content tr td{
+    border-bottom: 1px solid #d6d6d6;
+    text-align : left;
+    padding-left : 37px;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-detail-content{
+    height : 610px;
+}
+
+.detail-dialog-content.device-dialog-content.multi > .detail-dialog-detail-content{
+    margin : 0;
+}
+
+.detail-dialog-content.device-dialog-content.multi .detail-dialog-detail-content{
+    height : auto;
+}
+
+.detail-dialog-content.device-dialog-content.multi .detail-dialog-detail-content .detail-dialog-detail-content-field-list{
+	padding-right : 8px;
+}
+
+.detail-dialog-header{
+    vertical-align: middle;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    height: 60px;
+    position : relative;
+    white-space: pre-wrap;
+}
+
+.detail-dialog-header > .cell{
+    display: inline-block;
+    vertical-align: middle;
+    line-height : 55px;
+}
+
+li.detail-dialog-content-field-item{
+    display: table;
+    display: table;
+    width: 100%;
+    position : relative;
+	padding-bottom : 4px;
+    /* min-height: 20px; */
+    /* height: auto; */
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid{
+    padding-top : 9px;
+    border-top: 1px solid #d6d6d6;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid th{
+    text-align : center;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid th,
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid td,
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-norecords,
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-content .k-grouping-row td,
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-content td{
+    background-color: #fbfbfb;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid tbody,
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-content{
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-content td{
+    height : 60px;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-content .k-grouping-row[data-level='0'] > td{
+	padding-left : 17px;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-content td[role='gridcell']{
+	padding-left : 38px;
+    text-align : left;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-content .k-grouping-row[data-level='0']:first-child td{
+    border : none;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .k-grid-content .k-grouping-row[data-level='0'] td{
+    border-top : 1px solid #d6d6d6;
+}
+
+.detail-dialog-content.device-dialog-content .detail-dialog-content-field-item[data-type='grid'] .k-grid .no-records-text{
+    margin-top : 10%;
+}
+
+li.detail-dialog-content-field-item .detail-dialog-content-field-name{
+    display: table-cell;
+    width: 210px;
+    vertical-align: middle;
+    color: #6a6a6a;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+li.detail-dialog-content-field-item .detail-dialog-content-field-value{
+    display: table-cell;
+    vertical-align: middle;
+    color: #333;
+    text-align: left;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    font-weight: 500;
+    color: #333;
+    font-size: 16px;
+}
+
+li.detail-dialog-content-field-item .detail-dialog-content-field-value span.editable{
+    padding: 0;
+    float: left;
+	line-height : 1;
+}
+
+.detail-dialog-detail-content{
+    margin-bottom: 19px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.detail-dialog-detail-content .detail-dialog-content-field-item .ic-bt-input-remove{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: none;
+    cursor: pointer;
+    background-color : #fdfdfd;
+}
+
+.detail-dialog-detail-content .detail-dialog-content-field-item .has-remove-btn{
+    padding-right : 31px;
+}
+
+.detail-dialog-detail-content .k-widget.k-tooltip-validation.k-invalid-msg{
+    display : block;
+    padding: 4px 0px 2px;
+}
+
+.detail-dialog-content .detail-dialog-content-field-item.hidden{
+    display : none !important;
+}
+
+.detail-dialog-content .detail-dialog-content-field-item .detail-dialog-content-field-value.row,
+.detail-dialog-content.edit-mode .detail-dialog-content-field-item .detail-dialog-content-field-value.row{
+    display : table-row;
+}
+
+.detail-dialog-content .group .editable,
+.detail-dialog-content .detail-dialog-content-field-item .detail-dialog-content-field-value .editable,
+.detail-dialog-content.edit-mode .detail-dialog-content-field-item[data-editable='true'] .detail-dialog-content-field-value .display{
+    display : none;
+}
+
+.detail-dialog-content.edit-mode .group .editable,
+.detail-dialog-content.edit-mode .detail-dialog-content-field-item[data-editable='true'] .detail-dialog-content-field-value .editable,
+.detail-dialog-content .detail-dialog-content-field-item .detail-dialog-content-field-value .display{
+    display : inline-block;
+}
+
+.detail-dialog-content .detail-dialog-content-field-item .detail-dialog-content-field-value .display{
+    min-height: 20px;
+    height: auto;
+}
+
+.detail-dialog-content .detail-dialog-content-field-item .detail-dialog-content-field-value .display.detail-dialog-grid{
+    height : 100%;
+}
+
+.detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .display{
+    white-space: pre-wrap;
+}
+.detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .display,
+.detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .editable{
+    width : 100%;
+}
+
+.detail-dialog-content.multi.edit-mode .detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .editable.has-edit-all-btn{
+    width : calc(100% - 115px);
+}
+
+.detail-dialog-content.edit-mode .detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .edit-all-btn{
+    width: 85px;
+    vertical-align: top;
+    padding: 0;
+    margin-top: -10px;
+    margin-bottom: -8px;
+    float: left;
+    margin-left: 8px;
+    display : none;
+}
+
+.detail-dialog-content.multi.edit-mode .detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .editable.has-edit-all-btn .ic-bt-input-remove{
+    right : 115px;
+}
+
+.detail-dialog-content.multi.edit-mode .detail-dialog-detail-content .detail-dialog-content-field-item .detail-dialog-content-field-value .edit-all-btn{
+    display : block;
+}
+
+.popup-btn.ic-bt-map:disabled{
+    background-image: url(../../src/main/resources/static-dev/images/icons.png);
+    background-position: -184px -154px;
+    width: 36px;
+    height: 36px;
+    opacity : 0.3;
+}
+
+.popup-btn.ic-bt-map:hover{
+    background-image: url(../../src/main/resources/static-dev/images/icons.png);
+    background-position: -184px -154px;
+    width: 36px;
+    height: 36px;
+}
+
+.detail-dialog-header .panel-item-temp{
+    line-height : 60px;
+}
+
+.detail-dialog-header.device-dialog-header{
+    line-height : 60px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.detail-dialog-content .detail-dialog-header.detail-multi-dialog-header{
+    line-height : 60px;
+    padding-right: 20px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.detail-dialog-content.multi .detail-dialog-header.detail-multi-dialog-header{
+    border : none;
+}
+
+.detail-dialog-header.device-dialog-header .detail-img
+.detail-dialog-header.detail-multi-dialog-header .detail-img{
+    margin-top : -2px;
+    margin-left : 0;
+}
+
+.device-detail-header .device-detail-header-type{
+    line-height: 25px;
+    padding: 8px 0;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.device-detail-header .device-detail-header-history-btn{
+    float : right;
+}
+
+.detail-dialog-content.device-dialog-content{
+    height : 100%;
+}
+
+/*.detail-dialog-content.device-dialog-content .detail-dialog-content-field-value .display{
+    font-size : 14px;
+    font-weight : 400;
+}*/
+
+.detail-dialog-content.device-dialog-content .k-grid .k-grid-header{
+    background-color: rgb(247, 247, 247);
+    padding : 0;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid .k-grid-header:before{
+    display : none;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid .k-grid-header:after{
+    display : none;
+}
+
+.k-grid .k-grid-header .k-grid-header-wrap{
+    background-color: rgb(247, 247, 247);
+}
+
+.detail-dialog-content.device-dialog-content .k-grid .k-grid-header th{
+    padding-bottom: 15px;
+    background-color: rgb(247, 247, 247);
+    text-align: left;
+}
+
+.detail-dialog-content.device-dialog-content.multi-column .k-grid .k-grid-header th{
+    text-align : center;
+}
+
+.detail-dialog-content.device-dialog-content.multi-column .k-grid .k-grid-content td{
+    text-align : left;
+}
+
+.detail-dialog-content.device-dialog-content.multi-column .k-grid .k-grid-content td.grid-checkbox-cell,
+.detail-dialog-content.device-dialog-content.multi-column .k-grid .k-grid-content td.checkbox-cell{
+    text-align : center;
+}
+
+.detail-dialog-content .k-grid .k-grid-content td .td-padding-left{
+    padding-left : 15px;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid tr{
+    background : none;
+    cursor : pointer;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid tr .detail-dialog-multi-header-collapse{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -4px;
+    background-image: url(../../src/main/resources/static-dev/images/icons.png);
+    background-position: -450px -279px;
+    width: 14px;
+    height: 8px;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid .k-grid-header-wrap.k-auto-scrollable > table{
+    padding-right : 0;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid tr.k-state-selected .detail-dialog-multi-header-collapse{
+    background-image: url(../../src/main/resources/static-dev/images/icons.png);
+    background-position: -471px -456px;
+    width: 14px;
+    height: 8px;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid tr:hover{
+    background-color: #d0e4f1;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid tr td{
+    padding : 0;
+}
+
+.detail-dialog-content.device-dialog-content .k-grid .k-grid-content{
+    overflow-y : auto;
+    overflow-x: hidden;
+    height : calc(100% - 80px) !important;
+    background-color: rgb(247, 247, 247);
+}
+
+.detail-dialog-content.device-dialog-content .k-grid tbody button.k-button.popup-btn.ic-bt-map{
+    width : 36px;
+}
+
+
+.device-detail-popup-group-list-item .detail-img{
+    width : 30px;
+    height : 30px;
+    margin-left : 0;
+}
+
+.device-detail-popup-group-list-item{
+    text-align: left;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.device-detail-popup-group-list-item .detail-text{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 270px;
+}
+
+.device-detail-popup-group-list-item .detail-text .id{
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.device-detail-popup-group-list-item .detail-text .name{
+    display: block;
+    font-size: 14px;
+    color: #6a6a6a;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.device-detail-popup-group-list-item .ic.ic-info{
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+.detail-dialog-detail-content-group .group{
+    float: left;
+    display: block;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 22px 0 14px 0;
+    font-weight: 700;
+}
+
+.detail-dialog-detail-content-group .group.blue{
+    display: block;
+    color: #0081c6;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.detail-dialog-detail-content-group > .detail-dialog-content-field-elem{
+    padding-left : 20px;
+}
+
+.detail-dialog-content.virtualization .k-virtual-scrollable-wrap{
+    overflow-y : scroll;
+	overflow-x : hidden;
+}
+
+.detail-dialog-content.virtualization .detail-dialog-grid .k-grid-header{
+    padding-right : 0 !important;
+}
+
+.detail-dialog-content.virtualization .detail-dialog-grid .k-grid-content.k-auto-scrollable{
+    overflow-y : auto !important;
+    padding-right : 0 !important;
+}
+
+.detail-dialog-content .detail-dialog-group-list{
+    height : 100%;
+}
+
+/*.detail-dialog-content.virtualization .detail-dialog-grid .k-scrollbar-vertical{
+    display : none;
+}*/
+
+.detail-dialog-content.device-dialog-content .map-panel-list-container .k-grid .k-grid-content tr{
+    background-color : inherit;
+}

@@ -1,0 +1,365 @@
+.common-map-view{
+    background: #fff;
+	border: 1px solid #d6d6d6;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.common-map-view.common-full-screen{
+    position : fixed !important;
+    top : 0;
+    left : 0;
+    z-index : 1000;
+	width : 100% !important;
+	height : 100% !important;
+}
+
+.common-map-view.leaflet-container{
+	font : inherit;
+}
+
+.common-map-view .leaflet-control-attribution{
+    display: none;
+}
+.common-map-view-zone-name{
+    white-space : nowrap;
+    font-size: 14px;
+	font-weight : 500;
+    width : auto !important;
+    height : auto !important;
+}
+
+.common-map-view-zone-name .common-map-view-zone-name-text{
+	line-height : 16px;
+    padding : 8px 12px;
+}
+
+.common-map-view-zone-name.editable{
+    font-weight : 500;
+}
+
+.common-map-view input.common-map-view-zone-name-editable{
+	background : none;
+}
+
+.common-map-view .leaflet-pane{
+    z-index : 40;
+}
+
+.common-map-view .leaflet-tile-pane{
+    z-index : 20;
+}
+
+.common-map-view .leaflet-shadow-pane{
+    z-index : 50;
+}
+
+.common-map-view .leaflet-overlay-pane{
+    z-index : 40;
+}
+
+.common-map-view .leaflet-map-pane canvas{
+    z-index : 10;
+}
+
+.common-map-view .leaflet-marker-pane{
+    z-index : 60;
+}
+
+.common-map-view .leaflet-tooltip-pane{
+    z-index : 65;
+}
+
+.common-map-view .leaflet-popup-pane{
+    z-index : 70;
+}
+
+.common-map-view .leaflet-top, .common-map-view .leaflet-bottom{
+    z-index : 90;
+}
+
+.common-map-view .leaflet-map-pane svg{
+    z-index : 20;
+}
+
+/* 기기 정보 표시 Text 박스는 Draggable로 인하여 Tooltip에서 Marker로 변경*/
+/*.leaflet-tooltip.common-map-view-device-text{
+    background : none;
+    border : none;
+    border-radius : 0;
+    box-shadow : none;
+	padding : 0;
+	margin-top : 12px;
+}
+
+.leaflet-tooltip.common-map-view-device-text:before{
+    display : none;
+}*/
+.common-map-view .common-map-view-checkbox-wrapper{
+    position : absolute;
+    right : 0;
+    top : 0;
+    font-size : 14px;
+    z-index : 69;
+}
+
+.common-map-view .common-map-view-checkbox-wrapper .k-checkbox-label{
+    padding-left : 22px;
+}
+
+.common-map-view .device-info-text{
+    text-align: center;  background: rgba(0,0,0,0.75);  font-weight: 600;  color: #fff;cursor: pointer;font-size: 14px;
+	line-height : 1.5; width : 114px;
+}
+
+.common-map-view .device-info-text .color{
+    color: #25b3ff;
+}
+
+.common-map-view .device-info-text .name{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.common-map-view .device-info-text .name.asset{
+    white-space : normal;
+}
+
+.common-map-view .common-map-view-device-icon{
+	border-radius : 100%;
+	background-color : #b2b2b2;
+}
+
+.common-map-view .common-map-view-device-icon.movable{
+	background : none;
+}
+
+.common-map-view .common-map-view-device-icon.measured{
+    opacity : 0.5;
+}
+
+.common-map-view .common-map-view-device-icon.selected{
+    box-shadow : 0 0 0px 5px rgba(0,129,198,0.5);
+}
+
+.common-map-view .common-map-view-device-icon.selected.registered{
+	background-color: rgb(0, 129, 198);
+}
+
+.common-map-view .common-map-view-device-icon.normal-on{
+    background-color : rgb(26,160,90);
+}
+
+.common-map-view .common-map-view-device-icon.normal-off{
+    background-color : rgb(69,69,69);
+}
+
+.common-map-view .common-map-view-device-icon.alarm-warning{
+    background-color : rgb(255,164,31);
+}
+
+.common-map-view .common-map-view-device-icon.alarm-critical{
+    background-color : rgb(239,43,43);
+}
+
+.common-map-view .leaflet-div-icon.leaflet-vertex-icon{
+	background-color: rgb(0, 129, 198);
+    border-radius: 100%;
+    border : none;
+}
+
+.common-map-view .leaflet-div-icon.leaflet-vertex-icon.leaflet-vertex-resize-icon{
+	border-radius : 0;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon{
+	border : 3px solid #0281c7;
+    border-style : dashed;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon.nesw-resize-0{
+    border-right : none;
+    border-top : none;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon.nwse-resize-1{
+	border-right : none;
+	border-bottom : none;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon.nesw-resize-2{
+    border-left : none;
+	border-bottom : none;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon.nwse-resize-3{
+    border-left : none;
+	border-top : none;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon.ew-resize-0{
+    border-right : none;
+    border-top : none;
+	border-bottom : none;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon.ns-resize-1{
+    border-left : none;
+    border-right : none;
+    border-bottom : none;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon.ew-resize-2{
+    border-top : none;
+    border-left : none;
+    border-bottom : none;
+}
+
+.common-map-view .common-map-view-zone-resizer-icon.ns-resize-3{
+    border-top : none;
+    border-left : none;
+    border-right : none;
+}
+
+.common-map-view-control{
+	width : 36px;
+	height : 36px;
+    line-height : 36px;
+	display : block;
+    text-align : center;
+	background-color : #e6e6e6;
+	box-shadow : 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+    padding : 0;
+    cursor : pointer;
+}
+
+.common-map-view-control.active{
+	background-color : #0081c6;
+	box-shadow : 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.common-map-view-control.disabled{
+	opacity : 0.5;
+	/*background-color : #d6d6d6;*/
+    cursor : auto;
+}
+
+.common-map-view-control.common-map-view-full-screen > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-full-screen.png);
+    width : 18px;
+	height : 18px;
+}
+.common-map-view-control.common-map-view-full-screen.active > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-full-screen-active.png);
+}
+.common-map-view-control.common-map-view-legend > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-legend.png);
+    width : 11px;
+	height : 22px;
+}
+.common-map-view-control.common-map-view-legend.active > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-legend-active.png);
+}
+
+.common-map-view-control.common-map-view-zoom-in{
+	border-bottom : 1px solid #d8d8d8;
+}
+
+.common-map-view-control.common-map-view-zoom-in > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-zoom-in.png);
+    width : 18px;
+	height : 18px;
+}
+.common-map-view-control.common-map-view-zoom-in.active > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-zoom-in-active.png);
+}
+.common-map-view-control.common-map-view-zoom-out > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-zoom-out.png);
+    width : 18px;
+	height : 2px;
+}
+.common-map-view-control.common-map-view-zoom-out.active > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-zoom-out-active.png);
+}
+.common-map-view-control.common-map-view-default-zoom > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-default-zoom.png);
+    width : 20px;
+	height : 20px;
+}
+.common-map-view-control.common-map-view-default-zoom.active > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-default-zoom-active.png);
+}
+.common-map-view-control.common-map-view-layer > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-layer.png);
+    width : 18px;
+	height : 18px;
+}
+.common-map-view-control.common-map-view-layer.active > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-layer-active.png);
+}
+.common-map-view-control.common-map-view-color-picker > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-color-picker.png);
+    width : 18px;
+	height : 18px;
+}
+.common-map-view-control.common-map-view-color-picker.active > .ic{
+    background-image : url(../../src/main/resources/static-dev/images/icon/ic-map-color-picker-active.png);
+}
+
+.common-map-view-layer-box{
+	position: absolute;
+    right: 45px;
+    line-height: 30px;
+    background-color: #fbfbfb;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 6px 0px;
+    padding: 10px;
+}
+
+.common-map-view-layer-box > ul {
+    white-space : nowrap;
+}
+.common-map-view-layer-box > ul .k-checkbox-label {
+    padding-left : 22px;
+}
+
+.common-map-view-legend-box{
+	position : absolute;
+	right :45px;
+	line-height : 30px;
+	background-color : #f7f7f7;
+	box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+}
+
+.common-map-view-legend-box > ul{
+    white-space : nowrap;
+}
+
+.common-map-view-legend-box > ul > li > i{
+    margin-right : 25px;
+}
+
+.common-map-view-legend-box > ul > li > i.disc{
+	width: 13px;
+    height: 13px;
+    margin-left: 7px;
+    margin-right: 28px;
+}
+
+.common-map-view-legend-box > ul > li > i.disc.measured{
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+	height: 17px;
+    margin-top: -9px;
+}
+
+.leaflet-control-container .leaflet-top.leaflet-right .common-color-picker{
+    position : absolute;
+    right : 45px;
+	left : initial !important;
+	max-width : initial !important;
+	max-height : initial !important;
+}

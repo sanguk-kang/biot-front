@@ -1,0 +1,37 @@
+@charset "UTF-8";#alarmlog-alarm,#alarmlog-alarm .k-grid,#alarmlog-alarm .k-grid-content,#alarmlog-systemlog,#alarmlog-systemlog .k-grid,#alarmlog-systemlog .k-grid-content{height:100%}
+#alarmlog-alarm .alarmlog-alarm-container{height:calc(100% - 20px)}#alarmlog-systemlog .alarmlog-systemlog-container{height:calc(100% - 20px)}
+#alarmlog-alarm .alarmlog-alarm-content{height:calc(100% - 56px)}#alarmlog-systemlog .alarmlog-systemlog-content{height:calc(100% - 56px)}
+.alarmlog-alarm-container,.alarmlog-systemlog-container{margin-top:20px;padding:0 20px}
+.alarmlog-alarm-top,.alarmlog-systemlog-top{margin-bottom:20px}.alarmlog-alarm-top:after,.alarmlog-systemlog-top:after{content:'';display:block;clear:both}
+.alarm-timeselector,button[data-event=alarmview],input[data-event=alarmtype],input[data-event=devicetype],.alarm-devider,.systemlog-timeselector,button[data-event=systemlogview]{float:left}
+button[data-event=alarmdetail],.alarm-count-text,button[data-event=systemlogdetail]{float:right}
+.alarm-devider{margin:10px;width:1px;height:16px;background-color:#d6d6d6}.alarmlog-alarm-top .k-dropdown{margin-right:5px}
+button[data-event=alarmview],button[data-event=alarmexport],button[data-event=systemlogview]{margin-left:10px;width:100px}
+button[data-event=alarmdetail]{width:120px}button[data-event=systemlogdetail]{width:166px}
+.alarm-count-text{margin-right:20px;line-height:36px;font-size:14px;color:#0081c6}
+.timeselector-start,.timeselector-end{display:inline-block;position:relative}.timeselector-start span.ic-bt-input-calendar,.timeselector-end span.ic-bt-input-calendar{position:absolute;top:3px;right:5px}
+.alarm-popup-calendar .k-header .k-window-actions .pop-window-btn-close.ic.ic-close{top:25px;right:27px}
+.alarm-popup-calendar .popup-calendar.k-window-content.k-content,.alarm-popup-calendar .popup-calendar .k-header,.alarm-popup-calendar .popup-calendar .k-calendar .k-content,.alarm-popup-calendar .popup-calendar .k-calendar .k-content th{background-color:#f7f7f7}
+.alarm-popup-calendar .popup-calendar.k-window-content.k-content{text-align:center}
+.alarm-popup-calendar .popup-calendar .popup-header{border-bottom:0}.alarm-popup-calendar .popup-calendar .popup-header:before{width:303px}
+.alarm-popup-calendar .popup-calendar .popup-container{height:372px}.alarm-popup-calendar .popup-calendar .calendar.k-calendar.k-widget{padding-top:25px;border:0;font-size:14px}
+.alarm-popup-calendar .popup-calendar .calendar.k-calendar .k-header{padding-bottom:5px}
+.alarm-popup-calendar .popup-calendar .calendar.k-calendar table.k-content thead th{padding-bottom:13px}
+.alarm-popup-calendar .popup-footer{position:relative;padding-right:12px;bottom:10px}
+#popup-systemlog-calendar-start .popup-container,#popup-systemlog-calendar-end .popup-container{position:relative;height:370px}
+#popup-systemlog-calendar-start .popup-container .calendar.k-widget.k-calendar,#popup-systemlog-calendar-end .popup-container .calendar.k-widget.k-calendar{position:absolute;top:20px;left:7px}
+#popup-systemlog-calendar-start .popup-container .calendar.k-widget.k-calendar .k-content,#popup-systemlog-calendar-end .popup-container .calendar.k-widget.k-calendar .k-content{font-size:14px}
+#popup-systemlog-calendar-start,#popup-systemlog-calendar-end,#popup-systemlog-calendar-start .k-window-content.k-content,#popup-systemlog-calendar-start .k-header,#popup-systemlog-calendar-start .k-calendar .k-content,#popup-systemlog-calendar-start .k-calendar .k-content th,#popup-systemlog-calendar-end .k-window-content.k-content,#popup-systemlog-calendar-end .k-header,#popup-systemlog-calendar-end .k-calendar .k-content,#popup-systemlog-calendar-end .k-calendar .k-content th{background-color:#f7f7f7;border:0}
+#popup-systemlog-calendar-start .popup-header,#popup-systemlog-calendar-end .popup-header{border-bottom:0}
+#popup-systemlog-calendar-start .calendar.k-calendar.k-widget,#popup-systemlog-calendar-end .calendar.k-calendar.k-widget,#systemlog-calendar-start .k-calendar,#systemlog-calendar-end .k-calendar{border:0;background-color:#f7f7f7}
+.alarmlog-systemlog-gridcell-operation,.alarmlog-systemlog-gridcell-details{text-align:left}
+#popup-alarm-single .popup-container .popup-detail-row:after,#popup-alarm-multiple .popup-container .popup-detail-row:after{content:'';display:block;clear:both}
+#popup-alarm-single .popup-container .popup-detail-row .detail-name,#popup-alarm-multiple .popup-container .popup-detail-row .detail-name{float:left;display:block}
+#popup-alarm-single .popup-container .popup-detail-row .detail-value,#popup-alarm-multiple .popup-container .popup-detail-row .detail-value{display:block;overflow:hidden;padding-top:10px;line-height:20px}
+#popup-alarm-single{padding-bottom:15px}#popup-alarm-single .popup-container{margin-top:5px;height:400px}
+#popup-alarm-single .popup-footer{margin-bottom:0}#popup-alarm-multiple{padding-bottom:0}
+#popup-alarm-multiple .popup-container{height:409px}#popup-alarm-multiple .popup-panel .panel-item>.k-header{height:46px;line-height:46px;font-size:16px;font-weight:600}
+#popup-alarm-multiple .popup-panel .panel-item>.k-header .panel-item-num,#popup-alarm-multiple .popup-panel .panel-item>.k-header .panel-item-name{margin-right:5px}
+#popup-alarm-multiple .popup-panel .panel-item-content{padding:10px 0 0 23px}#popup-alarm .detail-dialog-content-field-value .display{font-size:14px;font-weight:400;color:#333}
+#popup-alarm .detail-dialog-grid .k-grid-content{border-top:1px solid #d6d6d6}#popup-alarm .detail-dialog-header{border-bottom:1px solid #d6d6d6}
+#popup-alarm .detail-dialog-grid .detail-dialog-detail-content{margin-top:0;margin-bottom:0;padding-top:15px;padding-bottom:19px;border-bottom:1px solid #d6d6d6}

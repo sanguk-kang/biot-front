@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'SamsungOneUI';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../../fonts/SamsungOneUI-200.eot');
+  src: url('../../fonts/SamsungOneUI-200.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUI-200.woff') format('woff'),
+    url('../../fonts/SamsungOneUI-200.ttf') format('truetype'),
+    url('../../fonts/SamsungOneUI-200.svg#SamsungOneUI-200') format('svg'),
+    url('../../fonts/SamsungOneUI-200.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUI';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../fonts/SamsungOneUI-300.eot');
+  src: url('../../fonts/SamsungOneUI-300.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUI-300.woff') format('woff'),
+    url('../../fonts/SamsungOneUI-300.ttf') format('truetype'),
+    url('../../fonts/SamsungOneUI-300.svg#SamsungOneUI-300') format('svg'),
+    url('../../fonts/SamsungOneUI-300.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUI';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/SamsungOneUI-400.eot');
+  src: url('../../fonts/SamsungOneUI-400.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUI-400.woff') format('woff'),
+    url('../../fonts/SamsungOneUI-400.ttf') format('truetype'),
+    url('../../fonts/SamsungOneUI-400.svg#SamsungOneUI-400') format('svg'),
+    url('../../fonts/SamsungOneUI-400.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUI';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../fonts/SamsungOneUI-500.eot');
+  src: url('../../fonts/SamsungOneUI-500.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUI-500.woff') format('woff'),
+    url('../../fonts/SamsungOneUI-500.ttf') format('truetype'),
+    url('../../fonts/SamsungOneUI-500.svg#SamsungOneUI-500') format('svg'),
+    url('../../fonts/SamsungOneUI-500.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUI';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fonts/SamsungOneUI-600.eot');
+  src: url('../../fonts/SamsungOneUI-600.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUI-600.woff') format('woff'),
+    url('../../fonts/SamsungOneUI-600.ttf') format('truetype'),
+    url('../../fonts/SamsungOneUI-600.svg#SamsungOneUI-600') format('svg'),
+    url('../../fonts/SamsungOneUI-600.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUI';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/SamsungOneUI-700.eot');
+  src: url('../../fonts/SamsungOneUI-700.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUI-700.woff') format('woff'),
+    url('../../fonts/SamsungOneUI-700.ttf') format('truetype'),
+    url('../../fonts/SamsungOneUI-700.svg#SamsungOneUI-700') format('svg'),
+    url('../../fonts/SamsungOneUI-700.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUI';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../../fonts/SamsungOneUI-800.eot');
+  src: url('../../fonts/SamsungOneUI-800.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUI-800.woff') format('woff'),
+    url('../../fonts/SamsungOneUI-800.ttf') format('truetype'),
+    url('../../fonts/SamsungOneUI-800.svg#SamsungOneUI-800') format('svg'),
+    url('../../fonts/SamsungOneUI-800.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUI-KR';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../../fonts/SamsungOneUIKorean-200.eot');
+  src: url('../../fonts/SamsungOneUIKorean-200.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUIKorean-200.woff') format('woff'),
+    url('../../fonts/SamsungOneUIKorean-200.svg#SamsungOneUIKorean-200')
+      format('svg'),
+    url('../../fonts/SamsungOneUIKorean-200.eot?#iefix')
+      format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUI-KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../fonts/SamsungOneUIKorean-300.eot');
+  src: url('../../fonts/SamsungOneUIKorean-300.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUIKorean-300.woff') format('woff'),
+    url('../../fonts/SamsungOneUIKorean-300.svg#SamsungOneUI-300') format('svg'),
+    url('../../fonts/SamsungOneUIKorean-300.eot?#iefix')
+      format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUIKR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/SamsungOneUIKorean-400.eot');
+  src: url('../../fonts/SamsungOneUIKorean-400.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUI-400.woff') format('woff'),
+    url('../../fonts/SamsungOneUIKorean-400.svg#SamsungOneUI-400') format('svg'),
+    url('../../fonts/SamsungOneUIKorean-400.eot?#iefix')
+      format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUIKR';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../fonts/SamsungOneUIKorean-500.eot');
+  src: url('../../fonts/SamsungOneUIKorean-500.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUIKorean-500.woff') format('woff'),
+    url('../../fonts/SamsungOneUIKorean-500.svg#SamsungOneUI-500') format('svg'),
+    url('../../fonts/SamsungOneUIKorean-500.eot?#iefix')
+      format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOneUIKR';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fonts/SamsungOneUIKorean-600.eot');
+  src: url('../../fonts/SamsungOneUIKorean-600.woff2') format('woff2'),
+    url('../../fonts/SamsungOneUIKorean-600.woff') format('woff'),
+    url('../../fonts/SamsungOneUIKorean-600.svg#SamsungOneUI-600') format('svg'),
+    url('../../fonts/SamsungOneUIKorean-600.eot?#iefix')
+      format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'WebComponentsIcons';
+  src: url('../../fonts/glyphs/WebComponentsIcons.eot?gedxeo?v=@build.date@');
+  src: url('../../fonts/glyphs/WebComponentsIcons.eot?gedxeo#iefix?v=@build.date@')
+      format('embedded-opentype'),
+    url('../../fonts/glyphs/WebComponentsIcons.ttf?gedxeo?v=@build.date@')
+      format('truetype'),
+    url('../../fonts/glyphs/WebComponentsIcons.woff?gedxeo?v=@build.date@')
+      format('woff'),
+    url('../../fonts/glyphs/WebComponentsIcons.svg?gedxeo#WebComponentsIcons?v=@build.date@')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

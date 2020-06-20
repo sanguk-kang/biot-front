@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+.common-group-list {
+	width: 100%;
+}
+.common-group-list .contents.edit,
+.common-group-list.edit-mode .contents.normal{
+	display: none;
+}
+.common-group-list .contents.normal,
+.common-group-list.edit-mode .contents.edit{
+	display: block;
+	height: 100%;
+}
+.common-group-list .container {
+	height: 100%;
+}
+.common-group-list .k-grid-header {
+	/* display: none; */
+}
+.common-group-list .contents {
+
+}
+.common-group-list .contents .k-grid,
+.common-group-list .contents .k-grid-content table[role=grid],
+.common-group-list .contents .k-grid tr {
+	background-color: #fff;
+}
+.common-group-list .contents .k-grid tr.active,
+.common-group-list .contents .k-grid tr.active.k-grouping-row .grid-group-row-wrapper {
+	background-color:#e4f0f7;
+}
+.common-group-list .contents .k-grid-content table[role=grid]{
+	border-bottom: 1px solid #ededed;
+}
+.common-group-list .contents .k-grid tr{
+	position:relative;
+}
+.common-group-list .contents .k-grid-content.k-auto-scrollable {
+	position: relative;
+	height: calc(100% - 49px) !important;
+	border: 1px solid #ededed;
+	background-color: #fff;
+}
+.common-group-list .contents.edit .k-grid-header-wrap th[data-field=checked]{
+	position: relative;
+    overflow: visible;
+	padding-left: 5px;
+    text-align: left;
+}
+.common-group-list .contents.edit .k-grid-header-wrap th[data-field=checked] .header-text{
+	padding-left: 9px;
+}
+.common-group-list .contents .k-grid .k-grid-content tr td {
+	/* padding: 10px 0; */
+}
+
+
+.common-group-list .contents.edit .k-grid .k-grid-content tr td {
+	text-align: left;
+}
+.common-group-list .contents.edit .k-grid .k-grid-content tr td.grid-checkbox-cell {
+	text-align: right;
+}
+.common-group-list .contents.edit .k-grid .k-grid-content tr td[role=gridcell] {
+	/* padding-left: 10px; */
+}
+.common-group-list .contents .k-grid .k-grid-content tr.k-grouping-row td {
+    position: relative;
+	background-color: #fff;
+    border: none;
+    padding: 0;
+}
+.common-group-list .contents .k-grid .k-grouping-row{
+	position: relative;
+}
+.common-group-list .contents .k-grid tr.k-grouping-row:before{
+	/* content: ''; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 45px;
+	border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.common-group-list .contents .k-grid .k-grouping-row .k-reset {
+	position: absolute;
+	right: 9px;
+	top: 15px;
+}
+.common-group-list .contents .k-grid .k-grouping-row .grid-group-row-wrapper {
+	padding: 12px 0;
+	position: relative;
+	text-align: left;
+}
+.common-group-list .contents .k-grid .k-grouping-row .grid-group-row-wrapper:before{
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+}
+.common-group-list .contents .k-grid .k-grouping-row td[aria-expanded=false] .grid-group-row-wrapper:before{
+	border-bottom: none;
+}
+.common-group-list .contents .k-grid .k-grouping-row:first-child .grid-group-row-wrapper:before{
+	border-top: none;
+}
+.common-group-list .contents.normal {
+
+}
+.common-group-list .contents.edit {
+	overflow: hidden;
+}
+.common-group-list .contents.edit.hide-header .k-grid-header{
+	display: none;
+}
+.common-group-list .contents.edit.hide-header .k-grid-content.k-auto-scrollable{
+	height: calc(100% - 2px) !important;
+}
+.common-group-list .contents.edit .content.selected{
+	float: left;
+	width: 46%;
+}
+.common-group-list .contents.edit .content.selected >.inner {
+
+}
+.common-group-list .contents.edit .content.btn-group{
+	display: table;
+	float: left;
+	width: calc(8% - 2px);
+	height: 100%;
+	text-align: center;
+}
+.common-group-list .contents.edit .content.btn-group >.inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.common-group-list .contents.edit .content.btn-group .k-button {
+	width: 36px;
+	height: 36px;
+	margin-bottom: 3px;
+}
+.common-group-list .contents.edit .content.unselected{
+	float: left;
+	width: 46%;
+}
+.common-group-list .contents.edit .content.unselected >.inner {
+
+}
+
+.common-group-list .contents.normal .k-grid-footer {
+	display: none;
+}
+.common-group-list .contents.normal .common-group-list .k-grid-header{
+}
+.common-group-list .contents.normal.hide-header .k-grid-header{
+	display: none;
+}
+.common-group-list .contents.normal.hide-header .k-grid-content.k-auto-scrollable{
+	width: calc(100% - 2px);
+	height: 100% !important;
+}
+
+.common-group-list .k-grid .k-grouping-row .grid-group-row{
+	margin-right: 46px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+}
+/* .common-group-list .k-grid .k-grouping-row[data-level='0'] .grid-group-row{
+    padding-left : 6px;
+}
+.common-group-list .k-grid .k-grouping-row[data-level='0'] + tr .grid-checkbox-cell{
+	padding-left : 28px;
+}
+.common-group-list .k-grid .k-grouping-row[data-level='0'] ~ tr td[role=gridcell],
+.common-group-list .contents.normal.hide-header .k-grid .k-grouping-row[data-level='0'] ~ tr td[role=gridcell]{
+	text-align: left;
+	padding-left: 38px;
+}
+.common-group-list .k-grid .k-grouping-row[data-level='1'] .grid-group-row{
+    padding-left : 28px;
+}
+.common-group-list .k-grid .k-grouping-row[data-level='1'] + tr .grid-checkbox-cell{
+	padding-left : 50px;
+}
+.common-group-list .k-grid .k-grouping-row[data-level='1'] ~ tr td[role=gridcell],
+.common-group-list .contents.normal.hide-header .k-grid .k-grouping-row[data-level='1'] ~ tr td[role=gridcell]{
+	text-align: left;
+	padding-left: 60px;
+}
+.common-group-list .k-grid .k-grouping-row[data-level='2'] .grid-group-row{
+    padding-left : 50px;
+}
+.common-group-list .k-grid .k-grouping-row[data-level='2'] ~ tr td[role=gridcell],
+.common-group-list .contents.normal.hide-header .k-grid .k-grouping-row[data-level='2'] ~ tr td[role=gridcell]{
+	text-align: left;
+	padding-left: 82px;
+}
+.common-group-list .contents.normal .k-grid .k-grouping-row[data-level='0'] ~ tr td[role=gridcell],
+.common-group-list .contents.normal .k-grid .k-grouping-row[data-level='1'] ~ tr td[role=gridcell],
+.common-group-list .contents.normal .k-grid .k-grouping-row[data-level='2'] ~ tr td[role=gridcell]{
+	padding-left: 0;
+	text-align: center;
+} */
+.common-group-list .contents.normal .k-treelist .k-grid-content .k-treelist-group .k-icon:not(.k-i-none){
+	margin: 0;
+}
+.common-group-list .k-treelist .k-grid-content .k-treelist-group .k-icon:not(.k-i-none){
+	margin-top: -10px;
+}
+.common-group-list .k-treelist .k-grid-content .k-treelist-group > td {
+	padding-top: 10px;
+	padding-bottom: 9px;
+}
+.common-group-list .k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="2"] > td:not(.grid-checkbox-cell) {
+    padding-left: 63px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}

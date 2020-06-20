@@ -1,0 +1,126 @@
+.k-treelist .k-grid-content .k-icon.k-i-none{
+    display :none;
+}
+
+.k-treelist .k-grid-content .k-treelist-group > td{
+    padding: 10px 5px 9px 15px;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    /* background-color: #f0f0f0; */
+    background-color: #fbfbfb;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom-width: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.k-treelist .k-grid-content .k-treelist-group.has-checked-child > td{
+	color : #0081c6;
+}
+
+.k-treelist .k-grid-content .k-treelist-group[aria-expanded=true] > td{
+    font-weight: 700;
+    background-color: #fbfbfb;
+}
+
+.k-treelist .k-grid-content .k-treelist-group .k-icon:not(.k-i-none){
+    margin: 0;
+    width: 37px;
+    background: none;
+    float: right;
+    outline: none;
+    cursor : pointer;
+    position: absolute;
+    right: 0;
+}
+
+.k-treelist .k-grid-content .k-treelist-group .k-icon:before{
+    display :none;
+}
+
+.k-treelist .k-grid-content .k-treelist-group .k-icon.k-i-collapse{
+    background : url(../../src/main/resources/static-dev/images/icon/list-control-up.png) no-repeat center;
+}
+
+.k-treelist .k-grid-content .k-treelist-group .k-icon.k-i-expand{
+    background : url(../../src/main/resources/static-dev/images/icon/list-control-down.png) no-repeat center;
+}
+
+.k-treelist .k-grid-content .k-treelist-group.has-checked-child .k-icon.k-i-collapse{
+    background : url(../../src/main/resources/static-dev/images/icon/list-control-up-blue.png) no-repeat center;
+}
+
+.k-treelist .k-grid-content .k-treelist-group.has-checked-child .k-icon.k-i-expand{
+    background : url(../../src/main/resources/static-dev/images/icon/list-control-down-blue.png) no-repeat center;
+}
+
+.k-treelist .k-status{
+    position : absolute;
+    top: 45%;
+    left : 0;
+    right :0;
+    margin : 0 auto;
+    background : none;
+    text-align :center;
+}
+
+.k-treelist .k-grid-content tr {
+	position : relative;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr .grid-checkbox-cell .k-i-collapse{
+    margin-top : -10px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr .grid-checkbox-cell .k-checkbox-label{
+    position : absolute;
+    margin-top : -10px;
+    margin-left : 15px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="1"] > td.grid-checkbox-cell .k-checkbox-label{
+    /*level1 + 24*n*/
+    margin-left : 39px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="1"] > td:not(.grid-checkbox-cell){
+    /*15 + 24*n*/
+    padding-left : 39px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="2"] > td.grid-checkbox-cell .k-checkbox-label{
+    /*level1 + 24*n*/
+    margin-left : 63px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="2"] > td:not(.grid-checkbox-cell){
+    /*15 + 24*n*/
+    padding-left : 63px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="3"] > td.grid-checkbox-cell .k-checkbox-label{
+    /*level1 + 24*n*/
+    margin-left : 87px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="3"] > td:not(.grid-checkbox-cell){
+    /*15 + 24*n*/
+    padding-left : 87px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="4"] > td.grid-checkbox-cell .k-checkbox-label{
+    /*level1 + 24*n*/
+    margin-left : 111px;
+}
+
+.k-treelist:not(.device-tab-group-grid-tree-list) .k-grid-content tr[data-level="4"] > td:not(.grid-checkbox-cell){
+    /*15 + 24*n*/
+    padding-left : 111px;
+}
