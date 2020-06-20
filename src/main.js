@@ -7,6 +7,13 @@ import VueMomentJS from "vue-momentjs";
 import jQuery from "jquery";
 import $ from "jquery";
 
+import { SweetModal, SweetModalTab } from 'sweet-modal-vue';
+Vue.component('sweet-modal', SweetModal);
+Vue.component('sweet-modal-tab', SweetModalTab);
+
+import VueDatePick from 'vue-date-pick';
+Vue.use(VueDatePick);
+
 window.jQuery = jQuery;
 window.$ = jQuery;
 

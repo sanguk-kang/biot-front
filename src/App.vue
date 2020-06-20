@@ -34,6 +34,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~vue-date-pick/dist/vueDatePick.css';
+
 #app {
   width: 100%;
   height: inherit;

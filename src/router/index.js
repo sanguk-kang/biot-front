@@ -20,6 +20,11 @@ const routes = [
     meta: { navEnable: true , asideEnable: false }
   },
   {
+    path: '/sample2',       name: 'Sample2',
+    component: () => import('../views/sample/Sample2.vue'),
+    meta: { navEnable: true , asideEnable: false }
+  },
+  {
     path: "/dashboard",
     name: "Dashboard",
     component: () => import("../views/dashboard/Dashboard.vue"),

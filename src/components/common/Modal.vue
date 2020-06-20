@@ -1,6 +1,11 @@
 <template>
-  <div class="my-modal" v-if="visible" role="alert">
-    aaa
+  <div class="my-modal" role="alert">
+    <div>
+      <span>{{modalData.message}}</span>
+    </div>
+    <div>
+      <button type="button" v-for="(btnItem, idx) in modalData.btn" :key="'btn'+ idx">{{btnItem.name}}</button>
+    </div>
   </div>
 </template>
 
@@ -10,7 +15,9 @@
 
 export default {
   name: 'Modal',
-  props: [],
+  props: {
+    modalData: Object
+  },
   data: function() {
     return {
      visible: true
