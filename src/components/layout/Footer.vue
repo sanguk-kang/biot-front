@@ -3,7 +3,7 @@
   <div class="content_footer">
       <div class="copy">
           <h1>
-            <img src="../../assets/kendo/images/common/newwin_footer_logo.png" />
+            <img src="../../assets/images/common/newwin_footer_logo.png" />
           </h1>
           <span class="copy ">Copyright© Samsung Electronics Co., Ltd.</span>
       </div>

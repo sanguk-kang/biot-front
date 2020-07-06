@@ -1,50 +1,62 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Vue                from 'vue';
+import VueRouter          from 'vue-router';
+
+import routeCommon        from './route.common';
+import routeDashboard     from './route.dashboard';
+import routeDevice        from './route.device';
+import routeEnergy        from './route.energy';
+import routeMaintain      from './route.maintain';
+import routeOperation     from './route.operation';
+import routeResolve       from './route.resolve';
+import routeSystem        from './route.system';
+
+import ErrorPage          from '@/views/common/ErrorPage.vue';
+import Main               from '@/views/Main.vue';
+
+import Sample             from '@/views/sample/Sample.vue';
+import SampleChart        from '@/views/sample/chart/VueChartJS.vue';
+
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',            name: 'Main',
-    component: () => import('../views/Main.vue'),
-    meta: { navEnable: false , asideEnable: false}
+    path: '/',              name: 'Main',         component: Main,
+    meta: { pageType: true, navEnable: false , asideEnable: false, headerEnable: false }
   },
   {
-    path: '/login',       name: 'Login',
-    component: () => import('../views/common/Login.vue'),
-    meta: { navEnable: false , asideEnable: false}
+    path: '/errorPage',     name: 'ErrorPage',    component: ErrorPage,
+    meta: { pageType: false, navEnable: false , asideEnable: false, headerEnable: false }
   },
   {
-    path: '/sample',       name: 'Sample',
-    component: () => import('../views/sample/Sample.vue'),
-    meta: { navEnable: true , asideEnable: false }
+    path: '*', redirect: ErrorPage,
+    meta: { pageType: true, navEnable: false , asideEnable: false, headerEnable: false }
   },
   {
-    path: '/sample2',       name: 'Sample2',
-    component: () => import('../views/sample/Sample2.vue'),
-    meta: { navEnable: true , asideEnable: false }
+    path: '/sample',        name: 'Sample',       component: Sample,
+    meta: { pageType: true, navEnable: true , asideEnable: false, headerEnable: true }
   },
   {
-    path: "/dashboard",
-    name: "Dashboard",
-    component: () => import("../views/dashboard/Dashboard.vue"),
-    meta: { navEnable: true, asideEnable: false }
-  },
-  {
-    path: '/errorPage',       name: 'ErrorPage',
-    component: () => import('../views/common/ErrorPage.vue'),
-    meta: { navEnable: true , asideEnable: false}
-  },
-  {
-    path: '*', redirect: '/',
-    meta: { navEnable: false , asideEnable: false }
+    path: '/sampleChart',        name: 'SampleChart',       component: SampleChart,
+    meta: { pageType: true, navEnable: true , asideEnable: false, headerEnable: true }
   }
 ]
 
+
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes : [
+    ...routes,
+    ...routeCommon,
+    ...routeDashboard,
+    ...routeDevice,
+    ...routeEnergy,
+    ...routeMaintain,
+    ...routeOperation,
+    ...routeResolve,  // add resolve routes
+    ...routeSystem
+  ]
 })
 
 // 라우팅이 일어나기 전

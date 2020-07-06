@@ -2,14 +2,12 @@ import axios from 'axios';
 import router from "@/router/index.js"
 
 axios.defaults.baseURL = process.env.VUE_APP_API;
-axios.defaults.headers.common = { "X-Requested-With": "XMLHttpRequest" };
-axios.defaults.headers.post["Content-Type"] = "application/json; charset=utf-8";
 
 /**
  * axios request
  */
 axios.interceptors.request.use(async function (config) {
-    return config;
+  return config;
   }, function (error) {
     // Do something with request error
     console.log('interceptors request error', error.config);

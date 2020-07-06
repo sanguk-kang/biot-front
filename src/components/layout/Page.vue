@@ -1,39 +1,37 @@
 <template>
-  <div style="height: 100%;">
-    <layoutNav v-if="this.viewNav"></layoutNav>
-    <router-view />
-    <layoutAside v-if="this.viewAside"></layoutAside>
+  <div class="main_content">
+      <layoutHeader v-if="isHeaderView"></layoutHeader>
+      <router-view />
+      <layoutFooter></layoutFooter>
   </div>
 </template>
 
 <script>
-import LayoutNav from '@/components/layout/Nav.vue'
-import LayoutAside from '@/components/layout/Aside.vue'
+import LayoutHeader from "@/components/layout/Header.vue";
+import LayoutFooter from "@/components/layout/Footer.vue";
 
 export default {
-  name: "Page",
-  components: { LayoutNav, LayoutAside },
-  props: [],
-  watch: {
-    $route(to) {
-      this.viewNav = to.meta.navEnable;
-      this.viewAside = to.meta.asideEnable;
-      console.log("viewNav, viewAside", this.viewNav, this.viewAside);
-    }
-  },
-  data: function() {
-    return {
-      viewNav: false,
-      viewAside: false
+    name: "Page",
+    components: { LayoutHeader, LayoutFooter },
+    props: [],
+    watch: {
+        $route(to) {
+            this.isHeaderView = to.meta.headerEnable;
+        }
+    },
+    data: function() {
+        return {
+            isHeaderView: false
+        };
+    },
+    methods: {},
+    created() {
+        console.log("page created >>>>>");
+        this.isHeaderView = this.$route.meta.headerEnable;
+    },
+    mounted() {},
+    destroyed() {}
     };
-  },
-  methods: {},
-  created() {
-    console.log("page created >>>>>");
-  },
-  mounted() {},
-  destroyed() {}
-};
 </script>
 
 <style lang="scss">

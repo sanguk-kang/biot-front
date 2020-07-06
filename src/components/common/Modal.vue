@@ -10,8 +10,7 @@
 </template>
 
 <script>
-// import { AlertPlugin } from 'bootstrap-vue'
-// Vue.use(ModalPlugin)
+
 
 export default {
   name: 'Modal',
@@ -23,8 +22,32 @@ export default {
      visible: true
     }
   },
-  methods: {   
-    
+  methods: {
+    openAlert() {
+      this.$alert('This is a message', 'Title', {
+        title: "alert test",
+        confirmButtonText: 'OK',
+        dangerouslyUseHTMLString: true,
+        callback: action => {
+          console.log(action);
+        }
+      });
+    },
+    openConfirm() {
+      this.$confirm('This will permanently delete the file. Continue?', 'Warning', {
+        title: "confirm test",
+        confirmButtonText: 'OK',
+        cancelButtonText: 'Cancel',
+        type: '',
+        closeOnClickModal: false,
+        closeOnPressEscape: false,
+        dangerouslyUseHTMLString: true
+      }).then(() => {
+        console.log('Delete completed');
+      }).catch(() => {
+        console.log('Delete canceled');       
+      });
+    }    
   }
 }
 </script>
