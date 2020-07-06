@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <div id="main" :class="cssMenu">
+      {{getInitLoding}}
       <layoutNav v-if="this.viewNav" @change="menuChange" :menuType="menuType"></layoutNav>
       <!-- TAB page -->
-      <layoutPage v-if="pageType"></layoutPage>
+      <layoutPage v-if="getInitLoding"></layoutPage>
       <!-- Dashboard page -->
       <layoutPageSub v-else></layoutPageSub>
     </div>
@@ -16,7 +17,7 @@
 import LayoutPage from "@/components/layout/Page.vue";
 import LayoutPageSub from "@/components/layout/PageSub.vue";
 import LayoutNav from '@/components/layout/Nav.vue'
-import {mapActions} from 'vuex'
+import {mapActions, mapGetters} from 'vuex'
 
 export default {
   name: "App",
@@ -34,8 +35,10 @@ export default {
       cssMenu: '',
       menuType: 'sidelist',
       pageType: true,
-      initLoding: false
     };
+  },
+  computed: {
+    ...mapGetters('app', ['getInitLoding']),
   },
   methods: {
     ...mapActions('app', ['getCommonCode']),
@@ -62,6 +65,9 @@ export default {
   },
   beforeMount() {
     // this.getCommonCode();
+  },
+  mounted() {
+    this.getCommonCode();
   }
 };
 </script>

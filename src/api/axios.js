@@ -10,41 +10,41 @@ const apiHeader = {
   }
 };
 
-const getApi = (url, params, setHeader) => {
+const getApi = {
+  async getApiData(url, params, setHeader) {
+     console.log('aaaaaaaaaa')
   // headers default 체크
- if (stringUtils.isEmpty(setHeader)) {
-    if(stringUtils.isEmpty(sessionStorage.getItem("tokenInfo"))) {
-        console.log(">>>> getApi token error");
+    if (stringUtils.isEmpty(setHeader)) {
+        if(stringUtils.isEmpty(sessionStorage.getItem("tokenInfo"))) {
+            console.log(">>>> getApi token error");
+        } else {
+            var tokenInfo = JSON.parse(sessionStorage.getItem("tokenInfo"));
+            var sessionToken = tokenInfo.token;
+            var sessionTokenType = tokenInfo.tokenType;
+
+            if (!stringUtils.isEmpty(sessionToken) && !stringUtils.isEmpty(sessionTokenType)) {
+                    apiHeader.headers = {
+                    'Accept': varAceept,
+                    'Authorization': sessionTokenType + " " + sessionToken
+                    };
+                }
+        }
     } else {
-        var tokenInfo = JSON.parse(sessionStorage.getItem("tokenInfo"));
-        var sessionToken = tokenInfo.token;
-        var sessionTokenType = tokenInfo.tokenType;
-
-        if (!stringUtils.isEmpty(sessionToken) && !stringUtils.isEmpty(sessionTokenType)) {
-                apiHeader.headers = {
-                'Accept': varAceept,
-                'Authorization': sessionTokenType + " " + sessionToken
-                };
-            }
+        apiHeader.headers = setHeader.headers;
     }
-} else {
-    apiHeader.headers = setHeader.headers;
-}
 
-  // url setting
-  var axiosUrl = "";
-  if (params != null && params != undefined && params != '') {
-    var axiosParam = Object.entries(params).map(e => e.join('=')).join('&');
-    axiosUrl = url + "?" + axiosParam;
-  } else {
-    axiosUrl = url;
-  }
-  return axios.get(axiosUrl, apiHeader).then(response => {
-    console.log('[Axios] getApi success');
+    // url setting
+    var axiosUrl = "";
+    if (params != null && params != undefined && params != '') {
+      var axiosParam = Object.entries(params).map(e => e.join('=')).join('&');
+      axiosUrl = url + "?" + axiosParam;
+    } else {
+      axiosUrl = url;
+    }
+
+    const response = await axios.get(axiosUrl, apiHeader);
     return response;
-  }).catch(error => {
-    throw error;
-  })
+  }
 }
 
 const postApi = (url, params, setHeader) => {
